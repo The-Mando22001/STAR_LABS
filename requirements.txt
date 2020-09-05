@@ -1,0 +1,6 @@
+discord.py
+dnspython
+PyNaCl
+async-timeout
+python-dotenv
+
