@@ -6,7 +6,7 @@ from discord.ext import commands
 from dotenv import load_dotenv
 
 load_dotenv()
-token = "NzQyMjI4MTYxOTg2NjkxMTQ1.XzDD1w.ccQK6A9N8MSNTBfru6YyN8VHqKs"
+token = os.getenv('DISCORD_TOKEN')
 '''Token Placed in another txt file
 f = open('token.txt', 'r')
 TOKEN = str(f.read()) '''
@@ -31,7 +31,7 @@ async def on_ready():
     for guild in client.guilds:
         count = count+1
         print(f"Server name: {guild.name}, and Server Owner: {guild.owner}\n")
-    print(count)
+    print(f'\nTotal number of Servers: {count}')
 
 
 '''Loading, Unloading Extensions or Cogs'''
