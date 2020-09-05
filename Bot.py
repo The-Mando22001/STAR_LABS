@@ -30,9 +30,7 @@ async def on_ready():
     count=0
     for guild in client.guilds:
         count = count+1
-        print(guild.name)
-        print(guild.owner)
-        print("\n")
+        print(f"Server name: {guild.name}, and Server Owner: {guild.owner}\n")
     print(count)
 
 
