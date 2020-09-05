@@ -6,7 +6,7 @@ from discord.ext import commands
 from dotenv import load_dotenv
 
 load_dotenv()
-token = os.getenv('DISCORD_TOKEN')
+token = "NzQyMjI4MTYxOTg2NjkxMTQ1.XzDD1w.ccQK6A9N8MSNTBfru6YyN8VHqKs"
 '''Token Placed in another txt file
 f = open('token.txt', 'r')
 TOKEN = str(f.read()) '''
