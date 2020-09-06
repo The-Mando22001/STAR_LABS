@@ -58,11 +58,11 @@ async def help(ctx):
     #embed.set_image(url="https://vignette.wikia.nocookie.net/injustice-2-mobile2242/images/5/5a/BlackManta.jpg")
     embed.set_thumbnail(url="https://www.injusticeonline.com/wp-content/uploads/2017/05/injustice-2-mobile-icon.jpg")
     embed.set_author(name="Help Command", icon_url="https://cdn.discordapp.com/embed/avatars/1.png")
-
+    embed.add_field(name="Bot Invite",value="If you really want me to help you out in your server, type ```i!invite``` to invite me into your server. I'll be there to help you and your friends 🥰. It also has link to support server.")
     embed.add_field(name="Character Abbreviations",
                     value="This will show the list of characters available in the game in the abbreviated form. If you want to know more, type, ```i!help chars```")
-    #embed.add_field(name="Character Build",
-    #                value="This will provide the best character build. To know more, type, ```i!help build```")
+    #embed.add_field(name="Character Builds",
+    #                value="This will provide the best character builds. To know more, type, ```i!help b```")
     embed.add_field(name="Buffs",
                     value="There are specific buffs for each characters and there are different type of buffs. To know more, type, ```i!help buff```")
     embed.add_field(name="Synergy",
@@ -143,34 +143,19 @@ async def syn(ctx):
     #await ctx.channel.send(embed=embed)
     await ctx.channel.send(embed=embed)
 
-'''@help.command(name='build')
-async def build(ctx):
+'''@help.command(name='b')
+async def b(ctx):
     print("Character Build command")
     embed = discord.Embed(colour=discord.Colour(0xf8e71c),
-                          description="There are build configurations for each and every character. To know the character's best builds, type, ```i!build [character name]``` Where, we type the character's name without the brackets []. For Example, ```i!build jsgl```The following list of characters have their respective builds.")
+                                  description="""Currently, only the character builds on those lists below, are available as of now. We will add other builds soon.""")
+    embed.set_author(name="Build Commands", url="https://discordapp.com")
+    embed.add_field(name="⚡DAMAGE DEALERS", value="""```\nkoaam - King of Atlantis Aquaman\nmvasg - Multiverse Armored Supergirl\nhbhq - Heart Breaker Harley Quinn\nbncw - Batman Ninja Catwoman\nbngg - Batman Ninja Gorilla Grodd\nbm - Black Manta\nsbn - Silver Banshee\nllj - Last Laugh Joker\nba - Black Adam\nbnr - Batman Ninja Robin\nbnlj - Batman Ninja Lord Joker\njlf - Justice League Flash\njlc - Justice League Cyborg\ncsm - Classic Superman\nds - Darksied\nesf - Energized Starfire\nsshq - Suicide Squad Harley Quinn\nenc - Suicide Squad Enchantress\njlam - Justice League Aquaman\nsbm - Silver Batman```""")
+    embed.add_field(name="👊COMBO BUILDERS and 💪TANKS", value="""```\nhsc - Horrific Scarecrow\ngl - Silver Green Lantern\njsgl - John Stewart Green Lantern\natr - Atrocitus\npbm - Predator Batman\nepi - Entangling Poison Ivy\nmvtf - Multiverse the Flash\npst - Primal Swamp Thing\nrb - Silver Robin\nsm - Silver Superman\nakbm - Arkham Night Batman\nbrc - Brainiac\nszm - Shazam\nrf - Reverse Flash\nsdf - Silver Doctor Fate\npg - Power Girl\ngrid - Grid\nmvsg - Multiverse Supergirl\nrh - Redhood\nasm - Armored Superman\nbmr - Blade Master Robin```""")
+    embed.set_footer(
+                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Passive info provided by SIGMA#5422, shadowofintent#1026 | Build info provided by SIGMA#5422")
 
-    embed.set_author(name="Character Build", url="https://discordapp.com",
-                     icon_url="https://cdn.discordapp.com/embed/avatars/3.png")
-
-    embed.add_field(name="List of Silver Characters",
-                    value="```\nsgl  : Silver Green Lantern\nsbm-hbhq : Silver Batman for Hbhq\nsbm  : Silver Batman\nssm  : Silver Superman \nsds  : Silver Deadshot\nsvf  : Silver Flash\nsvbc : Silver Black Canary\nsvb  : Silver Bane\nsvc  : Silver Cyborg\nsvr  : Silver Robin\nsvhq : Silver Harley Quinn\nsvga : Silver Green Arrow\nsvam : Silver Aquaman\nsvww : Silver Wonder Woman\nsvgg : Silver Gorilla Grodd\nsvj  : Silver Joker\nsvcw : Silver Catwoman\nsvsc : Silver Scarecrow\nsvst : Legendary Silver Swamp Thing\ndf   : Doctor Fate```")
-    embed.add_field(name="List of Legendary Characters",
-                    value="```\nbm   : Black manta\nbvs  : Bvs superman\nds   : Darkseid\nbngg : Batman Ninja Gorilla Grodd \nbnc  : Discount Braniac\nect  : Enchantress\nsshq : Suicide Squad Harley Quinn\nakbm : Arkham Knight Batman```")
-    embed.add_field(name="List of Gold Characters (Justice League)",
-                    value="```\njlc  : Justice League Cyborg\njlf  : Justice League Flash\njla  : Justice League Aquaman\njlb  : Justice League Batman\nmww  : Mythic Wonder Woman```")
-    embed.add_field(name="List of Gold Characters (Green Lanterns)",
-                    value="```\njsgl : John Stewart Green Lantern\negl  : Emeral Green Lantern\nats  : Atrocitus```")
-    embed.add_field(name="List of Gold Characters (Multiverse)",
-                    value="```\nmvf  : Multiverse Flash\nmvasg: Multiverse Armored SuperGirl\nmvbl : Multiverse Black Lightning\nmvga : Multiverse Green Arrow\nmvcc : Multiverse Captain Cold\nmvwc : Multiverse White Canary\nmvbw : Multiverse Batwoman\nmvsg : Multiverse Supergirl```")
-    embed.add_field(name="List of Gold Characters (League of Anarchy)",
-                    value="```\nllj  : Last Laugh Joker\nepi  : Entangling Poison Ivy\nhbhq : Heart Breaker Harley Quinn```")
-    embed.add_field(name="List of Gold Characters (Batman Ninjas)",
-                    value="```\nbnr  : Batman Ninja Robin\nbnbm : Batman Ninja Batman\nbnlj : Batman Ninja Lord Joker\nbncw : Batman Ninja Catwoman\nbnhq : Batman Ninja Harley Quinn```")
-    embed.add_field(name="List of Gold Characters (Others Part 1)",
-                    value="```\npbm  : Predator Batman\npbm-sb   : Predator Batman for Sb\npbm-hbhq : Predator Batman for Hbhq\naww  : Amazon Wonder Woman\nhb   : Hellboy\nszm  : Shazam\nrdn  : Raiden \nrf   : Reverse Flash\nbb   : Blue Beetle\nkbm  : Knightmare Batman\nba   : Black Adam\nesf  : Energised StarFire \npg   : Power Girl\ndsg  : Dark Super Girl\nfpi  : Flora Poison Ivy\nhsc  : Horrific Scarecrow\nsff  : Speed force Flash\ngrid : Grid\naga  : Ace green arrow\nssdf : Soul Stealer Dr.Fate\nubc  : Unbreakable Cyborg\npst  : Primal Swamp Thing\ntkgg : Telekinetic Gorilla Grodd\nsz   : Subzero\nbmr  : Blade Master Robin\ncc   : Captain Cold\nuhq  : Unhinged Harley Quinn\nrh   : Redhood\npsg  : Powered Supergirl \nmds  : Marksman Deadshot\nfs   : Firestorm\ncth  : Cheetah\neb   : Enraged Bane\nmtcw : Masterthief Catwoman\ncbm  : Classic Batman\nsbc  : Sonic Black Canary\nsb   : Silver Banshee \nasm  : Armoured Superman\ncsm  : Classic Superman```")
-    embed.add_field(name="List of Gold Characters (Others Part 2)",
-                    value="```\naaam : Atlantean Armor Aquaman\nkoaam-p2 : KOAAM For Phase 2\nkoaam: KOAAM Crit build\nkoaam-hsc: KOAAM for boss Hsc\nnw   : Nightwing\nwqww : Warrior Queen Wonder Woman```")
-
+    #file = discord.File("./Images_Passive/mto_passives/.jpg", filename=".jpg")
+    embed.set_image(url="")
     #await ctx.channel.send(embed=embed)
     await ctx.channel.send(embed=embed)'''
 
@@ -228,6 +213,13 @@ async def calc(ctx):
     #await ctx.channel.send(embed=embed)
     await ctx.channel.send(embed=embed)
 
+@client.command(name='invite')
+async def invite(ctx):
+    print("Bot invite pressed")
+    embed = discord.Embed(colour=discord.Colour(0xe01c38), url="https://discordapp.com",
+                          description="Open this link in browser - [Invite the bot](https://discord.com/api/oauth2/authorize?client_id=742228161986691145&permissions=67624001&scope=bot)\nSupport server link - [Aftermath Server](https://discord.gg/FadZThM)")
+    embed.set_author(name="Bot invite and support links", url="https://discordapp.com")
+    await ctx.channel.send(embed=embed)
 for filename in os.listdir('./Cogs'):
     if filename.endswith('.py'):
         client.load_extension(f'Cogs.{filename[:-3]}')
