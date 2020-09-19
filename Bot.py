@@ -16,8 +16,6 @@ async def get_pre(bot, message):
 #Setting prefix to the bot
 client = commands.Bot(command_prefix=get_pre,case_insensitive=True)
 
-
-
 #Removing Default Help Command
 client.remove_command('help')
 
@@ -49,6 +47,11 @@ async def unload(ctx, extension):
 async def ping(ctx):
     await ctx.channel.send(f'Pong! {round(client.latency*1000)}ms')
 
+'''@client.event
+async def on_message(message):
+    if client.user.mentioned_in(message):
+        await message.channel.send("You can type `i!help` for more info.")'''
+
 @client.group(name="help", invoke_without_command=True)
 async def help(ctx):
     print("No command. Hence, printing common help.")
@@ -61,12 +64,8 @@ async def help(ctx):
     embed.add_field(name="Bot Invite",value="If you really want me to help you out in your server, type ```i!invite``` to invite me into your server. I'll be there to help you and your friends 🥰. It also has link to support server.")
     embed.add_field(name="Character Abbreviations",
                     value="This will show the list of characters available in the game in the abbreviated form. If you want to know more, type, ```i!help chars```")
-    #embed.add_field(name="Character Builds",
-    #                value="This will provide the best character builds. To know more, type, ```i!help b```")
-    embed.add_field(name="Buffs",
-                    value="There are specific buffs for each characters and there are different type of buffs. To know more, type, ```i!help buff```")
-    embed.add_field(name="Synergy",
-                    value="Synergy is where the characters will get additional boosts or bonus while they are in the team during battle. To know more, type, ```i!help syn```")
+    embed.add_field(name="Character Builds",
+                    value="This will provide the best character builds. To know more, type, ```i!help b```")
     embed.add_field(name="Character Passives",
                     value="There are passive abilities for characters which are unique for every character. To know more, type, ```i!help passive```")
     embed.add_field(name="Upgrade Calculator",
@@ -95,55 +94,7 @@ async def chars(ctx):
         text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Passive info provided by SIGMA#5422, shadowofintent#1026")
     await ctx.channel.send(embed=embed)
 
-@help.command(name='buff')
-async def buff(ctx):
-    print("Character Buffs command")
-    embed = discord.Embed(colour=discord.Colour(0xe01c38), url="https://discordapp.com",
-                          description="While choosing the characters before the battle, always choose characters which give buffs to the characters during the battle. There are several types of Buffs: ```1. Sp Buffs (Like MV, LOA, etc)\n2. Passive Buffs (KOAAM, etc)\n3. Tagin Buffs (ATS, RF, BNR, etc)\n4. Hazard Buffs``` Note: Tag in buffs should be paired with other tagin buffs for max advantage.")
-
-    embed.set_author(name="Character Buffs", url="https://discordapp.com",
-                     icon_url="https://cdn.discordapp.com/embed/avatars/0.png")
-    embed.add_field(name="Sp Buffs",
-                    value="These buffs are enabled after selecting sp for few characters like mvasg, etc.")
-    embed.add_field(name="Passive Buffs",
-                    value="These buffs consists of def boost ,atk boost ,cac ,cad ,fac, fah ,lac ,lad dmg stacking etc.")
-    embed.add_field(name="Tagin Buffs",
-                    value="These buffs are power swap, lac, lad, combo increase,reflect shield etc.")
-    embed.add_field(name="Hazard Buffs",
-                    value="Hazard Buffs are the dmg dealt by traps like jsgl, egl sp1, mvbl sp2, aaam sp2, ats sp1,2, bnr banana peel, pbm sbm akbm sp2, epi sp2, ubc sp2 etc.")
-    embed.set_footer(
-        text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Passive info provided by SIGMA#5422, shadowofintent#1026")
-    #await ctx.channel.send(embed=embed)
-    await ctx.channel.send(embed=embed)
-
-@help.command(name='syn')
-async def syn(ctx):
-    print("Character Synergy command")
-    embed = discord.Embed(colour=discord.Colour(0x6b7892), url="https://discordapp.com",
-                          description="The following list gives combination synergy bonus in battles.")
-
-    embed.set_author(name="Team Character Combination Synergy", url="https://discordapp.com",
-                     icon_url="https://cdn.discordapp.com/embed/avatars/2.png")
-
-    embed.add_field(name="Mvasg+Mvf",
-                    value="```NO CAC AND CAD on any of them!\n\n⚡️Mvf boosts 52% of team CAC. Which mean with the last gear @ g70 , your Cac on any of MVF teammates will be maxed to 75 without having any CAC on talents and gears.\n⚡️MVF also boosts 45% team CAD. \n\nSo while entering the match MVF & MVASG have 195% and 215% CAD respectively. With the use of 1 MVASG SP3, you’ll get +80% CAD along with +2% CAD with every combo hit increase.\n\nIndirectly you’ll reach 300% CAD after hitting 1 mvasg sp3 for every 35 seconds. ```")
-    embed.add_field(name="Legendaries with Brnc",
-                    value="```NO LAC on any teammates\n\nBrnc grants 150% of his lac to his purple teammates. If Brnc has 40% Lac on self, teammates will gain 60% (maxed out) LAC.\n\nIn order to avoid lethal hits for Bm in raids, i always suggest to use naked Brnc without Lac talents.```")
-    embed.add_field(name="AKBM + agility and tech teammates",
-                    value="```NO DEF required\n\nLvl 5 passive , Akbm grants 60% Def and 125% base health boost to self along with tech and Agility teammates. \n\nHence , Def is not needed anywhere.```")
-    embed.add_field(name="BVS with JL and legendaries",
-                    value="```NO DEF required\n\nLvl 6 passive , Bvs boosts 48% Def to JL and Purple teammates.\n\nHence , Def is not needed in this case as well.```")
-    embed.add_field(name="Suicide Squad",
-                    value="```No resist talents needed for healing\n\nEct passive = Heal upon resisting crit hit.\n\nSshq passive = 55% crit resist to ss team + she’s immune to crit herself.\n\nSS team also has base crit resist or 10-20% which’ll max out the crit resist to 70% eitherway.\n\nHence, you don’t need resist talents to heal.```")
-    embed.add_field(name="SVAM + 2 Metahumans on the team",
-                    value="```ONLY 35% Total def on the team.\n\nSvam grants 20% Def per meta teammate to the full team . Hence, it’s a must to use 2 meta teammate with SVAM.\n35% + 20% + 20%= 75% (Maxed out) Def.```")
-    embed.set_footer(
-        text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Passive info provided by SIGMA#5422, shadowofintent#1026")
-
-    #await ctx.channel.send(embed=embed)
-    await ctx.channel.send(embed=embed)
-
-'''@help.command(name='b')
+@help.command(name='b')
 async def b(ctx):
     print("Character Build command")
     embed = discord.Embed(colour=discord.Colour(0xf8e71c),
@@ -152,12 +103,12 @@ async def b(ctx):
     embed.add_field(name="⚡DAMAGE DEALERS", value="""```\nkoaam - King of Atlantis Aquaman\nmvasg - Multiverse Armored Supergirl\nhbhq - Heart Breaker Harley Quinn\nbncw - Batman Ninja Catwoman\nbngg - Batman Ninja Gorilla Grodd\nbm - Black Manta\nsbn - Silver Banshee\nllj - Last Laugh Joker\nba - Black Adam\nbnr - Batman Ninja Robin\nbnlj - Batman Ninja Lord Joker\njlf - Justice League Flash\njlc - Justice League Cyborg\ncsm - Classic Superman\nds - Darksied\nesf - Energized Starfire\nsshq - Suicide Squad Harley Quinn\nenc - Suicide Squad Enchantress\njlam - Justice League Aquaman\nsbm - Silver Batman```""")
     embed.add_field(name="👊COMBO BUILDERS and 💪TANKS", value="""```\nhsc - Horrific Scarecrow\ngl - Silver Green Lantern\njsgl - John Stewart Green Lantern\natr - Atrocitus\npbm - Predator Batman\nepi - Entangling Poison Ivy\nmvtf - Multiverse the Flash\npst - Primal Swamp Thing\nrb - Silver Robin\nsm - Silver Superman\nakbm - Arkham Night Batman\nbrc - Brainiac\nszm - Shazam\nrf - Reverse Flash\nsdf - Silver Doctor Fate\npg - Power Girl\ngrid - Grid\nmvsg - Multiverse Supergirl\nrh - Redhood\nasm - Armored Superman\nbmr - Blade Master Robin```""")
     embed.set_footer(
-                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Passive info provided by SIGMA#5422, shadowofintent#1026 | Build info provided by SIGMA#5422")
+                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Build info provided by SIGMA#5422")
 
     #file = discord.File("./Images_Passive/mto_passives/.jpg", filename=".jpg")
     embed.set_image(url="")
     #await ctx.channel.send(embed=embed)
-    await ctx.channel.send(embed=embed)'''
+    await ctx.channel.send(embed=embed)
 
 @help.command(name='passive')
 async def passive(ctx):
@@ -220,6 +171,7 @@ async def invite(ctx):
                           description="Open this link in browser - [Invite the bot](https://discord.com/api/oauth2/authorize?client_id=742228161986691145&permissions=67624001&scope=bot)\nSupport server link - [Aftermath Server](https://discord.gg/FadZThM)")
     embed.set_author(name="Bot invite and support links", url="https://discordapp.com")
     await ctx.channel.send(embed=embed)
+
 for filename in os.listdir('./Cogs'):
     if filename.endswith('.py'):
         client.load_extension(f'Cogs.{filename[:-3]}')

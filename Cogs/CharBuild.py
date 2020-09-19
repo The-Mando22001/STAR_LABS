@@ -32,7 +32,7 @@ LAC - 1%
 BLOCKING - 25%
 STUN RESIST - 0%
 DOT RESIST - 0%
-CAC RESIST - 0%```""")
+CA RESIST - 0%```""")
             embed.add_field(name="⚙TALENTS", value="""```4 CAD, 2 CAC```""")
             embed.add_field(name="⚙GEARS", value="""```7 HEALTH, 4 FAC, 4 ATTACK```""")
             embed.set_author(name="Arkham Night Batman", url="https://discordapp.com")
@@ -53,7 +53,7 @@ FAC - 1%
 LAC - 1%
 STUN RESIST - 75%
 DOT RESIST - 75%
-CAC RESIST - 70%```""")
+CA RESIST - 70%```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RESIST, 2 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```2 DEF, 13 HEALTH```""")
 
@@ -76,7 +76,7 @@ LAC - 10%
 STUN RESIST - 40%
 BLOCKING - 25%
 DOT RESIST - 40%
-CAC RESIST - 40%
+CA RESIST - 40%
 ```""")
             embed.add_field(name="⚙TALENTS", value="""```2 RESIST, 4 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```7 HEALTH, 5 FAC, 3 ATTACK```""")
@@ -100,7 +100,7 @@ LAC - 10%
 BLOCKING - 35%
 STUN RESIST - 0%
 DOT RESIST - 0%
-CAC RESIST - 0%```""")
+CA RESIST - 0%```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAD , 3 DEF ```""")
             embed.add_field(name="⚙GEARS", value="""```10 ATTACK, 2 CAD, 3 CAC```""")
 
@@ -122,7 +122,7 @@ FAC - 69%
 LAC - 11%
 STUN RESIST - 0%
 DOT RESIST - 0%
-CAC RESIST - 0%
+CA RESIST - 0%
 ```""")
             embed.add_field(name="⚙TALENTS", value="""```4 AP, 1 CAD, 1 CAC```""")
             embed.add_field(name="⚙GEARS", value="""```6 ATTACK, 4 FAC, 3 CAD, 2 CAC```""")
@@ -146,7 +146,7 @@ LAC - 13%
 BLOCKING - 25%
 STUN RESIST - 75%
 DOT RESIST - 75%
-CAC RESIST - 70%```""")
+CA RESIST - 70%```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RESIST, 1 DEF, 1 LAC```""")
             embed.add_field(name="⚙GEARS", value="""```8 HEALTH, 4 FAC, 3 DEF```""")
 
@@ -158,7 +158,7 @@ CAC RESIST - 70%```""")
             await ctx.channel.send(embed=embed)
         if cmd == 'bncw':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
-                                  description="""⚡**[Damage Dealer Build 1 - G70]****""")
+                                  description="""⚡**[Damage Dealer Build 1 - G70]**""")
             embed.add_field(name="⚙STATS", value="""```ATTACK - 5636
 HEALTH - 25252
 DEFENSE - 29%
@@ -168,11 +168,11 @@ FAC - 62%
 LAC - 13%
 STUN RESIST - 5%
 DOT RESIST - 0%
-CAC RESIST - 0%```""")
+CA RESIST - 0%```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAD, 2 CAC, 1 LAC```""")
             embed.add_field(name="⚙GEARS", value="""```9 ATTACK, 3 FAC, 2 CAD, 1 CAC```""")
             #embed.add_field(name="", value="")
-            embed.add_field(name="⚡**[Damage Dealer Build 2 - G70]**\n⚙STATS", value="""```ATTACK - 4766
+            embed.add_field(name="⚡[Damage Dealer Build 2 - G70]\n⚙STATS", value="""```ATTACK - 4766
 HEALTH - 25252
 DEFENSE - 29%
 CAC - 75%
@@ -181,7 +181,7 @@ FAC - 62%
 LAC - 60%
 STUN RESIST - 5%
 DOT RESIST - 0%
-CAC RESIST - 0%```""")
+CA RESIST - 0%```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAD, 2 CAC, 1 LAC```""")
             embed.add_field(name="⚙GEARS", value="""```6 ATTACK, 3 FAC, 3 LAC, 2 CAD, 1 CAC```""")
             embed.set_author(name="Batman Ninja Catwoman", url="https://discordapp.com")
@@ -202,7 +202,7 @@ FAC - 69%
 LAC - 60%
 STUN RESIST - 0%
 DOT RESIST - 0%
-CAC RESIST - 0%```""")
+CA RESIST - 0%```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAC, 3 CAD```""")
             embed.add_field(name="⚙GEARS", value="""```5 ATTACK, 4 FAC, 3 LAC, 2 CAD, 1 CAC```""")
 
@@ -224,7 +224,7 @@ FAC - 1%
 LAC - 60%
 STUN RESIST - 0%
 DOT RESIST - 15%
-CAC RESIST - 0%```""")
+CA RESIST - 0%```""")
             embed.add_field(name="⚙TALENTS", value="""```4 CAC, 2 CAD```""")
             embed.add_field(name="⚙GEARS", value="""```10 ATTACK, 3 LAC, 2 CAD```""")
 
@@ -246,10 +246,10 @@ FAC - 62%
 LAC - 59%
 STUN RESIST - 0%
 DOT RESIST - 0%
-CAC RESIST - 10%```""")
+CA RESIST - 10%```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAD, 2 LAC, 1 CAC```""")
             embed.add_field(name="⚙GEARS", value="""```6 ATTACK, 3 FAC, 2 CAC, 2 CAD, 2 LAC```""")
-            embed.add_field(name="⚡**[Damage Dealer Build 2 - G70]**\n⚙STATS", value="""```ATTACK - 5586
+            embed.add_field(name="⚡[Damage Dealer Build 2 - G70]\n⚙STATS", value="""```ATTACK - 5586
 HEALTH - 24196
 DEFENSE - 29%
 CAC - 71%
@@ -258,7 +258,7 @@ FAC - 11%
 LAC - 59%
 STUN RESIST - 0%
 DOT RESIST - 0%
-CAC RESIST - 10%```""")
+CA RESIST - 10%```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAD, 2 LAC, 1 CAC```""")
             embed.add_field(name="⚙GEARS", value="""```9 ATTACK, 2 CAC, 2 CAD, 2 LAC```""")
 
@@ -280,7 +280,7 @@ FAC - 11%
 LAC - 56%
 STUN RESIST - 75%
 DOT RESIST - 75%
-CAC RESIST - 70%```""")
+CA RESIST - 70%```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RESIST, 2 LAC```""")
             embed.add_field(name="⚙GEARS", value="""```11 HEALTH, 3 DEF, 1 LAC```""")
 
@@ -302,7 +302,7 @@ FAC - 1%
 LAC - 1%
 STUN RESIST - 0%
 DOT RESIST - 0%
-CAC RESIST - 10%```""")
+CA RESIST - 10%```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAD, 3 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```10 ATTACK, 3 CAC, 2 CAD```""")
 
@@ -324,7 +324,7 @@ FAC - 1%
 LAC - 15%
 STUN RESIST - 12%
 DOT RESIST - 0%
-CAC RESIST - 0%```""")
+CA RESIST - 0%```""")
             embed.add_field(name="⚙TALENTS", value="""```1 CAC, 3 CAD, 2 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```11 ATTACK, 2 CAD, 2 CAC```""")
 
@@ -346,7 +346,7 @@ FAC - 69%
 LAC - 1%
 STUN RESIST - 10%
 DOT RESIST - 20%
-CAC RESIST - 20%```""")
+CA RESIST - 20%```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAD, 3 CAC```""")
             embed.add_field(name="⚙GEARS", value="""```9 ATTACK, 4 FAC, 2 CAD
 ```""")
@@ -369,7 +369,7 @@ FAC - 69%
 LAC - 1%
 STUN RESIST - 0%
 DOT RESIST - 0%
-CAC RESIST - 20%```""")
+CA RESIST - 20%```""")
             embed.add_field(name="⚙TALENTS", value="""```4 AP, 2 CAD```""")
             embed.add_field(name="⚙GEARS", value="""```4 FAC, 3 DEF, 3 CAD, 2 HEALTH, 2 CAC, 1 ATTACK```""")
 
@@ -392,7 +392,7 @@ LAC - 1%
 BLOCKING - 25%
 STUN RESIST - 0%
 DOT RESIST - 0%
-CAC RESIST - 0%
+CA RESIST - 0%
 ```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAD , 3 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```7 ATTACK, 3 CAC, 2 CAD, 3 FAC```""")
@@ -416,7 +416,7 @@ LAC - 1%
 STUN RESIST - 75%
 BLOCKING - 25%
 DOT RESIST - 75%
-CAC RESIST - 70%```""")
+CA RESIST - 70%```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RESIST, 2 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```8 HEALTH, 5 FAC, 2 DEF
 ```""")
@@ -440,7 +440,7 @@ LAC - 1%
 BLOCKING - 25%
 STUN RESIST - 75%
 DOT RESIST - 75%
-CAC RESIST - 70%
+CA RESIST - 70%
 ```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RESIST, 2 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```5 FAC, 2 DEF, 5 HEALTH, 3 ATTACK```""")
@@ -462,7 +462,7 @@ CAD - 300%
 FAC - 66%
 STUN RESIST - 0%
 DOT RESIST - 0%
-CAC RESIST - 0%```""")
+CA RESIST - 0%```""")
             embed.add_field(name="⚙TALENTS", value="""```4 AP, 2 CAC```""")
             embed.add_field(name="⚙GEARS", value="""```7 ATTACK, 4 CAD, 3 FAC, 1 CAC ```""")
 
@@ -485,7 +485,7 @@ LAC - 1%
 BLOCKING - 25%
 STUN RESIST - 75%
 DOT RESIST - 75%
-CAC RESIST - 70%```""")
+CA RESIST - 70%```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RESIST, 2 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```8 HEALTH, 5 FAC, 2 DEF```""")
 
@@ -507,7 +507,7 @@ FAC - 69%
 LAC - 1%
 STUN RESIST - 0%
 DOT RESIST - 0%
-CAC RESIST - 0%
+CA RESIST - 0%
 ```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAC, 3 CAD```""")
             embed.add_field(name="⚙GEARS", value="""```8 ATTACK, 4 FAC, 1 CAC, 2 CAD```""")
@@ -530,7 +530,7 @@ FAC - 75%
 LAC - 1%
 STUN RESIST - 0%
 DOT RESIST - 10%
-CAC RESIST - 0%```""")
+CA RESIST - 0%```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAD, 3 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```4 FAC, 6 ATTACK, 2 CAD, 3 CAC```""")
 
@@ -552,7 +552,7 @@ FAC - 75%
 LAC - 1%
 STUN RESIST - 0%
 DOT RESIST - 0%
-CAC RESIST - 0%```""")
+CA RESIST - 0%```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAC, 3 CAD```""")
             embed.add_field(name="⚙GEARS", value="""```8 ATTACK, 4 FAC, 2 CAD, 1 CAC```""")
 
@@ -575,7 +575,7 @@ LAC - 1%
 BLOCKING - 25%
 STUN RESIST - 60%
 DOT RESIST - 60%
-CAC RESIST - 60%```""")
+CA RESIST - 60%```""")
             embed.add_field(name="⚙TALENTS", value="""```3 RESIST, 3 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```5 FAC, 9 HEALTH ,1 DEF```""")
 
@@ -587,7 +587,7 @@ CAC RESIST - 60%```""")
             await ctx.channel.send(embed=embed)
         if cmd == 'koaam':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
-                                  description="""⚡**[Damage Dealer Crit Build - G70]**""")
+                                  description="""⚡**Damage Dealer**\n**[Crit Build - G70]**""")
             embed.add_field(name="⚙STATS", value="""```ATTACK - 5632
 HEALTH - 24580
 DEFENSE - 44%
@@ -597,10 +597,10 @@ FAC - 69%
 LAC - 1%
 STUN RESIST - 0%
 DOT RESIST - 0%
-CAC RESIST - 0%```""")
+CA RESIST - 0%```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAC, 3 CAD```""")
             embed.add_field(name="⚙GEARS", value="""```8 ATTACK, 4 FAC, 2 CAD, 1 CAC```""")
-            embed.add_field(name="⚡**[Damage Dealer Non Crit Build - G70]**\n⚙STATS", value="""```ATTACK - 6826
+            embed.add_field(name="[Non Crit Build - G70]\n⚙STATS", value="""```ATTACK - 6826
 HEALTH - 24580
 DEFENSE - 75%
 CAC - 25%
@@ -609,7 +609,7 @@ FAC - 69%
 LAC - 1%
 STUN RESIST - 0%
 DOT RESIST - 0%
-CAC RESIST - 0%```""")
+CA RESIST - 0%```""")
             embed.add_field(name="⚙TALENTS", value="""```3 DEF, 3 ATTACK```""")
             embed.add_field(name="⚙GEARS", value="""```11 ATTACK, 4 FAC```""")
 
@@ -631,10 +631,10 @@ FAC - 69%
 LAC - 1%
 STUN RESIST - 0%
 DOT RESIST - 0%
-CAC RESIST - 15%```""")
+CA RESIST - 15%```""")
             embed.add_field(name="⚙TALENTS", value="""```4 AP, 1 CAD, 1 CAC```""")
             embed.add_field(name="⚙GEARS", value="""```6 ATTACK, 4 FAC, 3 CAD, 2 CAC```""")
-            embed.add_field(name="⚡**[Damage Dealer Build 2 - G70]**\n⚙STATS", value="""```ATTACK - 6167
+            embed.add_field(name="⚡[Damage Dealer Build 2 - G70]\n⚙STATS", value="""```ATTACK - 6167
 HEALTH - 23620		
 DEFENSE - 24%
 CAC - 75%		
@@ -642,7 +642,7 @@ CAD - 298%
 FAC - 69%		
 STUN RESIST - 0%		
 DOT RESIST - 0%		
-CAC RESIST - 15%```""")
+CA RESIST - 15%```""")
             embed.add_field(name="⚙TALENTS", value="""```2 CAD, 4 CAC```""")
             embed.add_field(name="⚙GEARS", value="""```9 ATTACK, 4 FAC, 2 CAD```""")
 
@@ -664,7 +664,7 @@ FAC - 1%
 LAC - 1%
 STUN RESIST - 60%
 DOT RESIST - 70%
-CAC RESIST - 70%```""")
+CA RESIST - 70%```""")
             embed.add_field(name="⚙TALENTS", value="""```3 RESIST, 3 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```15 ATTACK```""")
 
@@ -687,7 +687,7 @@ LAC - 1%
 BLOCKING - 25%
 STUN RESIST - 60%
 DOT RESIST - 60%
-CAC RESIST - 60%```""")
+CA RESIST - 60%```""")
             embed.add_field(name="⚙TALENTS", value="""```3 RESIST, 3 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```5 FAC, 7 HEALTH ,1 DEF, 2 ATTACK```""")
 
@@ -709,7 +709,7 @@ FAC - 75%
 LAC - 1%
 STUN RESIST - 60%
 DOT RESIST - 60%
-CAC RESIST - 60%```""")
+CA RESIST - 60%```""")
             embed.add_field(name="⚙TALENTS", value="""```3 RESIST, 3 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```4 FAC, 6 HEALTH, 4 ATTACK, 1 DEF```""")
 
@@ -718,6 +718,412 @@ CAC RESIST - 60%```""")
 
             embed.set_author(name="Multiverse The Flash", url="https://discordapp.com")
             embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/injustice-2-mobile2242/images/3/3e/DPqIqKHUQAYTcXj.jpg/revision/latest/scale-to-width-down/220?cb=20181203155138")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'pbm':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Combo Build Tank - G70]**""")
+            embed.add_field(name="⚙STATS", value="""```ATTACK - 3312
+HEALTH - 50412
+DEFENSE - 75%
+CAC - 59%
+CAD - 174%
+FAC - 69%
+LAC - 1%
+STUN RESIST - 0%
+DOT RESIST - 0%
+CA RESIST - 0%
+```""")
+            embed.add_field(name="⚙TALENTS", value="""```3 DEF, 1 CAD, 2 CAC```""")
+            embed.add_field(name="⚙GEARS", value="""```10 HEALTH, 4 FAC, 1 DEF```""")
+
+            embed.set_footer(
+                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Build info provided by SIGMA#5422")
+
+            embed.set_author(name="Predator Batman", url="https://discordapp.com")
+            embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/injustice-2-mobile2242/images/b/b6/E33623af5b0723c25218b7565517f708.jpg/revision/latest/scale-to-width-down/220?cb=20190502181600")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'pg':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Tank Build - G60]**""")
+            embed.add_field(name="⚙STATS", value="""```ATTACK - 3262
+HEALTH - 54424
+DEFENSE - 75%
+CAC - 32%
+CAD - 150%
+FAC - 1%
+LAC - 1%
+STUN RESIST - 75%
+DOT RESIST - 75%
+CA RESIST - 70%```""")
+            embed.add_field(name="⚙TALENTS", value="""```2 DEF, 4 RESIST```""")
+            embed.add_field(name="⚙GEARS", value="""```13 HEALTH, 2 DEF```""")
+
+            embed.set_footer(
+                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Build info provided by SIGMA#5422")
+
+            embed.set_author(name="Power Girl", url="https://discordapp.com")
+            embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/injustice-2-mobile2242/images/e/ef/753a98ab1fba8255d95e9e0a76fe7f11.jpg/revision/latest/scale-to-width-down/220?cb=20190610154655")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'pst':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Tank Build - G60]**""")
+            embed.add_field(name="⚙STATS", value="""```ATTACK - 2465
+HEALTH - 54808
+DEFENSE - 75%
+CAC - 22%
+CAD - 150%
+FAC - 1%
+LAC - 1%
+STUN RESIST - 75%
+DOT RESIST - 75%
+CA RESIST - 70%```""")
+            embed.add_field(name="⚙TALENTS", value="""```4 RESIST, 2 DEF```""")
+            embed.add_field(name="⚙GEARS", value="""```13 HEALTH, 2 DEF```""")
+
+            embed.set_footer(
+                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Build info provided by SIGMA#5422")
+
+            embed.set_author(name="Primal Swamp Thing", url="https://discordapp.com")
+            embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/injustice-2-mobile2242/images/0/0d/Primal_Swamp_Thing_60_Gear.jpg/revision/latest/scale-to-width-down/310?cb=20190509165737")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'rb':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Combo Build Tank - G60]**""")
+            embed.add_field(name="⚙STATS", value="""```ATTACK - 2724
+HEALTH - 38880
+DEFENSE - 75%
+CAC - 22%
+CAD - 150%
+FAC - 66%
+LAC - 1%
+STUN RESIST - 75%
+BLOCKING - 25%
+DOT RESIST - 75%
+CA RESIST - 70%```""")
+            embed.add_field(name="⚙TALENTS", value="""```4 RESIST, 2 DEF```""")
+            embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```""")
+
+            embed.set_footer(
+                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Build info provided by SIGMA#5422")
+
+            embed.set_author(name="Silver Robin", url="https://discordapp.com")
+            embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/injustice-2-mobile2242/images/9/9b/35370321bc8d0a926351100146fd5e37.jpg/revision/latest/scale-to-width-down/220?cb=20190610170548")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'rf':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Combo Build Tank - G60]**""")
+            embed.add_field(name="⚙STATS", value="""```ATTACK - 3473
+HEALTH - 43416
+DEFENSE - 75%
+CAC - 22%
+CAD - 150%
+FAC - 71%
+LAC - 1%
+STUN RESIST - 75%
+DOT RESIST - 75%
+CA RESIST - 70%```""")
+            embed.add_field(name="⚙TALENTS", value="""```2 DEF, 4 RESIST```""")
+            embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```""")
+
+            embed.set_footer(
+                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Build info provided by SIGMA#5422")
+
+            embed.set_author(name="Reverse Flash", url="https://discordapp.com")
+            embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/injustice-2-mobile2242/images/5/5c/ReverseFlash.jpg/revision/latest?cb=20200625134157")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'rh':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Tank Build - G60]**""")
+            embed.add_field(name="⚙STATS", value="""```ATTACK - 3127
+HEALTH - 55168
+DEFENSE - 75%
+CAC - 36%
+CAD - 150%
+FAC - 1%
+LAC - 1%
+STUN RESIST - 75%
+DOT RESIST - 75%
+CA RESIST - 70%```""")
+            embed.add_field(name="⚙TALENTS", value="""```4 RESIST, 2 DEF```""")
+            embed.add_field(name="⚙GEARS", value="""```13 HEALTH, 2 DEF```""")
+
+            embed.set_footer(
+                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Build info provided by SIGMA#5422")
+
+            embed.set_author(name="Red Hood", url="https://discordapp.com")
+            embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/injustice-2-mobile2242/images/5/59/Red_Hood.jpg/revision/latest/scale-to-width-down/310?cb=20200613224051")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'sbm':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Damage Dealer Build - G70]**""")
+            embed.add_field(name="⚙STATS", value="""```ATTACK - 6095
+HEALTH - 17284
+DEFENSE - 24%
+CAC - 59%
+CAD - 300%
+FAC - 1%
+LAC - 1%
+STUN RESIST - 0%
+DOT RESIST - 0%
+CA RESIST - 0%```""")
+            embed.add_field(name="⚙TALENTS", value="""```1 CAC, 5 CAD```""")
+            embed.add_field(name="⚙GEARS", value="""```13 ATTACK, 1 CAC, 1 CAD```""")
+
+            embed.set_footer(
+                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Build info provided by SIGMA#5422")
+
+            embed.set_author(name="Silver Batman", url="https://discordapp.com")
+            embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/injustice-2-mobile2242/images/c/c0/1769da60219d4b3dac82ab816a848f61.jpg/revision/latest/scale-to-width-down/310?cb=20190610163122")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'sbn':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Damage Dealer Build - G70]**""")
+            embed.add_field(name="⚙STATS", value="""```ATTACK - 6456
+HEALTH - 16130
+DEFENSE - 75%
+CAC - 75%
+CAD - 300%
+FAC - 10%
+LAC - 1%
+STUN RESIST - 0%
+DOT RESIST - 0%
+CA RESIST - 10%```""")
+            embed.add_field(name="⚙TALENTS", value="""```3 CAC, 3 CAD```""")
+            embed.add_field(name="⚙GEARS", value="""```12 ATTACK, 2 CAD, 1 CAC```""")
+
+            embed.set_footer(
+                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Build info provided by SIGMA#5422")
+
+            embed.set_author(name="Silver Banshee", url="https://discordapp.com")
+            embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/injustice-2-mobile2242/images/e/e4/0c91d8e9d1c35d30b737b051203e9dad.jpg/revision/latest?cb=20190610160400")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'sdf':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Combo Build Tank - G60]**""")
+            embed.add_field(name="⚙STATS", value="""```ATTACK - 2502
+HEALTH - 37186
+DEFENSE - 75%
+CAC - 22%
+CAD - 150%
+FAC - 75%
+LAC - 1%
+STUN RESIST - 75%
+DOT RESIST - 75%
+CA RESIST - 70%```""")
+            embed.add_field(name="⚙TALENTS", value="""```2 DEF, 4 RESIST```""")
+            embed.add_field(name="⚙GEARS", value="""```8 HEALTH, 5 FAC, 2 DEF```""")
+
+            embed.set_footer(
+                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Build info provided by SIGMA#5422")
+
+            embed.set_author(name="Silver Doctor Fate", url="https://discordapp.com")
+            embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/injustice-2-mobile2242/images/1/1d/Ee5d7fd818dd22a7ebdb3adf26402392.jpg/revision/latest/scale-to-width-down/310?cb=20190610161144")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'sff':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Combo Build Tank - G60]**""")
+            embed.add_field(name="⚙STATS", value="""```ATTACK - 3156
+HEALTH - 45896
+DEFENSE - 75%
+CAC - 22%
+CAD - 150%
+FAC - 41%
+LAC - 1%
+BLOCKING - 25%
+STUN RESIST - 75%
+DOT RESIST - 75%
+CA RESIST - 70%```""")
+            embed.add_field(name="⚙TALENTS", value="""```2 DEF, 4 RESIST```""")
+            embed.add_field(name="⚙GEARS", value="""```2 FAC, 2 DEF, 11 HEALTH```""")
+
+            embed.set_footer(
+                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Build info provided by SIGMA#5422")
+
+            embed.set_author(name="Speed Force Flash", url="https://discordapp.com")
+            embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/injustice-2-mobile2242/images/e/ea/Download-1-1.jpg/revision/latest?cb=20190521180131")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'sm':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Combo Build Tank - G60]**""")
+            embed.add_field(name="⚙STATS", value="""```ATTACK - 2225
+HEALTH - 39202
+DEFENSE - 75%
+CAC - 22%
+CAD - 150%
+FAC - 75%
+LAC - 1%
+STUN RESIST - 75%
+BLOCKING - 25%
+DOT RESIST - 75%
+CA RESIST - 70%```""")
+            embed.add_field(name="⚙TALENTS", value="""```4 RESIST, 2 DEF```""")
+            embed.add_field(name="⚙GEARS", value="""```8 HEALTH, 5 FAC, 2 DEF```""")
+
+            embed.set_footer(
+                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Build info provided by SIGMA#5422")
+
+            embed.set_author(name="Silver Superman", url="https://discordapp.com")
+            embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/injustice-2-mobile2242/images/1/1d/C02916b06a50ea58bc0252c330b62268.jpg/revision/latest/scale-to-width-down/220?cb=20190610160040")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'sshq':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Damage Dealer Build - G70]**""")
+            embed.add_field(name="⚙STATS", value="""```ATTACK - 5724
+HEALTH - 28324
+DEFENSE - 44%
+CAC - 75%
+CAD - 300%
+FAC - 69%
+LAC - 11%
+STUN RESIST - 0%
+DOT RESIST - 0%
+CA RESIST - 0%
+```""")
+            embed.add_field(name="⚙TALENTS", value="""```3 CAD, 3 CAC```""")
+            embed.add_field(name="⚙GEARS", value="""```8 ATTACK, 4 FAC, 2 CAD, 1 CAC```""")
+
+            embed.set_footer(
+                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Build info provided by SIGMA#5422")
+
+            embed.set_author(name="Suicide Squad Harley Quinn", url="https://discordapp.com")
+            embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/injustice-2-mobile2242/images/a/a2/SSHarley.png/revision/latest/scale-to-width-down/310?cb=20200614030224")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'shz' or cmd == 'szm':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Combo Build Tank - G60]**""")
+            embed.add_field(name="⚙STATS", value="""```ATTACK - 3041
+HEALTH - 44948
+DEFENSE - 75%
+CAC - 22%
+CAD - 150%
+FAC - 75%
+LAC - 1%
+BLOCKING - 25%
+STUN RESIST - 75%
+DOT RESIST - 75%
+CA RESIST - 70%```""")
+            embed.add_field(name="⚙TALENTS", value="""```4 RESIST, 2 DEF```""")
+            embed.add_field(name="⚙GEARS", value="""```5 FAC, 8 HEALTH ,2 DEF```""")
+
+            embed.set_footer(
+                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Build info provided by SIGMA#5422")
+
+            embed.set_author(name="Shazam", url="https://discordapp.com")
+            embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/injustice-2-mobile2242/images/c/c9/ShazamHR.jpg/revision/latest/scale-to-width-down/310?cb=20200613032105")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'tgg':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Combo Build Tank - G60]**""")
+            embed.add_field(name="⚙STATS", value="""```ATTACK - 2513
+HEALTH - 42600
+DEFENSE - 75%
+CAC - 22%
+CAD - 150%
+FAC - 75%
+LAC - 1%
+STUN RESIST - 60%
+BLOCKING - 25%
+DOT RESIST - 60%
+CA RESIST - 60%```""")
+            embed.add_field(name="⚙TALENTS", value="""```3 DEF, 3 RESIST```""")
+            embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 5 FAC, 1 DEF```""")
+
+            embed.set_footer(
+                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Build info provided by SIGMA#5422")
+
+            embed.set_author(name="Telekinetic Gorilla Grodd", url="https://discordapp.com")
+            embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/injustice-2-mobile2242/images/8/8a/837dbeb890056d15220a5a88f8313935.jpg/revision/latest/scale-to-width-down/310?cb=20190610171200")
+            await ctx.channel.send(embed=embed)
+        if cmd == '':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[G70 BUILD]**""")
+            embed.add_field(name="⚙STATS", value="""``````""")
+            embed.add_field(name="⚙TALENTS", value="""``````""")
+            embed.add_field(name="⚙GEARS", value="""``````""")
+
+            embed.set_footer(
+                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Build info provided by SIGMA#5422")
+
+            embed.set_author(name="", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == '':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[G70 BUILD]**""")
+            embed.add_field(name="⚙STATS", value="""``````""")
+            embed.add_field(name="⚙TALENTS", value="""``````""")
+            embed.add_field(name="⚙GEARS", value="""``````""")
+
+            embed.set_footer(
+                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Build info provided by SIGMA#5422")
+
+            embed.set_author(name="", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == '':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[G70 BUILD]**""")
+            embed.add_field(name="⚙STATS", value="""``````""")
+            embed.add_field(name="⚙TALENTS", value="""``````""")
+            embed.add_field(name="⚙GEARS", value="""``````""")
+
+            embed.set_footer(
+                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Build info provided by SIGMA#5422")
+
+            embed.set_author(name="", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == '':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[G70 BUILD]**""")
+            embed.add_field(name="⚙STATS", value="""``````""")
+            embed.add_field(name="⚙TALENTS", value="""``````""")
+            embed.add_field(name="⚙GEARS", value="""``````""")
+
+            embed.set_footer(
+                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Build info provided by SIGMA#5422")
+
+            embed.set_author(name="", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == '':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[G70 BUILD]**""")
+            embed.add_field(name="⚙STATS", value="""``````""")
+            embed.add_field(name="⚙TALENTS", value="""``````""")
+            embed.add_field(name="⚙GEARS", value="""``````""")
+
+            embed.set_footer(
+                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Build info provided by SIGMA#5422")
+
+            embed.set_author(name="", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == '':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[G70 BUILD]**""")
+            embed.add_field(name="⚙STATS", value="""``````""")
+            embed.add_field(name="⚙TALENTS", value="""``````""")
+            embed.add_field(name="⚙GEARS", value="""``````""")
+
+            embed.set_footer(
+                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Build info provided by SIGMA#5422")
+
+            embed.set_author(name="", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == '':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[G70 BUILD]**""")
+            embed.add_field(name="⚙STATS", value="""``````""")
+            embed.add_field(name="⚙TALENTS", value="""``````""")
+            embed.add_field(name="⚙GEARS", value="""``````""")
+
+            embed.set_footer(
+                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Build info provided by SIGMA#5422")
+
+            embed.set_author(name="", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
         if cmd == '':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
