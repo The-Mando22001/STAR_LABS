@@ -45,7 +45,7 @@ class Calculator(commands.Cog):
             await ctx.channel.send(embed=embed)
 
     @commands.command()
-    async def art(self, ctx, a: int = 0, b: int = 0):
+    async def a(self, ctx, a: int = 0, b: int = 0):
         total = 0
         if a < b:
             total_silver = artifact_silver[b]-artifact_silver[a]
@@ -54,11 +54,11 @@ class Calculator(commands.Cog):
             embed = discord.Embed(colour=discord.Colour(0x118d9e),
                                   description="""Here are the results.""")
             embed.add_field(name="Silver Tier Artifacts",
-                            value=f"Azure Artifacts```Amulet Of Tech, Amulet Of Might, Amulet Of Agility, Amulet Of Metahuman, Amulet Of Arcane\n\nAmount of azure material required is {total_silver}```Apokolips Artifacts```Mega Rod\n\nAmount of apokolips material required is {total_silver}```")
+                            value=f"```Amount of azure material required is {total_silver}.\n\nAmount of apokolips material required is {total_silver}.```")
             embed.add_field(name="Gold Tier Artifacts",
-                            value=f"Azure Artifacts```Claw Of Horus, Cosmic Staff, The All Blades\n\nAmount of azure material required is {total_gold}```Apokolips Artifacts```Electro Axe, Radion\n\nAmount of apokolips material required is {total_gold}```")
+                            value=f"```Amount of azure material required is {total_gold}.\n\nAmount of apokolips material required is {total_gold}.```")
             embed.add_field(name="Legendary Tier Artifacts",
-                            value=f"Azure Artifacts```Kryptonian Regeneration Matrix, Nth Metal Armor\n\nAmount of azure material required is {total_legend}```Apokolips Artifacts```Entropy Aegis, Heart Of Darkness, The Father Box\n\nAmount of apokolips material required is {total_legend}```")
+                            value=f"```Amount of azure material required is {total_legend}.\n\nAmount of apokolips material required is {total_legend}.```")
 
             # embed.set_image(url="")
             embed.set_author(name="Artifact Calculator", url="https://discordapp.com")
@@ -85,7 +85,7 @@ class Calculator(commands.Cog):
         else:
             embed = discord.Embed(colour=discord.Colour(0x118d9e),
                                   description=f"""Please make sure to check the 'from' and 'to' numbers provided. It should be,
-                    ```i!art 1 5```\nNot,```i!art 5 1```""")
+                    ```i!a 1 5```\nNot,```i!a 5 1```""")
             # embed.set_image(url="")
             embed.set_author(name="Artifact Calculator", url="https://discordapp.com")
             await ctx.channel.send(embed=embed)

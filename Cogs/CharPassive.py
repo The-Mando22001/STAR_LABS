@@ -37,117 +37,101 @@ class CharPassive(commands.Cog):
         if cmd == 'svb':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
                                   description="""""")
-            embed.set_image(
-                url="https://cdn1.bbcode0.com/uploads/2020/8/22/f4c23b6f3147e1b13af9142a873504d0-full.jpg")
+            file = discord.File("./Images_Passive/Silve_Bane.jpg", filename="Silve_Bane.jpg")
+            embed.set_image(url="attachment://Silve_Bane.jpg")
             embed.set_author(name="Silver Bane", url="https://discordapp.com")
-            await ctx.channel.send(embed=embed)
+            await ctx.channel.send(embed=embed, file=file)
         if cmd == 'sbm':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
                                   description="""""")
-            embed.set_image(
-                url="https://cdn1.bbcode0.com/uploads/2020/8/22/ceb831d47b080fc757d3724e3ea60743-full.jpg")
+            file = discord.File("./Images_Passive/Sil_Batman.jpg", filename="Sil_Batman.jpg")
+            embed.set_image(url="attachment://Sil_Batman.jpg")
             embed.set_author(name="Silver Batman", url="https://discordapp.com")
-            await ctx.channel.send(embed=embed)
+            await ctx.channel.send(embed=embed, file=file)
         if cmd == 'svbc':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
                                   description="""""")
-            embed.set_image(
-                url="https://cdn1.bbcode0.com/uploads/2020/8/22/2e8d0f935f23ee6ebc423ff05e1f9677-full.jpg")
+            file = discord.File("./Images_Passive/Silve_Black_Canary.jpg", filename="Silve_Black_Canary.jpg")
+            embed.set_image(url="attachment://Silve_Black_Canary.jpg")
             embed.set_author(name="Silver Black Canary", url="https://discordapp.com")
-            await ctx.channel.send(embed=embed)
+            await ctx.channel.send(embed=embed, file=file)
         if cmd == 'svcw':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
                                   description="""""")
-            embed.set_image(
-                url="")
+            file = discord.File("./Images_Passive/Sil_CW.jpg", filename="Sil_CW.jpg")
+            embed.set_image(url="attachment://Sil_CW.jpg")
             embed.set_author(name="Silver Catwoman", url="https://discordapp.com")
-            await ctx.channel.send(embed=embed)
+            await ctx.channel.send(embed=embed, file=file)
         if cmd == 'svc':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
-                                  description="""Cyborg:
-
-    Regenerates 1% health per second while tagged out
-
-    +2% health for the team""")
-            embed.set_image(
-                url="")
+                                  description="""""")
+            file = discord.File("./Images_Passive/Sil_Cyborg.jpg", filename="Sil_Cyborg.jpg")
+            embed.set_image(url="attachment://Sil_Cyborg.jpg")
             embed.set_author(name="Silver Cyborg", url="https://discordapp.com")
-            await ctx.channel.send(embed=embed)
+            await ctx.channel.send(embed=embed, file=file)
         if cmd == 'sds':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
-                                  description="""Deadshot:
-
-    +5% damage when far away
-
-    +2% critical chance for the team""")
-            embed.set_image(
-                url="")
+                                  description="""""")
+            file = discord.File("./Images_Passive/Sil_Deadshot.jpg", filename="Sil_Deadshot.jpg")
+            embed.set_image(url="attachment://Sil_Deadshot.jpg")
             embed.set_author(name="Silver Deadshot", url="https://discordapp.com")
-            await ctx.channel.send(embed=embed)
+            await ctx.channel.send(embed=embed, file=file)
         if cmd == 'akbm':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
                                   description="""Passive 1: Wayne Tech
                                   Passive 2: Fear Multi-Takedown
                                   Passive 3: Freeflow Counter""")
-            embed.set_image(
-                url="https://cdn1.bbcode0.com/uploads/2020/8/23/d06af08af1466d318be0f13b21ae7e69-full.jpg")
+            file = discord.File("./Images_Passive/mto_passives/akbm_full.jpg", filename="akbm_full.jpg")
+            embed.set_image(url="attachment://akbm_full.jpg")
             embed.set_author(name="Arkham Knight Batman", url="https://discordapp.com")
-            await ctx.channel.send(embed=embed)
+            await ctx.channel.send(embed=embed, file=file)
         if cmd == 'df':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
                                   description="""""")
-            embed.set_image(
-                url="https://cdn1.bbcode0.com/uploads/2020/8/22/d7ad391d4f32980bce72ef3e3b915f8d-full.jpg")
+            file = discord.File("./Images_Passive/Sil_Doctor_Fate.jpg", filename="Sil_Doctor_Fate.jpg")
+            embed.set_image(url="attachment://Sil_Doctor_Fate.jpg")
             embed.set_author(name="Silver Doctor Fate", url="https://discordapp.com")
-            await ctx.channel.send(embed=embed)
+            await ctx.channel.send(embed=embed, file=file)
         if cmd == 'svgg':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
-                                  description="""Gorilla Grodd:
-
-    +10% damage below 40% health""")
-            embed.set_image(
-                url="")
+                                  description="""""")
+            file = discord.File("./Images_Passive/Sil_gg.jpg", filename="Sil_gg.jpg")
+            embed.set_image(url="attachment://Sil_gg.jpg")
             embed.set_author(name="Silver Gorilla Grodd", url="https://discordapp.com")
-            await ctx.channel.send(embed=embed)
+            await ctx.channel.send(embed=embed, file=file)
         if cmd == 'svga':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
                                   description="""""")
-            embed.set_image(
-                url="https://cdn1.bbcode0.com/uploads/2020/8/22/95ab0976a209ae21765afe0f5b7d65eb-full.jpg")
+            file = discord.File("./Images_Passive/Sil_Green_Arrow.jpg", filename="Sil_Green_Arrow.jpg")
+            embed.set_image(url="attachment://Sil_Green_Arrow.jpg")
             embed.set_author(name="Silver Green Arrow", url="https://discordapp.com")
-            await ctx.channel.send(embed=embed)
+            await ctx.channel.send(embed=embed, file=file)
         if cmd == 'sgl':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
                                   description="""""")
-            embed.set_image(
-                url="https://cdn1.bbcode0.com/uploads/2020/8/22/6a509032edf4123b27cc98f0172e2860-full.jpg")
+            file = discord.File("./Images_Passive/Sil_Green_Lantern.jpg", filename="Sil_Green_Lantern.jpg")
+            embed.set_image(url="attachment://Sil_Green_Lantern.jpg")
             embed.set_author(name="Silver Green Lantern", url="https://discordapp.com")
-            await ctx.channel.send(embed=embed)
+            await ctx.channel.send(embed=embed, file=file)
         if cmd == 'svhq':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
-                                  description="""Harley Quinn:
-
-    +20% damage on her jump/rush/ranged/crouched attacks
-
-    +2% attack for the team""")
-            embed.set_image(
-                url="")
+                                  description="""""")
+            file = discord.File("./Images_Passive/Sil_hq.jpg", filename="Sil_hq.jpg")
+            embed.set_image(url="attachment://Sil_hq.jpg")
             embed.set_author(name="Silver Harley Quinn", url="https://discordapp.com")
-            await ctx.channel.send(embed=embed)
+            await ctx.channel.send(embed=embed, file=file)
         if cmd == 'svr':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
                                   description="""""")
-            embed.set_image(
-                url="https://cdn1.bbcode0.com/uploads/2020/8/22/0373b29218ace52d030ca8eb01ffdd66-full.jpg")
+            file = discord.File("./Images_Passive/Sil_Robin.jpg", filename="Sil_Robin.jpg")
+            embed.set_image(url="attachment://Sil_Robin.jpg")
             embed.set_author(name="Silver Robin", url="https://discordapp.com")
-            await ctx.channel.send(embed=embed)
+            await ctx.channel.send(embed=embed, file=file)
         if cmd == 'svsc':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
-                                  description="""Scarecrow:
-
-    15% chance for enemy tag outs to be stopped and the enemy to be stunned for 1 second""")
-            embed.set_image(
-                url="")
+                                  description="""""")
+            file = discord.File("./Images_Passive/Sil_Robin.jpg", filename="Sil_Robin.jpg")
+            embed.set_image(url="attachment://Sil_Robin.jpg")
             embed.set_author(name="Silver Scarecrow", url="https://discordapp.com")
             await ctx.channel.send(embed=embed)
         if cmd == 'ssm':

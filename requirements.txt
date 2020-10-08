@@ -3,4 +3,5 @@ dnspython
 PyNaCl
 async-timeout
 python-dotenv
+youtube_dl
 
