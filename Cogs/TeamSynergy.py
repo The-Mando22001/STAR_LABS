@@ -9,7 +9,7 @@ class SynergyToggleError(commands.CheckFailure):
     pass
 
 
-v_status = False
+v_status = True
 gifs = ["https://media.giphy.com/media/LyJ6KPlrFdKnK/giphy.gif",
         "https://media.giphy.com/media/tJeGZumxDB01q/giphy.gif",
         "https://media.giphy.com/media/xL7PDV9frcudO/giphy.gif",
