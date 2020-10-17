@@ -6,7 +6,7 @@ class CharBuild(commands.Cog):
     def __init__(self, client):
         self.Bot = client
 
-    @commands.command()
+    @commands.command(name='b', aliases=['build'])
     async def b(self, ctx, cmd: str= None):
         if cmd is None:
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),

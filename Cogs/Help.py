@@ -12,7 +12,7 @@ class Help(commands.Cog):
     async def invite(self, ctx):
         print("Bot invite pressed")
         embed = discord.Embed(colour=discord.Colour(0xe01c38), url="https://discordapp.com",
-                              description="Open this link in browser - [Invite the bot](https://discord.com/api/oauth2/authorize?client_id=742228161986691145&permissions=67624001&scope=bot)\nSupport server link - [Aftermath Server](https://discord.gg/FadZThM)")
+                              description="Open this link in browser - [Invite the bot](https://discord.com/api/oauth2/authorize?client_id=742228161986691145&permissions=67624001&scope=bot)\nSupport server link - [Aftermath Server](https://discord.gg/bfbYNWE)")
         embed.set_author(name="Bot invite and support links", url="https://discordapp.com")
         embed.set_footer(
             text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Builds Made by SIGMA#5422 | Passive info provided by SIGMA#5422, shadowofintent#1026")
@@ -25,28 +25,30 @@ class Help(commands.Cog):
         if cmd is None:
             print("No command. Hence, printing common help.")
             embed = discord.Embed(colour=discord.Colour(0x29a98e), url="https://discordapp.com",
-                              description="Hello Player! This bot will guide you by providing details like character builds, gears and materials and so on..\n\nJust type ```i!help``` If you are stuck anywhere and I'll be here to help! 😎 ")
+                              description="Hello Player! This bot will guide you by providing details like character builds, gears and materials and so on..\n\nJust type `i!help` If you are stuck anywhere and I'll be here to help! 😎 ")
 
         # embed.set_image(url="https://vignette.wikia.nocookie.net/injustice-2-mobile2242/images/5/5a/BlackManta.jpg")
             embed.set_thumbnail(
                 url="https://www.injusticeonline.com/wp-content/uploads/2017/05/injustice-2-mobile-icon.jpg")
             embed.set_author(name="Help Command", icon_url="https://cdn.discordapp.com/embed/avatars/1.png")
             embed.add_field(name="Bot Invite",
-                        value="If you really want me to help you out in your server, type ```i!invite``` to invite me into your server. I'll be there to help you and your friends 🥰. It also has link to support server.")
+                        value="If you really want me to help you out in your server, type `i!invite` to invite me into your server. I'll be there to help you and your friends 🥰. It also has link to support server.")
             embed.add_field(name="Prefix checking and changing",
                         value="If you want to check or change the prefix, then, you need to type:\n`i!prefix` to get the prefix, and\n`i!set_prefix` to set the prefix in the server.")
             embed.add_field(name="Character Abbreviations",
-                        value="This will show the list of characters available in the game in the abbreviated form. If you want to know more, type, ```i!help chars```")
+                        value="This will show the list of characters available in the game in the abbreviated form. If you want to know more, type, `i!help chars`")
             embed.add_field(name="Character Builds",
-                        value="This will provide the best character builds. To know more, type, ```i!help b```")
+                        value="This will provide the best character builds. To know more, type, `i!help b`")
             embed.add_field(name="Character Passives",
-                        value="There are passive abilities for characters which are unique for every character. To know more, type, ```i!help passive```")
+                        value="There are passive abilities for characters which are unique for every character. To know more, type, `i!help passive`")
             embed.add_field(name="Artifact Information",
-                        value="This will show information about different artifacts available in the game. To know more, type, ```i!art```")
+                        value="This will show information about different artifacts available in the game. To know more, type, `i!art`")
+            embed.add_field(name='Artifact Effect Information',
+                            value='This will provide the reroll values for artifact talent. To know more, type `i!ae` or `i!arteff`')
             embed.add_field(name="Team Synergy Information",
-                            value="This will show the Team synergy information, which give boost to your characters in battle during team selection. To know more, type, ```i!syn```")
+                            value="This will show the Team synergy information, which give boost to your characters in battle during team selection. To know more, type, `i!syn`")
             embed.add_field(name="Upgrade Calculator",
-                        value="You can type start and end of number of levels of any upgrade (gear, artifact, xp and sp) to calculate how much material or coins required. To know more, type, ```i!help calc```")
+                        value="You can type start and end of number of levels of any upgrade (gear, artifact, xp and sp) to calculate how much material or coins required. To know more, type, `i!help calc`")
             embed.set_footer(
                 text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Builds Made by SIGMA#5422 | Passive info provided by SIGMA#5422, shadowofintent#1026")
         # file = discord.File("./source.gif", filename="source.gif")
