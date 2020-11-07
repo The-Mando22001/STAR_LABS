@@ -16,7 +16,7 @@ class Calculator(commands.Cog):
     def __init__(self, client):
         self.Bot = client
 
-    @commands.command()
+    @commands.command(name='gear', aliases=['gears'])
     async def gear(self, ctx, a: int = 0, b: int = 0):
         total = 0
         if a < b:

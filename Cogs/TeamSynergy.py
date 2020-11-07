@@ -65,7 +65,7 @@ class TeamSynergy(commands.Cog):
             embed.set_image(url=choice(gifs))
             await ctx.channel.send(embed=embed)
 
-    @check_toggle()
+
     @commands.command(name='syn')
     @commands.guild_only()
     async def syn(self, ctx, cmd: str = None):

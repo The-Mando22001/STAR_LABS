@@ -2,28 +2,59 @@ import discord
 from discord.ext import commands
 from random import choice
 
+gifs = ["https://media.giphy.com/media/LyJ6KPlrFdKnK/giphy.gif",
+                    "https://media.giphy.com/media/tJeGZumxDB01q/giphy.gif",
+                    "https://media.giphy.com/media/xL7PDV9frcudO/giphy.gif",
+                    "https://media.giphy.com/media/pPhyAv5t9V8djyRFJH/giphy.gif",
+                    "https://media.giphy.com/media/3oFyDl7xbRgcAu8O8E/giphy.gif",
+                    "https://media.giphy.com/media/l3V0H7bYv5Ml5TOfu/giphy.gif",
+                    "https://media.giphy.com/media/l378rrt5tAawaCQ9i/giphy.gif",
+                    "https://media.giphy.com/media/l41lXS5zVQYVwF3Xi/giphy.gif",
+                    "https://media.giphy.com/media/3o7buckytFnpXail0Y/giphy.gif"]
+
+bruh = ["What are you thinking?", "Are you out of your mind?", "Dude, you can't do that", "Bruhhh",
+                    "Yare Yare (It means showing pity on you in Japanese)", "Seriously?!", "Nani?!!"]
 
 class Help(commands.Cog):
     def __init__(self, client):
         self.Bot = client
 
     @commands.guild_only()
-    @commands.command(name='invite')
+    @commands.command(name='invite', aliases= ['i'])
     async def invite(self, ctx):
-        print("Bot invite pressed")
+        print(f"Bot invite pressed by {ctx.message.author.name}")
         embed = discord.Embed(colour=discord.Colour(0xe01c38), url="https://discordapp.com",
                               description="Open this link in browser - [Invite the bot](https://discord.com/api/oauth2/authorize?client_id=742228161986691145&permissions=67624001&scope=bot)\nSupport server link - [Aftermath Server](https://discord.gg/bfbYNWE)")
         embed.set_author(name="Bot invite and support links", url="https://discordapp.com")
         embed.set_footer(
-            text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Builds Made by SIGMA#5422 | Passive info provided by SIGMA#5422, shadowofintent#1026")
+            text="Check out the `credits` command to see the list of people who helped making this bot.")
 
         await ctx.channel.send(embed=embed)
 
     @commands.guild_only()
-    @commands.command(name='help')
+    @commands.command(name='about', aliases=['credits'])
+    async def _about(self, ctx):
+        print(f"About command Pressed by {ctx.message.author.name}")
+        embed = discord.Embed(colour=discord.Colour(0x29a98e), url="https://discordapp.com",
+                              description="This bot is made with love by me. This contains all the necessary info required for Injustice 2 Mobile Game. More commands and features are added soon. Many people have helped build this bot by providing info, suggestions and ideas. That is why I have made this command for honoring those who have helped me. I would like to thank each and everyone who have supported me while making this bot.\n\n- `Mando_The_Mercenary™#9484`")
+        embed.set_author(name="Credits")
+        embed.add_field(name="Bot's Logo Design",
+                        value="`ARCAS#0954` is a great guy and makes Logo desgins for Discord Profile Pics. He made this logo desgin specially for the bot.")
+        embed.add_field(name="Character Build Details",
+                        value="`SIGMA#5422`, `ʙᴏʀɴ2ᴋɪʟʟ™#4215` have helped in adding the character build details. I would also thank `[Δ₭] OVERMAN#0001` from `Apokolips Kingdom`, who has accepted to use the builds from their server. `YSOSERIOUS™#7777` has helped in designing the character Build template.")
+        embed.add_field(name="Character Passive Details",
+                        value="`SIGMA#5422` and `shadowofintent#1026` have helped me in adding the passive info. Both of them shared the screenshots of their characters, so that, it would be easy to see the picture than read the details.")
+        embed.add_field(name="Bot testers",
+                        value="Many people use this bot everyday. But, with request of few people, I could find the errors and bugs in the commands, which were eventually rectified. So, my special thanks to `Noremac#7255`, `resveratrol#7110`, `The asian cat#3430`, and many more..\n\n*This is the Way!*")
+        file = discord.File("./STAR_LABS.jpg", filename="STAR_LABS.jpg")
+        embed.set_thumbnail(url="attachment://STAR_LABS.jpg")
+        await ctx.channel.send(embed=embed, file=file)
+
+    @commands.guild_only()
+    @commands.command(name='help', aliases= ['h'])
     async def _help(self, ctx, cmd: str = None):
         if cmd is None:
-            print("No command. Hence, printing common help.")
+            print(f"No command. Hence, printing common help. - {ctx.message.author.name}")
             embed = discord.Embed(colour=discord.Colour(0x29a98e), url="https://discordapp.com",
                               description="Hello Player! This bot will guide you by providing details like character builds, gears and materials and so on..\n\nJust type `i!help` If you are stuck anywhere and I'll be here to help! 😎 ")
 
@@ -31,8 +62,11 @@ class Help(commands.Cog):
             embed.set_thumbnail(
                 url="https://www.injusticeonline.com/wp-content/uploads/2017/05/injustice-2-mobile-icon.jpg")
             embed.set_author(name="Help Command", icon_url="https://cdn.discordapp.com/embed/avatars/1.png")
-            embed.add_field(name="Bot Invite",
+            embed.add_field(name="Bot Statistics", value="To check the bot's statistics, type `i!stats` or `i!ss` or `i!serverstats`.")
+            embed.add_field(name="Bot Invite and support",
                         value="If you really want me to help you out in your server, type `i!invite` to invite me into your server. I'll be there to help you and your friends 🥰. It also has link to support server.")
+            embed.add_field(name="Credits",
+                            value="Check this out with `i!credits` or `i!about` to see the list of people who helped making this bot.")
             embed.add_field(name="Prefix checking and changing",
                         value="If you want to check or change the prefix, then, you need to type:\n`i!prefix` to get the prefix, and\n`i!set_prefix` to set the prefix in the server.")
             embed.add_field(name="Character Abbreviations",
@@ -50,13 +84,13 @@ class Help(commands.Cog):
             embed.add_field(name="Upgrade Calculator",
                         value="You can type start and end of number of levels of any upgrade (gear, artifact, xp and sp) to calculate how much material or coins required. To know more, type, `i!help calc`")
             embed.set_footer(
-                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Builds Made by SIGMA#5422 | Passive info provided by SIGMA#5422, shadowofintent#1026")
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
         # file = discord.File("./source.gif", filename="source.gif")
         # embed.set_image(url="attachment://source.gif")
             await ctx.channel.send(embed=embed)
 
         elif cmd == 'chars':
-            print("Character Abbrev command")
+            print(f"Character Abbrev command by {ctx.message.author.name}")
             embed = discord.Embed(colour=discord.Colour(0xf79263), url="https://discordapp.com",
                                   description="To check the character abbreviation, you can type the following commands and it will show the respective list of characters.")
 
@@ -69,11 +103,11 @@ class Help(commands.Cog):
             embed.add_field(name="List of Legendary Characters",
                             value="To get a list of Legendary characters, type, ```i!chars legend``` to get the list.")
             embed.set_footer(
-                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Builds Made by SIGMA#5422 | Passive info provided by SIGMA#5422, shadowofintent#1026")
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
             await ctx.channel.send(embed=embed)
 
         elif cmd == 'b' or cmd == 'build':
-            print("Character Build command")
+            print(f"Character Build command by {ctx.message.author.name}")
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""Currently, only the character builds on those lists below, are available as of now. We will add other builds soon.""")
             embed.set_author(name="Build Commands", url="https://discordapp.com")
@@ -82,7 +116,7 @@ class Help(commands.Cog):
             embed.add_field(name="👊COMBO BUILDERS and 💪TANKS",
                             value="""```\nhsc - Horrific Scarecrow\ngl - Silver Green Lantern\njsgl - John Stewart Green Lantern\natr - Atrocitus\npbm - Predator Batman\nepi - Entangling Poison Ivy\nmvtf - Multiverse the Flash\npst - Primal Swamp Thing\nrb - Silver Robin\nsm - Silver Superman\nakbm - Arkham Night Batman\nbrc - Brainiac\nszm - Shazam\nrf - Reverse Flash\nsdf - Silver Doctor Fate\npg - Power Girl\ngrid - Grid\nmvsg - Multiverse Supergirl\nrh - Redhood\nasm - Armored Superman\nbmr - Blade Master Robin```""")
             embed.set_footer(
-                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Builds Made by SIGMA#5422")
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
 
             # file = discord.File("./Images_Passive/mto_passives/.jpg", filename=".jpg")
             embed.set_image(url="")
@@ -90,7 +124,7 @@ class Help(commands.Cog):
             await ctx.channel.send(embed=embed)
 
         elif cmd == 'passive' or cmd == 'p':
-            print("Character Passive command")
+            print(f"Character Passive command by {ctx.message.author.name}")
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
                                   description="There are passives for each and every character, which get enabled during battle or at the start of the battle. To know the character's passive, type, ```i!p [character name]``` Where, we type the character's name without the brackets []. For Example, ```i!p jsgl```The following list of characters have their respective passives.")
 
@@ -115,13 +149,13 @@ class Help(commands.Cog):
             embed.add_field(name="List of Gold Characters (Others Part 2)",
                             value="```\naaam : Atlantean Armor Aquaman\nnw   : Nightwing\nwqww : Warrior Queen Wonder Woman```")
             embed.set_footer(
-                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Builds Made by SIGMA#5422 | Passive info provided by SIGMA#5422, shadowofintent#1026")
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
 
             # await ctx.channel.send(embed=embed)
             await ctx.channel.send(embed=embed)
 
         elif cmd == 'calc':
-            print("Calculator command")
+            print(f"Calculator command by {ctx.message.author.name}")
             embed = discord.Embed(colour=discord.Colour(0xe01c38), url="https://discordapp.com",
                                   description="This command can be used to calculate gear, xp, artifact and sp upgrade costs")
 
@@ -136,7 +170,7 @@ class Help(commands.Cog):
             embed.add_field(name="Artifact Upgrade Calculator",
                             value="The command will show the amount of artifact material required to upgrade the artifacts. To know more, type, ```i!a [from] [to]```")
             embed.set_footer(
-                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Builds Made by SIGMA#5422 | Passive info provided by SIGMA#5422, shadowofintent#1026")
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
 
             # await ctx.channel.send(embed=embed)
             await ctx.channel.send(embed=embed)
@@ -155,10 +189,18 @@ class Help(commands.Cog):
                      'https://media.giphy.com/media/ifdPjn6m4WyNlnXMTj/giphy.gif']
             embed.set_image(url=choice(error))
             embed.set_footer(
-                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Builds Made by SIGMA#5422 | Passive info provided by SIGMA#5422, shadowofintent#1026")
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
 
             await ctx.channel.send(embed=embed)
 
+    @commands.command(name='hack')
+    async def _hack(self, ctx):
+        embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
+                                  description="""You really think you could hack me??!!""")
+        embed.set_author(name=choice(bruh), url="https://discordapp.com")
+        embed.set_image(url=choice(gifs))
+        embed.set_footer(text=f"{ctx.message.author.name} thinks he/ she could hack... jeez. Can someone explain him/ her that he can't hack into STAR LABS like this?")
+        await ctx.channel.send(embed=embed)
 
 def setup(client):
     client.add_cog(Help(client))

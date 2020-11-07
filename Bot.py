@@ -56,13 +56,32 @@ async def on_ready():
     global calc_feature
     for guild in client.guilds:
         count = count+1
-        print(f"Server name: {guild.name}, and Server Owner: {guild.owner} with ID: {guild.id}\n")
         voice_feature[guild.id] = True
         synergy_feature[guild.id] = True
         build_feature[guild.id] = True
         passive_feature[guild.id] = True
         calc_feature[guild.id] = True
-    print(f'\nTotal number of Servers: {count}')
+    print(f'Total number of Servers: {count}')
+
+@client.command(name='serverstats', aliases=['ss','stats'])
+async def _serverstats(ctx):
+    count_ser = 0
+    count_mem = 0
+    for guild in client.guilds:
+        member_list = []
+        for member in guild.members:
+            member_list += member.name
+        count_mem = count_mem + len(member_list)
+        count_ser = count_ser + 1
+    embed = discord.Embed(colour=discord.Colour(0x29a98e), url="https://discordapp.com",
+                          description="The following shows the stats of the bot.")
+    embed.set_author(name="Bot Statistics")
+    embed.add_field(name="Number of servers", value=f"{count_ser}")
+    embed.add_field(name='Number of Users', value=f"{count_mem}")
+    embed.add_field(name="Latency", value=f"{round(client.latency*1000)} ms")
+    file = discord.File("./STAR_LABS.jpg", filename="STAR_LABS.jpg")
+    embed.set_thumbnail(url="attachment://STAR_LABS.jpg")
+    await ctx.channel.send(embed=embed, file=file)
 
 @tasks.loop(seconds=20)
 async def change_status():
@@ -138,7 +157,7 @@ async def secret_stuff(ctx, error):
 #Ping command
 @client.command()
 async def ping(ctx):
-    await ctx.channel.send(f'I don\'t know this value. It says something like this: {round(client.latency*1000)}ms')
+    await ctx.channel.send(f'**Pong**! {round(client.latency*1000)}ms')
 
 '''@client.event
 async def on_message(message):
