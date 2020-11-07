@@ -74,39 +74,41 @@ aaam - Atlantean Armored Aquaman
 egl - Emerald Green Lantern
 mtcw - Masterthief Catwoman
 bmr - Blade Master Robin
-grid - Grid
+atc - Atrocitus
+ba - Black Adam
 csm - Classic Superman 
+dsg - Dark Super Girl
+esf - Energized Starfire
+fpi - Flora Poison Ivy 
+hb - Hellboy
+hsc - Horrific Scarecrow 
+jsgl - John Stewart Green Lantern
+kbm - Knightmare Batman
+pg - Power Girl 
+pbm - Predator Batman
+rh - Red Hood
+rf - Reverse Flash
+sff - Speed Force the Flash
+tkgg - TeleKinetic Gorilla Grodd 
+wqww - Warrior Queen Wonder Woman 
+rdn - Raiden
+sz - Subzero
+ssds - Suicide Squad Deadshot
+```""")
+            embed.add_field(name='🟨 Gold Characters (Others Part 2)', value="""```
+grid - Grid
 cbm - Classic Batman
 eb - Enraged Bane
-atc - Atrocitus
-sc - Horrific Scarecrow 
-pbm - Predator Batman
 nw - Nightwing
 psg - Powered Supergirl
-kbm - Knightmare Batman
-rf - Reverse Flash
 cth - Cheetah
-sz - Subzero```""")
-            embed.add_field(name='🟨 Gold Characters (Others Part 2)', value="""```
-sff - Speed Force the Flash
-pg - Power Girl 
 rdn - Raiden
 ssdf - Soul Stealer Doctor Fate 
-ba - Black Adam
 pst - Primal Swamp Thing
-jsgl - John Stewart Green Lantern
-tkgg - TeleKinetic Gorilla Grodd 
-rh - Red Hood
-fpi - Flora Poison Ivy 
 cc2 - Captain Cold
 sbc - Sonic Black Canary
-ssds - Suicide Squad Deadshot
-hb - Hellboy
-dsg - Dark Super Girl
-wqww - Warrior Queen Wonder Woman 
 ubc - Unbreakable Cyborg
 fs - Firestorm
-esf - Energized Starfire
 uhq - Unhinged Harley Quinn```""")
 
             embed.set_footer(
@@ -115,7 +117,7 @@ uhq - Unhinged Harley Quinn```""")
             await ctx.channel.send(embed=embed)
 
         #Silvers
-        elif cmd == 'aww':
+        if cmd == 'aww':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Tank Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       2,465
@@ -137,7 +139,7 @@ CAC resist    70```""")
             embed.set_author(name="Amazon Wonder Woman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'svbc' or cmd == 'sbc':
+        if cmd == 'svbc' or cmd == 'sbc':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack            3,888
@@ -159,7 +161,7 @@ CAC resist     5 ```""")
             embed.set_author(name="Sonic/ Silver Black Canary", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'svcw':
+        if cmd == 'svcw':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       3,544
@@ -181,7 +183,7 @@ CAC resist    0```""")
             embed.set_author(name="Silver Catwoman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'svam':
+        if cmd == 'svam':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       6,222
@@ -203,7 +205,7 @@ CAC resist    0 ```""")
             embed.set_author(name="Silver Aquaman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'svc':
+        if cmd == 'svc':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Tank Combo Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       2,129
@@ -225,7 +227,7 @@ CAC resist    70```""")
             embed.set_author(name="Silver Cyborg", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'svf':
+        if cmd == 'svf':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Tank Combo Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack            3,534
@@ -247,7 +249,7 @@ CAC resist     70 ```""")
             embed.set_author(name="Silver Flash", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'svj':
+        if cmd == 'svj':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       4,331
@@ -270,7 +272,7 @@ CAC resist    0```""")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
 
-        elif cmd == 'svhq':
+        if cmd == 'svhq':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack          3,344 (173 from her passive)
@@ -292,7 +294,7 @@ CAC resist    0```""")
             embed.set_author(name="Silver Harley Quinn", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'svst':
+        if cmd == 'svst':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Mix Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       3,543
@@ -314,7 +316,7 @@ CAC resist    70```""")
             embed.set_author(name="Silver Swamp Thing", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'svgg':
+        if cmd == 'svgg':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Tank Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       1,937
@@ -336,7 +338,7 @@ CAC resist    70```""")
             embed.set_author(name="Silver Gorilla Grodd", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'svb':
+        if cmd == 'svb':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Tank Combo Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack      2,402
@@ -358,7 +360,7 @@ CAC resist 70```""")
             embed.set_author(name="Silver Bane", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'svds':
+        if cmd == 'svds':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       4,198
@@ -380,7 +382,7 @@ CAC resist    0```""")
             embed.set_author(name="Silver Deadshot", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'svsc':
+        if cmd == 'svsc':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Tank Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       2,359
@@ -402,7 +404,7 @@ CAC resist    70```""")
             embed.set_author(name="Silver Scarecrow", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'svr':
+        if cmd == 'svr':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Tank Combo Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack      2,724
@@ -424,7 +426,7 @@ CAC resist   70```""")
             embed.set_author(name="Silver Robin", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'svdf':
+        if cmd == 'svdf':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Tank Combo Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack      2,551
@@ -447,7 +449,7 @@ BE           49```""")
             embed.set_author(name="Silver Doctor Fate", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'svga':
+        if cmd == 'svga':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack         6,901
@@ -469,7 +471,7 @@ CAC resist    0```""")
             embed.set_author(name="Silver Green Arrow", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'svww':
+        if cmd == 'svww':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Tank Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       2,379
@@ -491,7 +493,7 @@ CAC resist    70```""")
             embed.set_author(name="Silver Wonder Woman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'svsm':
+        if cmd == 'svsm':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Tank Combo Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack  2,275
@@ -513,7 +515,7 @@ CAC resist   70```""")
             embed.set_author(name="Silver Superman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'svgl':
+        if cmd == 'svgl':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Tank Combo Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       2,659
@@ -535,7 +537,7 @@ CAC resist   70```""")
             embed.set_author(name="Silver Green Lantern", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'svbm':
+        if cmd == 'svbm':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       6,095
@@ -559,7 +561,7 @@ CAC resist    0 ```""")
             await ctx.channel.send(embed=embed)
 
         #Legendaries
-        elif cmd == 'akbm':
+        if cmd == 'akbm':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       7,689
@@ -594,7 +596,7 @@ BE            49```""")
             embed.set_author(name="Arkham Knight Batman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'bm':
+        if cmd == 'bm':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack 4,564
@@ -616,7 +618,7 @@ CAC resist  0%```""")
             embed.set_author(name="Black Manta", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'bnc':
+        if cmd == 'bnc':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Tank/Support Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack     3,523 ♞
@@ -641,7 +643,7 @@ Suggested artifact: NTH Armor.```""")
             embed.set_author(name="Brainiac", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'bngg':
+        if cmd == 'bngg':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack     4,673
@@ -663,7 +665,7 @@ CAC resist    0```""")
             embed.set_author(name="Batman Ninja Gorilla Grodd", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'ds':
+        if cmd == 'ds':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Tank Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack    3235
@@ -690,7 +692,7 @@ LAC 15% (Base)```""")
             embed.set_author(name="Darkseid", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'jls':
+        if cmd == 'jls':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack   5119
@@ -708,7 +710,7 @@ AP          96%```""")
             embed.set_author(name="Justice League Superman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'sshq':
+        if cmd == 'sshq':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer/Support Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack  5,550
@@ -730,7 +732,7 @@ CAC resist  40%```""")
             embed.set_author(name="Suicide Squad Harley Quinn", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'sse':
+        if cmd == 'sse':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Support Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack  6,280
@@ -766,7 +768,7 @@ CAC resist    20```""")
             embed.set_author(name="Suicide Squad Enchantress", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'mmh':
+        if cmd == 'mmh':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Coming Soon```""")
@@ -781,7 +783,7 @@ CAC resist    20```""")
             await ctx.channel.send(embed=embed)
 
         #Gold Batman Ninjas
-        elif cmd == 'bnbm':
+        if cmd == 'bnbm':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       4,702 
@@ -803,7 +805,7 @@ CAC resist    0```""")
             embed.set_author(name="Batman Ninja Batman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'bnhq':
+        if cmd == 'bnhq':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Tank Combo Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       2,849
@@ -824,7 +826,7 @@ CAC resist    70```""")
             embed.set_author(name="Batman Ninja Harley Quinn", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'bncw':
+        if cmd == 'bncw':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack  5346
@@ -846,7 +848,7 @@ CAC resist    0```""")
             embed.set_author(name="Batman Ninja Catwoman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'bnr':
+        if cmd == 'bnr':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack 5465(4716+30% from bnhq)
@@ -868,7 +870,7 @@ CAC resist    10 ```""")
             embed.set_author(name="Batman Ninja Robin", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'bnlj':
+        if cmd == 'bnlj':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       4,841
@@ -906,7 +908,7 @@ CAC resist    70```""")
             await ctx.channel.send(embed=embed)
 
         #Multiverse Gang
-        elif cmd == 'mvbw':
+        if cmd == 'mvbw':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Non-MV Team Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack  6,001
@@ -949,7 +951,7 @@ MVF will add all the CAC, and CAD she needs, and ASG with her SP2, and SP3 not o
             embed.set_author(name="Multiverse Batwoman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'mvf':
+        if cmd == 'mvf':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[High Damage Combo Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack     5500
@@ -984,7 +986,7 @@ CAC resist    0```""")
             embed.set_author(name="Multiverse Flash", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'mvbl':
+        if cmd == 'mvbl':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Tank Support Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack      4,375
@@ -1019,7 +1021,7 @@ CAC resist    0 ```""")
             embed.set_author(name="Multiverse Black Lightning", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'mvga':
+        if cmd == 'mvga':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       7,583
@@ -1054,7 +1056,7 @@ CAC resist    70```""")
             embed.set_author(name="Multiverse Green Arrow", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'mvwc':
+        if cmd == 'mvwc':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       7,824
@@ -1089,7 +1091,7 @@ CAC resist    70 ```""")
             embed.set_author(name="Multiverse White Canary", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'mvcc':
+        if cmd == 'mvcc':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack    7,187
@@ -1123,7 +1125,7 @@ CAC resist   70```""")
             embed.set_author(name="Multiverse Captain Cold", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'mvsg':
+        if cmd == 'mvsg':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       6,947
@@ -1157,7 +1159,7 @@ CAC resist    70```""")
             embed.set_author(name="Multiverse Supergirl", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'mvasg':
+        if cmd == 'mvasg':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack   7,577
@@ -1180,7 +1182,7 @@ CAC resist    70%```""")
             await ctx.channel.send(embed=embed)
 
         #The Justice League
-        elif cmd == 'jlc':
+        if cmd == 'jlc':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[CB/Damage Dealer Build W/ JLF- G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack      4881
@@ -1216,7 +1218,7 @@ BE                   49 ```""")
             embed.set_author(name="Justice League Cyborg", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'jlf':
+        if cmd == 'jlf':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[CB/Damage Dealer Build w/ JLC - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack     5395
@@ -1251,7 +1253,7 @@ CAC resist     0 ```""")
             embed.set_author(name="Justice League Flash", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'jla':
+        if cmd == 'jla':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Support Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack      4,301
@@ -1272,7 +1274,7 @@ CAC resist   70```""")
             embed.set_author(name="Justice League Aquaman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'jlb':
+        if cmd == 'jlb':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Support Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       4,029
@@ -1294,7 +1296,7 @@ CAC resist   70```""")
             embed.set_author(name="Justice League Batman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'mww':
+        if cmd == 'mww':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[TAB Hybrid Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack  4,661
@@ -1322,7 +1324,7 @@ MWW is a good primary DD for TAB tag-ins due to a shorter time-duration basic at
             await ctx.channel.send(embed=embed)
 
         #League of Anarchy
-        elif cmd == 'epi':
+        if cmd == 'epi':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Tank Combo Builder - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       3,417
@@ -1344,7 +1346,7 @@ CAC resist    70```""")
             embed.set_author(name="Entangling Poison Ivy", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'hbhq':
+        if cmd == 'hbhq':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack   4,831
@@ -1365,7 +1367,7 @@ CAC resist  10```""")
             embed.set_author(name="Heart Breaker Harley Quinn", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'llj':
+        if cmd == 'llj':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer Build (P1) - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack     6167
@@ -1401,7 +1403,7 @@ CAC resist    15```""")
             await ctx.channel.send(embed=embed)
 
         #gold part one
-        elif cmd == 'bb':
+        if cmd == 'bb':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack      4,498 
@@ -1422,7 +1424,7 @@ CAC resist    0```""")
             embed.set_author(name="Blue Beetle", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'asm':
+        if cmd == 'asm':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Tank Combo Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack      2,611
@@ -1445,7 +1447,7 @@ BE   49 ```""")
             embed.set_author(name="Armored Superman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'koaam':
+        if cmd == 'koaam':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer Build (Crit) - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack        5,632
@@ -1479,7 +1481,7 @@ CAC resist    0```""")
             embed.set_author(name="King of Atlantis Aquaman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'sb' or cmd == 'sbn':
+        if cmd == 'sb' or cmd == 'sbn':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack     6456
@@ -1500,7 +1502,7 @@ CAC resist    10%```""")
             embed.set_author(name="Silver Banshee", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        elif cmd == 'shz' or cmd == 'szm':
+        if cmd == 'shz' or cmd == 'szm':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Tank Combo/ Support Build - G70]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack  3091
@@ -1905,34 +1907,133 @@ CAC resist    60 ```""")
             embed.set_author(name="Reverse Flash", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
-        if cmd == '':
+        if cmd == 'stsf' or cmd == 'sff':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
-                                  description="""⚡**[G70 BUILD]**""")
-            embed.add_field(name="⚙STATS", value="""``````""")
-            embed.add_field(name="⚙TALENTS", value="""``````""")
-            embed.add_field(name="⚙GEARS", value="""``````""")
+                                  description="""⚡**[Damage Dealer Build - G70]**""")
+            embed.add_field(name="⚙STATS", value="""```Attack     5526
+Health     18396
+Defense    51    
+CAD        300
+CAC        70        
+FAC        11        
+Stun resist   0        
+DOT resist    0        
+CAC resist    0  ```""")
+            embed.add_field(name="⚙TALENTS", value="""```4 CAC, 2 CAD```""")
+            embed.add_field(name="⚙GEARS", value="""```10 ATTACK, 2 DEF, 3 CAD```""")
 
             embed.set_footer(
                 text="Check out the `credits` command to see the list of people who helped making this bot.")
 
-            embed.set_author(name="", url="https://discordapp.com")
+            embed.set_author(name="Speed Force The Flash", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
+        if cmd == 'tgg' or cmd == 'tkgg':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Tank Build - G60]**""")
+            embed.add_field(name="⚙STATS", value="""```Attack     2237
+Health     55875
+Defense    75
+CAD        150
+CAC        22
+FAC        1
+Stun resist   75        
+DOT resist    75        
+CAC resist    70 ```""")
+            embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
+            embed.add_field(name="⚙GEARS", value="""```14 HEALTH, 1 DEF```""")
 
-        else:
-            embed = discord.Embed(colour=discord.Colour(0x2b8bf5), url="https://discordapp.com",
-                                  description="You have typed a command which is not present in the command list, to know the build commands, type ```i!b``` or ```i!build```")
-            embed.set_author(name="Something wrong with Build command..", url="https://discordapp.com")
-            error = ['https://media.giphy.com/media/3oEjHERaTIdeuFQrXq/giphy.gif',
-                     'https://media.giphy.com/media/3osxY9kuM2NGUfvThe/giphy.gif',
-                     'https://media.giphy.com/media/8L0Pky6C83SzkzU55a/giphy.gif',
-                     'https://media.giphy.com/media/fV1yHo8YyoKjzvMCKr/giphy.gif',
-                     'https://media.giphy.com/media/TqiwHbFBaZ4ti/giphy.gif',
-                     'https://media.giphy.com/media/ifdPjn6m4WyNlnXMTj/giphy.gif']
-            embed.set_image(url=choice(error))
             embed.set_footer(
                 text="Check out the `credits` command to see the list of people who helped making this bot.")
 
+            embed.set_author(name="Telekinetic Gorilla Grodd", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'wqww':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Balanced Build - G70]**""")
+            embed.add_field(name="⚙STATS", value="""```Attack     4762        
+Health     20404        
+Defense    75    
+CAD        274    
+CAC        71    
+FAC        69    
+LAC      13    
+Stun resist   20        
+DOT resist    20        
+CAC resist    20 ```""")
+            embed.add_field(name="⚙TALENTS", value="""```2 DEF, 1 RES, 1 CAD, 1 CAC, 1 LETHAL```""")
+            embed.add_field(name="⚙GEARS", value="""```5 ATTACK, 2 DEF, 4 FAC, 2 CAD, 2 CAC```""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="Warrior Queen Wonder Woman", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'rdn':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Attack Build - G60]**""")
+            embed.add_field(name="⚙STATS", value="""```Attack     5066
+Health     26876
+Defense    75
+CAD        150
+CAC        37
+FAC        1
+Stun resist   40
+DOT resist    40
+CAC resist    40```""")
+            embed.add_field(name="⚙TALENTS", value="""```2 RES, 2 BE, 1 DEF, 1 ATTACK```""")
+            embed.add_field(name="⚙GEARS", value="""```9 ATTACK, 3 DEF, 2 HEALTH, 1 CAC```""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="Raiden", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'sz':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Tank Build - G60]**""")
+            embed.add_field(name="⚙STATS", value="""```Attack     3301
+Health     40652
+Defense    75
+CAD        150
+CAC        58
+FAC        16
+Stun resist   60
+DOT resist    60
+CAC resist    70  ```""")
+            embed.add_field(name="⚙TALENTS", value="""```3 RES, 3 CAC```""")
+            embed.add_field(name="⚙GEARS", value="""```8 HEALTH, 4 DEF, 2 ATTACK, 1 FAC```""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="Sub Zero", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'ssds':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Damage Dealer Build - G70]**""")
+            embed.add_field(name="⚙STATS", value="""```Attack     5517
+Health     23001
+Defense    75
+CAD        300
+CAC        75
+FAC        1
+LAC        11
+Stun resist   0        
+DOT resist    0        
+CAC resist    0 ```""")
+            embed.add_field(name="⚙TALENTS", value="""```2 CAC, 4 CAD```""")
+            embed.add_field(name="⚙GEARS", value="""```9 ATTACK, 3 DEF, 2 CAD, 1 CAC```""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="Suicide Squad Deadshot", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
 
 def setup(client):
