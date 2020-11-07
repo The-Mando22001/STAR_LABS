@@ -2035,6 +2035,189 @@ CAC resist    0 ```""")
             embed.set_author(name="Suicide Squad Deadshot", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
+        if cmd == '':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[G70 BUILD]**""")
+            embed.add_field(name="⚙STATS", value="""``````""")
+            embed.add_field(name="⚙TALENTS", value="""``````""")
+            embed.add_field(name="⚙GEARS", value="""``````""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == '':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[G70 BUILD]**""")
+            embed.add_field(name="⚙STATS", value="""``````""")
+            embed.add_field(name="⚙TALENTS", value="""``````""")
+            embed.add_field(name="⚙GEARS", value="""``````""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == '':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[G70 BUILD]**""")
+            embed.add_field(name="⚙STATS", value="""``````""")
+            embed.add_field(name="⚙TALENTS", value="""``````""")
+            embed.add_field(name="⚙GEARS", value="""``````""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == '':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[G70 BUILD]**""")
+            embed.add_field(name="⚙STATS", value="""``````""")
+            embed.add_field(name="⚙TALENTS", value="""``````""")
+            embed.add_field(name="⚙GEARS", value="""``````""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == '':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[G70 BUILD]**""")
+            embed.add_field(name="⚙STATS", value="""``````""")
+            embed.add_field(name="⚙TALENTS", value="""``````""")
+            embed.add_field(name="⚙GEARS", value="""``````""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == '':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[G70 BUILD]**""")
+            embed.add_field(name="⚙STATS", value="""``````""")
+            embed.add_field(name="⚙TALENTS", value="""``````""")
+            embed.add_field(name="⚙GEARS", value="""``````""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == '':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[G70 BUILD]**""")
+            embed.add_field(name="⚙STATS", value="""``````""")
+            embed.add_field(name="⚙TALENTS", value="""``````""")
+            embed.add_field(name="⚙GEARS", value="""``````""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == '':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[G70 BUILD]**""")
+            embed.add_field(name="⚙STATS", value="""``````""")
+            embed.add_field(name="⚙TALENTS", value="""``````""")
+            embed.add_field(name="⚙GEARS", value="""``````""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == '':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[G70 BUILD]**""")
+            embed.add_field(name="⚙STATS", value="""``````""")
+            embed.add_field(name="⚙TALENTS", value="""``````""")
+            embed.add_field(name="⚙GEARS", value="""``````""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == '':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[G70 BUILD]**""")
+            embed.add_field(name="⚙STATS", value="""``````""")
+            embed.add_field(name="⚙TALENTS", value="""``````""")
+            embed.add_field(name="⚙GEARS", value="""``````""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == '':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[G70 BUILD]**""")
+            embed.add_field(name="⚙STATS", value="""``````""")
+            embed.add_field(name="⚙TALENTS", value="""``````""")
+            embed.add_field(name="⚙GEARS", value="""``````""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == '':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[G70 BUILD]**""")
+            embed.add_field(name="⚙STATS", value="""``````""")
+            embed.add_field(name="⚙TALENTS", value="""``````""")
+            embed.add_field(name="⚙GEARS", value="""``````""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == '':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[G70 BUILD]**""")
+            embed.add_field(name="⚙STATS", value="""``````""")
+            embed.add_field(name="⚙TALENTS", value="""``````""")
+            embed.add_field(name="⚙GEARS", value="""``````""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == '':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[G70 BUILD]**""")
+            embed.add_field(name="⚙STATS", value="""``````""")
+            embed.add_field(name="⚙TALENTS", value="""``````""")
+            embed.add_field(name="⚙GEARS", value="""``````""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+
 
 def setup(client):
     client.add_cog(CharBuild(client))
