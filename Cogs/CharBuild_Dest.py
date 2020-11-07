@@ -1522,6 +1522,403 @@ CAC resist   70 ```""")
             embed.set_author(name="Shazam", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
+        if cmd == 'aaam':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Damage Dealer Build - G70]**""")
+            embed.add_field(name="⚙STATS", value="""```Attack     5422
+Health     21028
+Defense    70
+CAD        300
+CAC        75
+FAC        1
+Stun resist   0
+DOT resist    0
+CAC resist    0 ```""")
+            embed.add_field(name="⚙TALENTS", value="""```3 CAC, 3 DEF```""")
+            embed.add_field(name="⚙GEARS", value="""```10 ATTACK, 1 CAC, 4 CAD```""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="Atlantean Armor Aquaman", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'egl':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Tank Build - G60]**""")
+            embed.add_field(name="⚙STATS", value="""```Attack     2375
+Health     34755
+Defense    75
+CAD        150
+CAC        34
+FAC        75
+Stun resist   68
+DOT resist    68
+CAC resist    68  ```""")
+            embed.add_field(name="⚙TALENTS", value="""```4 RES, 1 AP, 1 CAC```""")
+            embed.add_field(name="⚙GEARS", value="""```6 HEALTH, 4 DEF, 5 FAC```""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="Emerald Green Lantern", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'mtcw':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Damage Dealer Build - G60]**""")
+            embed.add_field(name="⚙STATS", value="""```Attack       4,426
+Health       25,900
+Defense    66 
+CAD           292 
+CAC           73 
+LAC            1
+FAC            11
+Stun resist    0 
+DOT resist    0
+CAC resist    0```""")
+            embed.add_field(name="⚙TALENTS", value="""```3 CAD, 3 CAC```""")
+            embed.add_field(name="⚙GEARS", value="""```5 ATTACK, 4 HEALTH, 3 DEF, 2 CAD, 1 CAC```""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="Master Thief Catwoman", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'bmr':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Tank Combo Build - G60]**""")
+            embed.add_field(name="⚙STATS", value="""```Attack      3,176
+Health      44,400
+Defense    75 
+CAD       150
+CAC        22 
+LAC        1
+FAC        71 
+Stun resist   75 
+DOT resist   75 
+CAC resist   70```""")
+            embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
+            embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="Blade Master Robin", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'atc' or cmd == 'atr':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Tank Build - G70]**""")
+            embed.add_field(name="⚙STATS", value="""```TTV     460845
+Attack     2947        
+Health     66116        
+Defense    75        
+CAD        150        
+CAC        25        
+FAC        1        
+Stun resist   75        
+DOT resist    75        
+CAC resist    70 ```""")
+            embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
+            embed.add_field(name="⚙GEARS", value="""```14 HEALTH, 1 DEF```""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="Atrocitus", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'ba':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Damage Dealer Build - G70]**""")
+            embed.add_field(name="⚙STATS", value="""```Attack     5816
+Health     24234
+Defense    75    
+CAD        294    
+CAC        75    
+FAC        1    
+Stun resist   0
+DOT resist    0        
+CAC resist    0 ```""")
+            embed.add_field(name="⚙TALENTS", value="""```3 DEF, 2 CAC, 1 CAD```""")
+            embed.add_field(name="⚙GEARS", value="""```9 ATTACK, 3 CAD, 2 CAC, 1 DEF```""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="Black Adam", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'csm':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Tank/ Support Build - G60]**""")
+            embed.add_field(name="⚙STATS", value="""```Attack     3526
+Health     26954 (More can be added)        
+Defense    75    
+CAD        150
+CAC        34        
+FAC        75        
+Stun resist   60        
+DOT resist    60        
+CAC resist    70```""")
+            embed.add_field(name="⚙TALENTS", value="""```3 RES, 1 AP, 1 DEF, 1 CAC```""")
+            embed.add_field(name="⚙GEARS", value="""```3 DEF, 3 HEALTH, 3 ATTACK, 6 FAC```""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="Classic Superman", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'dsg':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Damage Dealer Build - G70]**""")
+            embed.add_field(name="⚙STATS", value="""```Attack     6015        
+Health     21700        
+Defense    53
+CAD        298    
+CAC        75
+FAC        1        
+Stun resist   40        
+DOT resist    40        
+CAC resist    40  ```""")
+            embed.add_field(name="⚙TALENTS", value="""```2 RES, 2 DEF, 2 CAD```""")
+            embed.add_field(name="⚙GEARS", value="""```10 ATTACK, 2 CAD, 3 CAC```""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="Dark Supergirl", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'esf':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Damage Dealer Build - G70]**""")
+            embed.add_field(name="⚙STATS", value="""```Attack     5531        
+Health     17860        
+Defense    24        
+CAD        300        
+CAC        71        
+FAC        69        
+Stun resist   0        
+DOT resist    0        
+CAC resist    0        
+            ```""")
+            embed.add_field(name="⚙TALENTS", value="""```3 CAD, 1 CAC, 2 AP```""")
+            embed.add_field(name="⚙GEARS", value="""```10 ATTACK, 5 FAC, 2 CAC, 1 CAD```""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="Energized Starfire", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'fpi':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Damage Dealer Build - G70]**""")
+            embed.add_field(name="⚙STATS", value="""```Attack     6557        
+Health     19602        
+Defense    36
+CAD        254    
+CAC        75
+FAC        1    
+LAC        33    
+Stun resist   0        
+DOT resist    0        
+CAC resist    0  ```""")
+            embed.add_field(name="⚙TALENTS", value="""```3 CAC, 1 CAD, 1 DEF, 1 LETHAL```""")
+            embed.add_field(name="⚙GEARS", value="""```12 ATTACK, 2 CAD, 1 CAC```""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="Flora Poison Ivy", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'hb':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Balanced Build - G70]**""")
+            embed.add_field(name="⚙STATS", value="""```Attack     5157
+Health     22428
+Defense    75
+CAD        294
+CAC        75
+FAC        35
+Stun resist   0
+DOT resist    0    
+CAC resist    0 ```""")
+            embed.add_field(name="⚙TALENTS", value="""```3 CAC, 2 DEF, 1 CAD```""")
+            embed.add_field(name="⚙GEARS", value="""```8 ATTACK, 3 CAD, 1 CAC, 2 FAC, 1 DEF```""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="Hell Boy", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'hsc':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Balanced Build - G70]**""")
+            embed.add_field(name="⚙STATS", value="""```Attack     4864
+Health     18358    
+Defense    75
+CAD        299
+CAC        73
+FAC        1
+Stun resist   0        
+DOT resist    0        
+CAC resist    0```""")
+            embed.add_field(name="⚙TALENTS", value="""```3 CAC, 2 DEF, 1 CAD```""")
+            embed.add_field(name="⚙GEARS", value="""```9 ATTACK, 2 DEF, 4 CAD```""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="Horrific Scarecrow", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'jsgl':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Balanced Build - G70]**""")
+            embed.add_field(name="⚙STATS", value="""```Attack     3915        
+Health     23860        
+Defense    75        
+CAD        300        
+CAC        75        
+FAC        69        
+Stun resist   20        
+DOT resist    20        
+CAC resist    20 ```""")
+            embed.add_field(name="⚙TALENTS", value="""```2 CAD, 1 CAC, 1 AP, 1 DEF, 1 RES```""")
+            embed.add_field(name="⚙GEARS", value="""```4 ATTACK, 2 DEF, 3 CAD, 4 FAC, 2 CAC```""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="John Stewart Green Lantern", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'kbm':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Tank Build - G70]**""")
+            embed.add_field(name="⚙STATS", value="""```Attack     3667        
+Health     59400        
+Defense    75        
+CAD        175        
+CAC        35        
+FAC        1        
+Stun resist   75        
+DOT resist    75        
+CAC resist    70  ```""")
+            embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
+            embed.add_field(name="⚙GEARS", value="""```13 HEALTH, 2 DEF```""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="Knightmare Batman", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'pg':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Damage Dealer Build - G70]**""")
+            embed.add_field(name="⚙STATS", value="""```Attack     6502        
+Health     22924        
+Defense    24    
+CAD        294    
+CAC        75
+FAC        1        
+Stun resist   70        
+DOT resist    60        
+CAC resist    60 ```""")
+            embed.add_field(name="⚙TALENTS", value="""```3 RES, 2 CAC, 1 CAD```""")
+            embed.add_field(name="⚙GEARS", value="""```11 ATTACK, 1 CAC, 3 CAD```""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="Power Girl", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'pbm':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Damage Dealer Build - G70]**""")
+            embed.add_field(name="⚙STATS", value="""```Attack     7372        
+Health     21412        
+Defense    24    
+CAD        262        
+CAC        71        
+FAC        1
+Stun resist   0
+DOT resist    0        
+CAC resist    0 ```""")
+            embed.add_field(name="⚙TALENTS", value="""```3 CAC, 3 CAD```""")
+            embed.add_field(name="⚙GEARS", value="""```14 ATTACK, 1 CAD```""")
+            embed.add_field(name="💎 FACTS", value="""```Pair with MVF to get full CAD```""")
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="Predator Batman", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'rh':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Tank/ Support Build - G70]**""")
+            embed.add_field(name="⚙STATS", value="""```Attack     3071
+Health     49154
+Defense    75
+CAD        150
+CAC        51
+FAC        69
+Stun resist   40        
+DOT resist    40        
+CAC resist    40  ```""")
+            embed.add_field(name="⚙TALENTS", value="""```2 DEF, 2 RES, 1 CAC, 1 LAC```""")
+            embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 2 DEF, 4 FAC```""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="Red Hood", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'rf':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Tank/ Combo Build - G70]**""")
+            embed.add_field(name="⚙STATS", value="""```Attack     3523        
+Health     47316        
+Defense    75        
+CAD        150        
+CAC        25        
+FAC        75        
+Stun resist   60        
+DOT resist    60        
+CAC resist    60 ```""")
+            embed.add_field(name="⚙TALENTS", value="""```3 RES, 1 BE, 2 DEF```""")
+            embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 2 DEF, 4 FAC```""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="Reverse Flash", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == '':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[G70 BUILD]**""")
+            embed.add_field(name="⚙STATS", value="""``````""")
+            embed.add_field(name="⚙TALENTS", value="""``````""")
+            embed.add_field(name="⚙GEARS", value="""``````""")
+
+            embed.set_footer(
+                text="Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+
         else:
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5), url="https://discordapp.com",
                                   description="You have typed a command which is not present in the command list, to know the build commands, type ```i!b``` or ```i!build```")
