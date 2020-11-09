@@ -112,7 +112,7 @@ fs - Firestorm
 uhq - Unhinged Harley Quinn```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
             embed.set_image(url="")
             await ctx.channel.send(embed=embed)
 
@@ -134,7 +134,7 @@ CAC resist    70```""")
             embed.add_field(name="⚙ GEARS", value="""```13 HEALTH, 2 DEF```""")
             embed.add_field(name="💎 FACTS", value="""```She gives 5% health to all female heroes in your roster```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Amazon Wonder Woman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -156,7 +156,7 @@ CAC resist     5 ```""")
             embed.add_field(name="⚙ GEARS", value="""```3 CAD, 1 CAC, 5 ATTACK, 3 FAC, 3 HEALTH```""")
             embed.add_field(name="💎 FACTS", value="""```Pair her with Silver Green Arrow for max FAC and silver bane for max CAC. It is necessary to have fast attack chance on her since she deals 150% fast attack damage.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Sonic/ Silver Black Canary", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -178,7 +178,7 @@ CAC resist    0```""")
             embed.add_field(name="⚙ GEARS", value="""```3 DEF, 2 CAD, 1 CAC, 5 ATTACK, 4 HEALTH```""")
             embed.add_field(name="💎 FACTS", value="""```Her special 1 is DOT. You can also build her as a combo builder since she has great basics. Never use her down swipe attack!```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Silver Catwoman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -200,7 +200,7 @@ CAC resist    0 ```""")
             embed.add_field(name="⚙ GEARS", value="""```2 CAD, 1 CAC, 12 ATTACK```""")
             embed.add_field(name="💎 FACTS", value="""```Damage dealer for raids. He has a strong special 3 and can do good damage. You can have 3 defense effects in gears if you want. His passive gives 30% stun resist for team per might teammate and 20% team defense per metahuman teammate; thus when you use him with 2 might opponents the whole team will have max stun resist and when used with 2 metahuman teammates the whole team will have 40% defense.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Silver Aquaman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -222,7 +222,7 @@ CAC resist    70```""")
             embed.add_field(name="⚙ GEARS", value="""```2 DEF, 4 FAC, 9 HEALTH```""")
             embed.add_field(name="💎 FACTS", value="""```Silver cyborg is one of the best tanks in the game. His passive allows him to heal slowly after tagging out and to maximize his healing we have him as a tank. Use the metahuman artifact on him to improve his healing further. We have fast attack chance on him since he has good basics. You can also build him as a full tank.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Silver Cyborg", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -244,7 +244,7 @@ CAC resist     70 ```""")
             embed.add_field(name="⚙ GEARS", value="""```2 DEF, 1 FAC, 4 ATTACk, 8 HEALTH```""")
             embed.add_field(name="💎 FACTS", value="""```Silver flash gives 20% fast attack chance to himself and his teammates. He also gains fast attack chance on tag in so we don't need to have extra effects in gears.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Silver Flash", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -266,7 +266,7 @@ CAC resist    0```""")
             embed.add_field(name="⚙ GEARS", value="""```3 DEF, 2 CAD, 1 CAC, 6 ATTACK, 3 HEALTH```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Silver Joker", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -289,7 +289,7 @@ CAC resist    0```""")
             embed.add_field(name="⚙ GEARS", value="""```3 CAD, 3 CAC, 4 ATTACK, 4 FAC, 1 HEALTH```""")
             embed.add_field(name="💎 FACTS", value="""```She gives 10% attack to herself and teammates. She also deals 100% damage on swipe attacks so we have fast attack chance to take advantage of it.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Silver Harley Quinn", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -311,7 +311,7 @@ CAC resist    70```""")
             embed.add_field(name="⚙ GEARS", value="""```1 DEF, 7 ATTACK, 7 DEF```""")
             embed.add_field(name="💎 FACTS", value="""```Silver Swamp Thing healing is based on how much attack he has. Use him with all blades or metahuman artifact to improve his healing.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Silver Swamp Thing", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -333,7 +333,7 @@ CAC resist    70```""")
             embed.add_field(name="⚙ GEARS", value="""```1 DEF, 14 HEALTH```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Silver Gorilla Grodd", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -355,7 +355,7 @@ CAC resist 70```""")
             embed.add_field(name="⚙ GEARS", value="""``````""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Silver Bane", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -377,7 +377,7 @@ CAC resist    0```""")
             embed.add_field(name="⚙ GEARS", value="""```3 DEF, 1 CAC, 2 CAD, 7 ATTACK, 2 HEALTH```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Silver Deadshot", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -399,7 +399,7 @@ CAC resist    70```""")
             embed.add_field(name="⚙ GEARS", value="""```2 DEF, 13 HEALTH```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Silver Scarecrow", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -421,7 +421,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙ GEARS", value="""```9 HEALTH, 2 DEF, 4 FAC```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Silver Robin", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -444,7 +444,7 @@ BE           49```""")
             embed.add_field(name="⚙ GEARS", value="""```4 FAC, 8 HEALTH, 3 DEF```""")
             embed.add_field(name="💎 FACTS", value="""```One of the best support characters in the game, silver doctor fate is a good combo builder and support. We have 2 block effectiveness talents to reduce damage from armor-piercing specials of brainiac in phase 3.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Silver Doctor Fate", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -466,7 +466,7 @@ CAC resist    0```""")
             embed.add_field(name="⚙ GEARS", value="""```15 ATTACK```""")
             embed.add_field(name="💎 FACTS", value="""```Use silver bane as a combo builder and to max his critical attack chance. You can also use black canary as she provides 25% CAC to green arrow. He has a high damage special 3.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Silver Green Arrow", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -488,7 +488,7 @@ CAC resist    70```""")
             embed.add_field(name="⚙ GEARS", value="""```2 DEF, 13 HEALTH```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Silver Wonder Woman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -510,7 +510,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙ GEARS", value="""```10 HEALTH, 4 FAC, 1 DEF```""")
             embed.add_field(name="💎 FACTS", value="""```Silver Superman has a 50% chance to ignore opponent basic attacks. Recommended artifacts: Nth Metal Armor, Kryptonian Regeneration Matrix, and Cosmic Staff.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Silver Superman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -532,7 +532,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙ GEARS", value="""```9 HEALTH, 2 DEF, 4 FAC```""")
             embed.add_field(name="💎 FACTS", value="""```Silver lantern is a good combo builder and tank as his passive gives a shield of 25%; hence, the more health he has the more his shield can withstand.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Silver Green Lantern", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -554,7 +554,7 @@ CAC resist    0 ```""")
             embed.add_field(name="⚙ GEARS", value="""```13 ATTACK, 1 CAC, 1 CAD```""")
             embed.add_field(name="💎 FACTS", value="""```Silver Batman has the highest special 3 damage in the game. He's an excellent damage dealer. You can also drop the CAD and add one more attack when you use MVF as a combo builder. The best team for him in raids would be Justice League Superman and another batman (AKBM or JLBM preferably).```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Silver Batman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -591,7 +591,7 @@ BE            49```""")
             embed.add_field(name="⚙ GEARS", value="""```8 HEALTH, 3 ATTACK, 4 FAC```""")
             embed.add_field(name="💎 FACTS", value="""```Since AKBM passive gives max defense and a ton of health he can be easily built as a damage dealer. If you use him in raids the best team for him would be justice League Superman and Justice League Batman. He also gets 20% attack and 20% health from classic Batman.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Arkham Knight Batman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -613,7 +613,7 @@ CAC resist  0%```""")
             embed.add_field(name="⚙ GEARS", value="""```4 ATTACK, 5 FAC, 2 CAC, 4 CAD```""")
             embed.add_field(name="💎 FACTS", value="""```The best team for BM is Brainiac & Justice League Flash (this team does well vs GG and HSC). However, another great pip for BM is vs P4 (it’s loads of fun) and your team with him should be: Brainiac and AGA. With this pip, BM has TAB equipped and AGA tagging in and out to power drain/lock P4 Brainiac.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Black Manta", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -638,7 +638,7 @@ Side note: teamed with manta be sure to add 3 slots of lethal to brainiacs gear 
 Suggested teammates: Black Manta, DS, AKBM.
 Suggested artifact: NTH Armor.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Brainiac", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -660,7 +660,7 @@ CAC resist    0```""")
             embed.add_field(name="⚙ GEARS", value="""```5 ATTACK, 4 FAC, 2 LAC, 3 CAC, 1 CAD```""")
             embed.add_field(name="💎 FACTS", value="""```In the Batman Ninja Team, BNR can be used to not only build combo (tag-in combo too) but also blind his enemies; moreover, BNC can be used for obtaining health, lethal boost, and attack. BNGG's first special deals +150.05% damage to blinded opponents at level 70! Also, BNGGe can be one of the best combo builders outside of the BN team legendary team, or on a SHAZAM, KOA team because he can build up the power bar while building a combo because of his passive.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Batman Ninja Gorilla Grodd", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -687,7 +687,7 @@ LAC 15% (Base)```""")
             embed.add_field(name="⚙ TALENTS", value="""```3 CAC, 3 CAD```""")
             embed.add_field(name="⚙ GEARS", value="""```8 ATTACK, 4 FAC, 2 CAD, 1 CAC```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Darkseid", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -705,7 +705,7 @@ AP          96%```""")
             embed.add_field(name="⚙ GEARS", value="""```6 ATTACK, 4 FAC, 3 CAD, 2 CAC```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Justice League Superman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -727,7 +727,7 @@ CAC resist  40%```""")
             embed.add_field(name="⚙ GEARS", value="""```3 CAD, 7 ATTACK, 3 CAC, 2 DEF```""")
             embed.add_field(name="💎 FACTS", value="""```SSHQ can be very dangerous when teamed up with her other SS teammates. The Suicide Squad is mainly an arena team, but her passives that strip multiple percentages of opponents stats can allow you to decimate a team. Additionally, she does not need much CAC as her other passive when teamed with SSDS it gives her +50% CAC.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Suicide Squad Harley Quinn", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -763,7 +763,7 @@ CAC resist    20```""")
             embed.add_field(name="⚙ GEARS", value="""```10 ATTACK, 4 CAD, 1 CAC```""")
             embed.add_field(name="💎 FACTS", value="""```When SSE is paired with her team, The Suicide Squad, she can be a very dangerous character if built this way. Using her passives that heal her and her SP3 gives her an immortality "dome" which allows her to deal lots of damage safely if used correctly in battle.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Suicide Squad Enchantress", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -776,7 +776,7 @@ CAC resist    20```""")
             embed.add_field(name="⚙ GEARS", value="""```Coming Soon```""")
             embed.add_field(name="💎 FACTS", value="""```Coming Soon```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Martian Manhunter", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -800,7 +800,7 @@ CAC resist    0```""")
             embed.add_field(name="⚙ GEARS", value="""```5 ATTACK, 4 FAC, 3 CAD, 3 HEALTH```""")
             embed.add_field(name="💎 FACTS", value="""```Batman Ninja Batman gets full critical attack chance and armor Pierce on basics and specials when he's hit by crit or AP attack. So we don't have CAC on him since we are utilizing his passive. We also have fast attack chance for higher combos and utilize his ap passive. Block effectiveness is to reduce damage from AP attacks. He's not an ideal damage dealer for raids.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Batman Ninja Batman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -821,7 +821,7 @@ CAC resist    70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙ GEARS", value="""```6 HEALTH, 4 FAC, 4 LAC, 1 DEF```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Batman Ninja Harley Quinn", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -843,7 +843,7 @@ CAC resist    0```""")
             embed.add_field(name="⚙ GEARS", value="""```8 ATTACK, 4 FAC, 2 CAD, 1 LAC```""")
             embed.add_field(name="💎 FACTS", value="""```Bncw is a very good character to play on her own with claws of horus. When partnered with bngg, and bnr, she can do a massive amount of damage. It is very important to keep her attacks going, and stopping as little as possible. This is to maximize the bnr stack. I added a lethal attack roll to the build, so that she gains a small edge in arena, but if u want to build her solely for raids, build her with attack rather than lethal. She is meant to spam combos and sp3s, and keep an ongoing sp2 dot going throughout the game. (roughly one sp2 per 3-5 sp3s)```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Batman Ninja Catwoman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -865,7 +865,7 @@ CAC resist    10 ```""")
             embed.add_field(name="⚙ GEARS", value="""```6 ATTACK, 4 CAD, 3 FAC, 2 LAC```""")
             embed.add_field(name="💎 FACTS", value="""```BNR, or Batman Ninja Robin, is key to the ninja team. He gives various buffs to his teammates like a combo meter which starts at 7 hits, lethal attack damage per lethal hit, and 30% lac when the opponent is blinded and misses a basic attack on you. Robin's main damage comes from his 30% LAD every 14 seconds and it stacks; hence, it is essential to build him and his fellow teammates with LAC and FAC to take full advantage of his passives and deal massive damage in raids. This build serves as both a damage dealer and a combo builder for BNGG when he is built as a damage dealer.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Batman Ninja Robin", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -901,7 +901,7 @@ CAC resist    70```""")
             embed.add_field(name="💎 FACTS", value="""```BNLJ is a great support character as well and can revive your teammates and himself twice when the opposite team has a Batman. Hence, he is very handy in any team, especially against Arkham Knight Batman. We have FAC since he has good basic attacks. You can replace them with health if you want.```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Batman Ninja Lord Joker", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -946,7 +946,7 @@ MVBW when teamed with these 2 teammates is when she's at her most dangerous! She
 MVF will add all the CAC, and CAD she needs, and ASG with her SP2, and SP3 not only adds to her defensive/offensive stats but they will also increase her special moves damage for each active MV buffer. Her other passives also are extremely helpful. A chance to keep your combo if broken by getting hit, a unique buffer slowing passive, and her SP1 gives you a chance at a free SP3. Very versatile! ```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Multiverse Batwoman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -981,7 +981,7 @@ CAC resist    0```""")
             embed.add_field(name="💎 FACTS", value="""```Damage dealer build for raids. You can have defense in gears if you want. His passive maxes his critical attack chance and also gives 45% critical attack damage.```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Multiverse Flash", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1016,7 +1016,7 @@ CAC resist    0 ```""")
             embed.add_field(name="⚙ GEARS", value="""```13 ATTACK, 1 CAD, 1 DEF```""")
             embed.add_field(name="💎 FACTS", value="""```Damage dealer build for raids. Pair with MVF for max critical attack chance and damage. He has a great special 2 and armor-piercing special 3. Defense effect on gear is just for maxing defense, you can switch it to attack if you want.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Multiverse Black Lightning", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1051,7 +1051,7 @@ CAC resist    70```""")
             embed.add_field(name="⚙ GEARS", value="""```7 ATTACK, 6 HEALTH, 2 DEF```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Multiverse Green Arrow", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1086,7 +1086,7 @@ CAC resist    70 ```""")
             embed.add_field(name="⚙ GEARS", value="""```7 ATTACK, 6 HEALTH, 2 DEF```""")
             embed.add_field(name="💎 FACTS", value="""```Mixed build for arena and champions arena. If u use her with akbm remove defense and some health and add CAC and CAD.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Multiverse White Canary", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1120,7 +1120,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙ GEARS", value="""```8 HEALTH, 6 ATTACK, 1 DEF```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Multiverse Captain Cold", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1154,7 +1154,7 @@ CAC resist    70```""")
             embed.add_field(name="⚙ TALENTS", value="""```6 RES```""")
             embed.add_field(name="⚙ GEARS", value="""```6 ATTACK, 7 HEALTH, 2 DEF```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Multiverse Supergirl", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1175,7 +1175,7 @@ CAC resist    70%```""")
             embed.add_field(name="⚙ GEARS", value="""```15 ATTACK```""")
             embed.add_field(name="💎 FACTS", value="""```One of the great damage dealers in raids.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Multiverse Armored Supergirl", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1213,7 +1213,7 @@ BE                   49 ```""")
             embed.add_field(name="💎 FACTS", value="""```JLC can do decent damage in phase 2 and can be a useful cleanup pip especially in tier 7/8 raids. To be used with claw of horus artifact. Suggested teams would be with JLF and DF/PG. You can also use silver or speedforce the flash for FAC and have extra attack in gears.```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Justice League Cyborg", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1248,7 +1248,7 @@ CAC resist     0 ```""")
             embed.add_field(name="💎 FACTS", value="""```Damage dealer build for raids. You can also have 3 defense effects in gear if you want (his attack will be 4815 with max defense). Pair him with Justice League Cyborg and Justice League Aquaman to deal massive damage.```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Justice League Flash", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1269,7 +1269,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙ GEARS", value="""```5 ATTACK, 5 HEALTH, 4 FAC, 1 DEF```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Justice League Aquaman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1291,7 +1291,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙ GEARS", value="""```5 HEALTH, 4 ATTACK, 4 FAC, 2 DEF```""")
             embed.add_field(name="💎 FACTS", value="""```When used with Justice League Superman as a combo builder, you can replace all attack effects with health. We have some attack so his basics can hit hard with cyborg or Superman. He also gets 20% attack and 20% health from classic Batman.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Justice League Batman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1317,7 +1317,7 @@ An all-purpose MWW build. A solid DD option for those who use JLF with LOA on GG
 
 MWW is a good primary DD for TAB tag-ins due to a shorter time-duration basic attack combo chain, power block, and armor-piercing on SP1 in comparison to JLA. This build is designed to take some hits for 3 minutes and survive tech class changes without losing too much health. The 60% DOT resist is use to make hp management from TAB DOT easier.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Mythic Wonder Woman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1341,7 +1341,7 @@ CAC resist    70```""")
             embed.add_field(name="⚙ GEARS", value="""```3 CAD, 2 CAC, 4 FAC, 3 HEALTH, 2 DEF, 1 ATTACK```""")
             embed.add_field(name="💎 FACTS", value="""```EPI is the key to the LOA team as she provides DOT on basic attacks for herself and LOA teammates. When she dies the DOT will go away; hence, it is necessary to make sure she's built as a hybrid so she can heal and as well as survive the match. Her healing is based on how much damage she does; hence, it is ideal to have a critical attack chance and damage and fast attack chance to heal faster. Use all blades or claw of horus to boost her attack and healing. You can also use a metahuman or agility artifact on her.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Entangling Poison Ivy", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1362,7 +1362,7 @@ CAC resist  10```""")
             embed.add_field(name="⚙ GEARS", value="""```6 ATTACK, 4 FAC, 4 CAD, 1 CAC```""")
             embed.add_field(name="💎 FACTS", value="""```Heartbreaker Harley Quinn (HBHQ) Is one of INJ2s top 10 damage dealing characters (DDs). All damage is done to stunned opponents. She is ideally teamed up w/AKBM, and EPI. Also she's always good as a support character on her original LOA team. Most effective vs GG, P1, P3. A must have for solo raids.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Heart Breaker Harley Quinn", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1396,7 +1396,7 @@ CAC resist    15```""")
             embed.add_field(name="💎 FACTS", value="""```96% Armor-piercing LLJ build. Especially effective on GG in T7/T8 with EPI & JLF.```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Last Laugh Joker", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1419,7 +1419,7 @@ CAC resist    0```""")
             embed.add_field(name="⚙ GEARS", value="""```2 HEALTH, 6 ATTACK, 4 FAC, 2 CAC, 1 CAD```""")
             embed.add_field(name="💎 FACTS", value="""```100% damage on basics for limited time after using either of his 3 specials. So we have him offensively built to take advantage of his passive. His sp3 gives 90% defense and hence we don't need to have defense in his gears or talents. Do not use his special 1.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Blue Beetle", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1442,7 +1442,7 @@ BE   49 ```""")
             embed.add_field(name="⚙ GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```""")
             embed.add_field(name="💎 FACTS", value="""```Armored Superman has a chance to ignore the first special attack (1/2/3) of the opponent and provides 20% team defense which also applies to himself. He's a great tank and decent combo builder.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Armored Superman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1476,7 +1476,7 @@ CAC resist    0```""")
             embed.add_field(name="💎 FACTS", value="""```Non-crit KOAAM is for Phase 2 and Captain Cold since P2 is immune to crit and CC is highly crit resistant. We have armor pierce talents to bypass defense and high attack to deal raw damage. The recommended team for phase 2 would be shazam and doctor fate. You can also use Nightwing or Atrocitus. For captain cold, use shazam and doctor fate.```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="King of Atlantis Aquaman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1497,7 +1497,7 @@ CAC resist    10%```""")
             embed.add_field(name="⚙ GEARS", value="""```12 ATTACK, 2 CAC, 1 CAD```""")
             embed.add_field(name="💎 FACTS", value="""```SB is perhaps the best damage dealer for DF Boss. It can be paired with PBM or RF. Begin the match with an sp2 to apply torment then proceed to disable DF with SB sp1, or PBM sp1, before building combo for SB sp3.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Silver Banshee", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1519,7 +1519,7 @@ CAC resist   70 ```""")
             embed.add_field(name="⚙ GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```""")
             embed.add_field(name="💎 FACTS", value="""```Shazam is a great tank and combo builder. If you're not willing to have FAC on him then replace them with health. Recommended artifacts are the Nth Metal Armor, Kryptonian Regeneration Matrix, and Metahuman to boost healing for the entire team with his SP3.```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Shazam", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1540,7 +1540,7 @@ CAC resist    0 ```""")
             embed.add_field(name="⚙GEARS", value="""```10 ATTACK, 1 CAC, 4 CAD```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Atlantean Armor Aquaman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1561,7 +1561,7 @@ CAC resist    68  ```""")
             embed.add_field(name="⚙GEARS", value="""```6 HEALTH, 4 DEF, 5 FAC```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Emerald Green Lantern", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1583,7 +1583,7 @@ CAC resist    0```""")
             embed.add_field(name="⚙GEARS", value="""```5 ATTACK, 4 HEALTH, 3 DEF, 2 CAD, 1 CAC```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Master Thief Catwoman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1605,7 +1605,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Blade Master Robin", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1627,7 +1627,7 @@ CAC resist    70 ```""")
             embed.add_field(name="⚙GEARS", value="""```14 HEALTH, 1 DEF```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Atrocitus", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1648,7 +1648,7 @@ CAC resist    0 ```""")
             embed.add_field(name="⚙GEARS", value="""```9 ATTACK, 3 CAD, 2 CAC, 1 DEF```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Black Adam", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1669,7 +1669,7 @@ CAC resist    70```""")
             embed.add_field(name="⚙GEARS", value="""```3 DEF, 3 HEALTH, 3 ATTACK, 6 FAC```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Classic Superman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1690,7 +1690,7 @@ CAC resist    40  ```""")
             embed.add_field(name="⚙GEARS", value="""```10 ATTACK, 2 CAD, 3 CAC```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Dark Supergirl", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1712,7 +1712,7 @@ CAC resist    0
             embed.add_field(name="⚙GEARS", value="""```10 ATTACK, 5 FAC, 2 CAC, 1 CAD```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Energized Starfire", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1734,7 +1734,7 @@ CAC resist    0  ```""")
             embed.add_field(name="⚙GEARS", value="""```12 ATTACK, 2 CAD, 1 CAC```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Flora Poison Ivy", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1755,7 +1755,7 @@ CAC resist    0 ```""")
             embed.add_field(name="⚙GEARS", value="""```8 ATTACK, 3 CAD, 1 CAC, 2 FAC, 1 DEF```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Hell Boy", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1776,7 +1776,7 @@ CAC resist    0```""")
             embed.add_field(name="⚙GEARS", value="""```9 ATTACK, 2 DEF, 4 CAD```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Horrific Scarecrow", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1797,7 +1797,7 @@ CAC resist    20 ```""")
             embed.add_field(name="⚙GEARS", value="""```4 ATTACK, 2 DEF, 3 CAD, 4 FAC, 2 CAC```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="John Stewart Green Lantern", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1818,7 +1818,7 @@ CAC resist    70  ```""")
             embed.add_field(name="⚙GEARS", value="""```13 HEALTH, 2 DEF```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Knightmare Batman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1839,7 +1839,7 @@ CAC resist    60 ```""")
             embed.add_field(name="⚙GEARS", value="""```11 ATTACK, 1 CAC, 3 CAD```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Power Girl", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1860,7 +1860,7 @@ CAC resist    0 ```""")
             embed.add_field(name="⚙GEARS", value="""```14 ATTACK, 1 CAD```""")
             embed.add_field(name="💎 FACTS", value="""```Pair with MVF to get full CAD```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Predator Batman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1881,7 +1881,7 @@ CAC resist    40  ```""")
             embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 2 DEF, 4 FAC```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Red Hood", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1902,7 +1902,7 @@ CAC resist    60 ```""")
             embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 2 DEF, 4 FAC```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Reverse Flash", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1923,7 +1923,7 @@ CAC resist    0  ```""")
             embed.add_field(name="⚙GEARS", value="""```10 ATTACK, 2 DEF, 3 CAD```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Speed Force The Flash", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1944,7 +1944,7 @@ CAC resist    70 ```""")
             embed.add_field(name="⚙GEARS", value="""```14 HEALTH, 1 DEF```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Telekinetic Gorilla Grodd", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1966,7 +1966,7 @@ CAC resist    20 ```""")
             embed.add_field(name="⚙GEARS", value="""```5 ATTACK, 2 DEF, 4 FAC, 2 CAD, 2 CAC```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Warrior Queen Wonder Woman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -1987,7 +1987,7 @@ CAC resist    40```""")
             embed.add_field(name="⚙GEARS", value="""```9 ATTACK, 3 DEF, 2 HEALTH, 1 CAC```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Raiden", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -2008,7 +2008,7 @@ CAC resist    70  ```""")
             embed.add_field(name="⚙GEARS", value="""```8 HEALTH, 4 DEF, 2 ATTACK, 1 FAC```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Sub Zero", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -2030,7 +2030,7 @@ CAC resist    0 ```""")
             embed.add_field(name="⚙GEARS", value="""```9 ATTACK, 3 DEF, 2 CAD, 1 CAC```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Suicide Squad Deadshot", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -2052,7 +2052,7 @@ CAC resist    70```""")
             embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Grid", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -2074,7 +2074,7 @@ CAC resist    70 ```""")
             embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Classic Batman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -2096,7 +2096,7 @@ CAC resist    70```""")
             embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Enraged Bane", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -2119,7 +2119,7 @@ BE      49```""")
             embed.add_field(name="⚙GEARS", value="""```8 HEALTH, 4 FAC, 3 DEF```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Nightwing", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -2141,7 +2141,7 @@ CAC resist   0```""")
             embed.add_field(name="⚙GEARS", value="""```6 ATTACK, 2 HEALTH, 4 FAC, 3 DEF```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Powered Supergirl", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -2163,7 +2163,7 @@ CAC resist    70```""")
             embed.add_field(name="⚙GEARS", value="""```4 ATTACK, 5 HEALTH, 4 FAC, 2 DEF```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Cheetah", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -2184,7 +2184,7 @@ CAC resist    60```""")
             embed.add_field(name="⚙GEARS", value="""```7 ATTACK, 8 HEALTH```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Raiden", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -2206,7 +2206,7 @@ CAC resist   70```""")
             embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Soul Stealer Doctor Fate", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -2228,7 +2228,7 @@ CAC resist    70```""")
             embed.add_field(name="⚙GEARS", value="""```14 HEALTH, 1 DEF```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Primal Swamp Thing", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -2264,7 +2264,7 @@ CAC resist   70```""")
             embed.add_field(name="💎 FACTS", value="""```Apart from being a damage dealer, captain cold makes a great tank and combo builder. He gives his entire team 50% critical attack resistance and has a 100% chance to disable special 1/2 of the current opponent who's on the field. He serves as a good counter to might shield opponents since he can lock their shield. You can also have some attack slots in gear instead of health.```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Captain Cold", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -2285,7 +2285,7 @@ CAC resist    70```""")
             embed.add_field(name="⚙GEARS", value="""```7 HEALTH, 4 ATTACK, 3 FAC, 1 DEF```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Sonic Black Canary", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -2307,7 +2307,7 @@ CAC resist    70```""")
             embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Unbreakable Cyborg", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -2329,7 +2329,7 @@ CAC resist    70```""")
             embed.add_field(name="⚙GEARS", value="""```7 HEALTH, 6 ATTACK, 2 DEF```""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Firestorm", url="https://discordapp.com")
             embed.set_thumbnail(url="")
@@ -2342,7 +2342,7 @@ CAC resist    70```""")
             embed.add_field(name="⚙GEARS", value="""``````""")
 
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Unhinged Harley Quinn", url="https://discordapp.com")
             embed.set_thumbnail(url="")

@@ -27,7 +27,7 @@ class Help(commands.Cog):
                               description="Open this link in browser - [Invite the bot](https://discord.com/api/oauth2/authorize?client_id=742228161986691145&permissions=67624001&scope=bot)\nSupport server link - [Aftermath Server](https://discord.gg/bfbYNWE)")
         embed.set_author(name="Bot invite and support links", url="https://discordapp.com")
         embed.set_footer(
-            text="Check out the `credits` command to see the list of people who helped making this bot.")
+            text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
         await ctx.channel.send(embed=embed)
 
@@ -84,7 +84,7 @@ class Help(commands.Cog):
             embed.add_field(name="Upgrade Calculator",
                         value="You can type start and end of number of levels of any upgrade (gear, artifact, xp and sp) to calculate how much material or coins required. To know more, type, `i!help calc`")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
         # file = discord.File("./source.gif", filename="source.gif")
         # embed.set_image(url="attachment://source.gif")
             await ctx.channel.send(embed=embed)
@@ -103,7 +103,7 @@ class Help(commands.Cog):
             embed.add_field(name="List of Legendary Characters",
                             value="To get a list of Legendary characters, type, ```i!chars legend``` to get the list.")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
             await ctx.channel.send(embed=embed)
 
         elif cmd == 'b' or cmd == 'build':
@@ -116,7 +116,7 @@ class Help(commands.Cog):
             embed.add_field(name="👊COMBO BUILDERS and 💪TANKS",
                             value="""```\nhsc - Horrific Scarecrow\ngl - Silver Green Lantern\njsgl - John Stewart Green Lantern\natr - Atrocitus\npbm - Predator Batman\nepi - Entangling Poison Ivy\nmvtf - Multiverse the Flash\npst - Primal Swamp Thing\nrb - Silver Robin\nsm - Silver Superman\nakbm - Arkham Night Batman\nbrc - Brainiac\nszm - Shazam\nrf - Reverse Flash\nsdf - Silver Doctor Fate\npg - Power Girl\ngrid - Grid\nmvsg - Multiverse Supergirl\nrh - Redhood\nasm - Armored Superman\nbmr - Blade Master Robin```""")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             # file = discord.File("./Images_Passive/mto_passives/.jpg", filename=".jpg")
             embed.set_image(url="")
@@ -149,7 +149,7 @@ class Help(commands.Cog):
             embed.add_field(name="List of Gold Characters (Others Part 2)",
                             value="```\naaam : Atlantean Armor Aquaman\nnw   : Nightwing\nwqww : Warrior Queen Wonder Woman```")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             # await ctx.channel.send(embed=embed)
             await ctx.channel.send(embed=embed)
@@ -170,7 +170,7 @@ class Help(commands.Cog):
             embed.add_field(name="Artifact Upgrade Calculator",
                             value="The command will show the amount of artifact material required to upgrade the artifacts. To know more, type, ```i!a [from] [to]```")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             # await ctx.channel.send(embed=embed)
             await ctx.channel.send(embed=embed)
@@ -189,7 +189,7 @@ class Help(commands.Cog):
                      'https://media.giphy.com/media/ifdPjn6m4WyNlnXMTj/giphy.gif']
             embed.set_image(url=choice(error))
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             await ctx.channel.send(embed=embed)
 

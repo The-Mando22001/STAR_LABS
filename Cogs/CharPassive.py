@@ -34,7 +34,7 @@ class CharPassive(commands.Cog):
             embed.add_field(name="List of Gold Characters (Others Part 2)",
                             value="```\naaam : Atlantean Armor Aquaman\nnw   : Nightwing\nwqww : Warrior Queen Wonder Woman```")
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
             # await ctx.channel.send(embed=embed)
             await ctx.channel.send(embed=embed)
         elif cmd == 'jlsm':
@@ -711,7 +711,7 @@ Passive 3: Freeflow Counter""")
                      'https://media.giphy.com/media/ifdPjn6m4WyNlnXMTj/giphy.gif']
             embed.set_image(url=choice(error))
             embed.set_footer(
-                text="Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             await ctx.channel.send(embed=embed)
 
