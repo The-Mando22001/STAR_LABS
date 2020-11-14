@@ -4,4 +4,5 @@ PyNaCl
 async-timeout
 python-dotenv
 youtube_dl
-
+dblpy
+disputils

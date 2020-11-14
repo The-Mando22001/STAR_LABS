@@ -16,6 +16,26 @@ class Calculator(commands.Cog):
     def __init__(self, client):
         self.Bot = client
 
+    @commands.command(name='calc', aliases=['c'])
+    async def calc(self, ctx):
+        embed = discord.Embed(colour=discord.Colour(0xe01c38), url="https://discordapp.com",
+                              description="This command can be used to calculate gear, xp, artifact and sp upgrade costs")
+
+        embed.set_author(name="Cost Calculator", url="https://discordapp.com",
+                         icon_url="https://cdn.discordapp.com/embed/avatars/0.png")
+        embed.add_field(name="Gear Calculator",
+                        value="The command will show amount of gear material required to upgrade 1 gear and 5 gears. To know more, type, ```w!gear [from] [to]```")
+        embed.add_field(name="Sp Upgrade Calculator",
+                        value="The command will show the amount of coins required to upgrade each sp move. To know more, type, ```w!sp [from] [to]```")
+        embed.add_field(name="XP Upgrade Calculator",
+                        value="The command will show amount of xp required to upgrade a character from one level to another. To know more, type, ```w!xp [from] [to]```")
+        embed.add_field(name="Artifact Upgrade Calculator",
+                        value="The command will show the amount of artifact material required to upgrade the artifacts. To know more, type, ```w!art [from] [to]```")
+        embed.set_footer(
+            text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
+
+        # await ctx.channel.send(embed=embed)
+        await ctx.channel.send(embed=embed)
     @commands.command(name='gear', aliases=['gears'])
     async def gear(self, ctx, a: int = 0, b: int = 0):
         total = 0

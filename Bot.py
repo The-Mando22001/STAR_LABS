@@ -8,6 +8,9 @@ from discord.voice_client import VoiceClient
 from dotenv import load_dotenv
 from random import choice
 import csv
+import pytz
+from datetime import datetime
+import time
 
 load_dotenv()
 token = os.getenv('DISCORD_TOKEN')
@@ -40,6 +43,7 @@ synergy_feature = {}
 build_feature = {}
 passive_feature = {}
 calc_feature = {}
+
 
 #Replies when ready
 @client.event
@@ -95,6 +99,50 @@ async def dashboard(ctx):
     embed.set_author(name="STAR LABS Dashboard", url="https://discordapp.com")
     await ctx.channel.send(embed=embed)
 
+@client.command(name='solo')
+async def solo_pip(ctx, cmd:str = None):
+    if ctx.message.author.id == 685455946390044674:
+        if cmd == 'start1':
+            await ctx.channel.send("Solo Raid Pip Reminder starts now.")
+            start_spam_a.start(ctx.channel)
+        if cmd == 'start2':
+            await ctx.channel.send("Solo Raid Pip Reminder starts now.")
+            start_spam_b.start(ctx.channel)
+        if cmd == 'start3':
+            await ctx.channel.send("Solo Raid Pip Reminder starts now.")
+            start_spam_c.start(ctx.channel)
+        if cmd == 'stop1':
+            await ctx.channel.send("Aight, I'mma stop reminding now")
+            start_spam_a.cancel()
+        if cmd == 'stop2':
+            await ctx.channel.send("Aight, I'mma stop reminding now")
+            start_spam_b.cancel()
+        if cmd == 'stop3':
+            await ctx.channel.send("Aight, I'mma stop reminding now")
+            start_spam_c.cancel()
+    else:
+        await ctx.channel.send("You're not my Owner. Only my owner (Mando) has this permission to write the command. Contact him.")
+
+@tasks.loop(seconds=1)
+async def start_spam_a(channel):
+    time_in = datetime.now(pytz.timezone('Asia/Kolkata'))
+    count = time_in.strftime("%I.%M.%S")
+    if count == '08.25.00':
+        await channel.send('<@&776819305714810911> Pip refresh!!')
+
+@tasks.loop(seconds=1)
+async def start_spam_b(channel):
+    time_in = datetime.now(pytz.timezone('Asia/Kolkata'))
+    count = time_in.strftime("%I.%M.%S")
+    if count == '08.00.00':
+        await channel.send('<@&776976184843698207>')
+
+@tasks.loop(seconds=1)
+async def start_spam_c(channel):
+    time_in = datetime.now(pytz.timezone('Asia/Kolkata'))
+    count = time_in.strftime("%I.%M.%S")
+    if count == '08.15.00':
+        await channel.send('<@&694066334140465172> Solo Raid pip refresh!!')
 
 '''Loading, Unloading Extensions or Cogs'''
 class SecretServerError(commands.CheckFailure):
