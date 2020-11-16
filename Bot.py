@@ -127,7 +127,7 @@ async def solo_pip(ctx, cmd:str = None):
 async def start_spam_a(channel):
     time_in = datetime.now(pytz.timezone('Asia/Kolkata'))
     count = time_in.strftime("%I.%M.%S")
-    if count == '08.25.00':
+    if count == '08.00.00':
         await channel.send('<@&776819305714810911> Pip refresh!!')
 
 @tasks.loop(seconds=1)
@@ -141,8 +141,10 @@ async def start_spam_b(channel):
 async def start_spam_c(channel):
     time_in = datetime.now(pytz.timezone('Asia/Kolkata'))
     count = time_in.strftime("%I.%M.%S")
-    if count == '08.15.00':
-        await channel.send('<@&694066334140465172> Solo Raid pip refresh!!')
+    if count == '08.00.00':
+        await channel.send('<@&694066334140465172> 30 min Solo Raid pip refresh reminder!!')
+    if count == '08.30.00':
+        await channel.send('<@&694066334140465172> Solo Raid pip refresh reminder!!')
 
 '''Loading, Unloading Extensions or Cogs'''
 class SecretServerError(commands.CheckFailure):
