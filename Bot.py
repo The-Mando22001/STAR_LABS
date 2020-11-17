@@ -2,21 +2,20 @@ import os
 #import dotenv
 import discord
 import asyncio
-import youtube_dl
+
 from discord.ext import commands, tasks
 from discord.voice_client import VoiceClient
-from dotenv import load_dotenv
+
 from random import choice
 import csv
 import pytz
 from datetime import datetime
 import time
 
-load_dotenv()
-token = os.getenv('DISCORD_TOKEN')
-'''Token Placed in another txt file
+
+#Token Placed in another txt file
 f = open('token.txt', 'r')
-TOKEN = str(f.read()) '''
+token = str(f.read())
 
 async def get_pre(bot, message):
         return ["i!", "I!", "|!"]  # or a list, ["pre1","pre2"]
@@ -128,14 +127,18 @@ async def start_spam_a(channel):
     time_in = datetime.now(pytz.timezone('Asia/Kolkata'))
     count = time_in.strftime("%I.%M.%S")
     if count == '08.00.00':
-        await channel.send('<@&776819305714810911> Pip refresh!!')
+        await channel.send('<@&776819305714810911> 30 mins early reminder pip refresh!! Play your pips before it expires!')
+    if count == '08.30.00':
+        await channel.send('<@&776819305714810911> pip refresh!! Enjoy your solo raid pips!')
 
 @tasks.loop(seconds=1)
 async def start_spam_b(channel):
     time_in = datetime.now(pytz.timezone('Asia/Kolkata'))
     count = time_in.strftime("%I.%M.%S")
     if count == '08.00.00':
-        await channel.send('<@&776976184843698207>')
+        await channel.send('<@&776976184843698207> 30 mins early reminder pip refresh!! Play your pips before it expires!')
+    if count == '08.30.00':
+        await channel.send('<@&776976184843698207> pip refresh!! Enjoy your solo raid pips!')
 
 @tasks.loop(seconds=1)
 async def start_spam_c(channel):
@@ -217,5 +220,6 @@ async def on_message(message):
 for filename in os.listdir('./Cogs'):
     if filename.endswith('.py'):
         client.load_extension(f'Cogs.{filename[:-3]}')
+
 
 client.run(token)

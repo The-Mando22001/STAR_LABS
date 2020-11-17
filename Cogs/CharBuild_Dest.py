@@ -770,11 +770,23 @@ CAC resist    20```""")
             await ctx.channel.send(embed=embed)
         if cmd == 'mmh':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
-                                  description="""⚡ **[Build - G70]**""")
-            embed.add_field(name="⚙ STATS", value="""```Coming Soon```""")
-            embed.add_field(name="⚙ TALENTS", value="""```Coming Soon```""")
-            embed.add_field(name="⚙ GEARS", value="""```Coming Soon```""")
-            embed.add_field(name="💎 FACTS", value="""```Coming Soon```""")
+                                  description="""⚡ **[Damage Dealer Build - G70]**""")
+            embed.add_field(name="⚙ STATS", value="""```Attack          4733
+Health          21481
+Defense    75
+CAD           290
+CAC           75
+AP              96 
+(AP is a must cause his passive1 makes him a top notch combo builder)
+FAC           75 
+Stun resist   75
+DOT resist    75
+CAC resist    70```""")
+            embed.add_field(name="⚙ TALENTS", value="""```4 AP, 2 DEF```""")
+            embed.add_field(name="⚙ GEARS", value="""```3 CAD, 3 CAC, 1 FAC, 1 DEF, 10 ATTACK```""")
+            embed.add_field(name="💎 FACTS", value="""```Recommended Artifact: Metahuman Artifact.
+Works as Sb support in normal and solo raids. 
+If not used there, have JLSM on the team to gain max def and replace all MM def with CAD on Talents and Atk on Gears.```""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
