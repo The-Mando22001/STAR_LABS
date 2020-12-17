@@ -110,7 +110,8 @@ cc - Captain Cold
 sbc - Sonic Black Canary
 ubc - Unbreakable Cyborg
 fs - Firestorm
-uhq - Unhinged Harley Quinn```""")
+uhq - Unhinged Harley Quinn
+aga - Ace Green Arrow```""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
