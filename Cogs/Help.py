@@ -31,6 +31,25 @@ class Help(commands.Cog):
         await ctx.channel.send(embed=embed)
 
     @commands.guild_only()
+    @commands.command(name='patreon')
+    async def _patreon(self, ctx):
+        embed = discord.Embed(colour=discord.Colour(0xe01c38), url="https://discordapp.com",
+                              description="""I have made a Patreon page for the bots that I make. Kindly check the website and the tiers. If you're interested in becoming a patron, I'll be very happy.
+
+Kindly visit this website - [Patreon Page of Mandothemerc](https://www.patreon.com/mandothemerc)
+
+Reason I have created a patreon account is: Motivation, Encouragement and Inspiration. If more of you people support and become patrons, the more I make the bots for everyone. Running a bot in a VPS costs money. Hence, if you're using the bot, please think of donating some money for the bot to run 24x7. I hope you guys understand.
+
+- Mando_The_Mercenary
+
+`This is The Way`""")
+        embed.set_author(name="Patreon Support", url="https://discordapp.com")
+        embed.set_footer(
+            text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
+
+        await ctx.channel.send(embed=embed)
+
+    @commands.guild_only()
     @commands.command(name='setup')
     @commands.has_permissions(manage_messages=True, manage_channels=True)
     @commands.bot_has_permissions(manage_channels=True)
@@ -123,6 +142,8 @@ class Help(commands.Cog):
                         value="If you really want me to help you out in your server, type `i!invite` to invite me into your server. I'll be there to help you and your friends 🥰. It also has link to support server.")
             embed.add_field(name="Credits",
                             value="Check this out with `i!credits` or `i!about` to see the list of people who helped making this bot.")
+            embed.add_field(name="Patreon Support", 
+                        value="If you want me to support in Patreon, you can check the link the command `i!patreon`. Please do support my Sensei (Mando)!!")
             embed.add_field(name='Bot channels setup', value="If you want the bot to create the category and the respective channels for you, then you can type ```i!setup``` to create a category and corresponding channels in that category.")
             embed.add_field(name="Prefix checking and changing",
                         value="If you want to check or change the prefix, then, you need to type:\n`i!prefix` to get the prefix, and\n`i!set_prefix` to set the prefix in the server.")
