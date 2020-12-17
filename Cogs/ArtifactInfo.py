@@ -40,6 +40,23 @@ Electro Axe - axe
 Entropy Aegis - entropy
 Heart of Darkness - hod
 Father Box - fb```""")
+            embed.add_field(name="Kryptonite Artifacts",
+                            value="""These artifacts can be obtained from Solo Raids. When equipped, these artifacts provide boost in parameters while playing solo raids. Following are the different artifacts present:
+```**Silver Tier**
+Kryptonite Ring - ring
+Kryptonite Knife - knife
+Kryptonite gloves - gloves
+Kryptonite Bullets - bullets
+
+**Gold Tier**
+Metallo's Power Source - mps
+Astro-Harness - harness
+Flashing Blade - blade
+Beta Club - club
+
+**Legendary Tier**
+Lexcorp Warsuit - suit
+Kryptonite Spear - spear```""")
             embed.add_field(name="Usage of Command",
                             value="To get more information on each artifact, for example, to get info about claw of horus, type, ```i!art coh``` and you will get the info. Similarly, you need to type the command as, ```i!art [Artifact command]``` to get info on the respective artifact. Where,\nArtifact command - written beside the artifacts in the artifacts list. To get the list, type, ```i!art```")
             embed.set_author(name="Artifact Info", url="https://discordapp.com",
@@ -177,6 +194,76 @@ Father Box - fb```""")
             embed.set_author(name="Father Box", url="https://discordapp.com")
             file = discord.File("./Images_Artifacts/ak_fb.jpg", filename="ak_fb.jpg")
             embed.set_image(url="attachment://ak_fb.jpg")
+            await ctx.channel.send(embed=embed, file=file)
+        if cmd == 'spear':
+            embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
+                                  description="""Kryptonite Artifact""")
+            embed.set_author(name="Kryptonite Spear", url="https://discordapp.com")
+            file = discord.File("./Images_Artifacts/rok_spear.jpg", filename="rok_spear.jpg")
+            embed.set_image(url="attachment://rok_spear.jpg")
+            await ctx.channel.send(embed=embed, file=file)
+        if cmd == 'blade':
+            embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
+                                  description="""Kryptonite Artifact""")
+            embed.set_author(name="Flashing Blade", url="https://discordapp.com")
+            file = discord.File("./Images_Artifacts/rok_blade.jpg", filename="rok_blade.jpg")
+            embed.set_image(url="attachment://rok_blade.jpg")
+            await ctx.channel.send(embed=embed, file=file)
+        if cmd == 'harness':
+            embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
+                                  description="""Kryptonite Artifact""")
+            embed.set_author(name="Astro-Harness", url="https://discordapp.com")
+            file = discord.File("./Images_Artifacts/rok_harness.jpg", filename="rok_harness.jpg")
+            embed.set_image(url="attachment://rok_harness.jpg")
+            await ctx.channel.send(embed=embed, file=file)
+        if cmd == 'ring':
+            embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
+                                  description="""Kryptonite Artifact""")
+            embed.set_author(name="Kryptonite Ring", url="https://discordapp.com")
+            file = discord.File("./Images_Artifacts/rok_ring.jpg", filename="rok_ring.jpg")
+            embed.set_image(url="attachment://rok_ring.jpg")
+            await ctx.channel.send(embed=embed, file=file)
+        if cmd == 'gloves':
+            embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
+                                  description="""Kryptonite Artifact""")
+            embed.set_author(name="Kryptonite Gloves", url="https://discordapp.com")
+            file = discord.File("./Images_Artifacts/rok_gloves.jpg", filename="rok_gloves.jpg")
+            embed.set_image(url="attachment://rok_gloves.jpg")
+            await ctx.channel.send(embed=embed, file=file)
+        if cmd == 'suit':
+            embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
+                                  description="""Kryptonite Artifact""")
+            embed.set_author(name="Lexcorp Warsuit", url="https://discordapp.com")
+            file = discord.File("./Images_Artifacts/rok_warsuit.jpg", filename="rok_warsuit.jpg")
+            embed.set_image(url="attachment://rok_warsuit.jpg")
+            await ctx.channel.send(embed=embed, file=file)
+        if cmd == 'club':
+            embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
+                                  description="""Kryptonite Artifact""")
+            embed.set_author(name="Beta Club", url="https://discordapp.com")
+            file = discord.File("./Images_Artifacts/rok_club.jpg", filename="rok_club.jpg")
+            embed.set_image(url="attachment://rok_club.jpg")
+            await ctx.channel.send(embed=embed, file=file)
+        if cmd == 'mps':
+            embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
+                                  description="""Kryptonite Artifact""")
+            embed.set_author(name="Metallo's Power Source", url="https://discordapp.com")
+            file = discord.File("./Images_Artifacts/rok_powsource.jpg", filename="rok_powsource.jpg")
+            embed.set_image(url="attachment://rok_powsource.jpg")
+            await ctx.channel.send(embed=embed, file=file)
+        if cmd == 'knife':
+            embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
+                                  description="""Kryptonite Artifact""")
+            embed.set_author(name="Kryptonite Knife", url="https://discordapp.com")
+            file = discord.File("./Images_Artifacts/rok_knife.jpg", filename="rok_knife.jpg")
+            embed.set_image(url="attachment://rok_knife.jpg")
+            await ctx.channel.send(embed=embed, file=file)
+        if cmd == 'bullets':
+            embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
+                                  description="""Kryptonite Artifact""")
+            embed.set_author(name="Kryptonite Bullets", url="https://discordapp.com")
+            file = discord.File("./Images_Artifacts/rok_bullets.jpg", filename="rok_bullets.jpg")
+            embed.set_image(url="attachment://rok_bullets.jpg")
             await ctx.channel.send(embed=embed, file=file)
 
 def setup(client):
