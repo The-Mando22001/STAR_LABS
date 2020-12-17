@@ -140,7 +140,7 @@ Father Box - fb```""")
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
                                   description="""Apokolips Artifact""")
             embed.set_author(name="Mega Rod", url="https://discordapp.com")
-            file = discord.File("./Images_Artifact/ak_mega.jpg", filename="ak_mega.jpg")
+            file = discord.File("./Images_Artifacts/ak_mega.jpg", filename="ak_mega.jpg")
             embed.set_image(url="attachment://ak_mega.jpg")
             await ctx.channel.send(embed=embed, file=file)
         if cmd == 'radion':

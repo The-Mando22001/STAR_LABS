@@ -2349,9 +2349,9 @@ CAC resist    70```""")
         if cmd == 'uhq':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡**[Damage Dealer Build - G60]**""")
-            embed.add_field(name="⚙STATS", value="""```3 CAC, 3 CAD```""")
-            embed.add_field(name="⚙TALENTS", value="""```6 ATTACK, 3 HEALTH, 3 DEF, 2 CAD, 1 CAC```""")
-            embed.add_field(name="⚙GEARS", value="""``````""")
+            embed.add_field(name="⚙STATS", value="""``````""")
+            embed.add_field(name="⚙TALENTS", value="""```3 CAC, 3 CAD```""")
+            embed.add_field(name="⚙GEARS", value="""```6 ATTACK, 3 HEALTH, 3 DEF, 2 CAD, 1 CAC```""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
