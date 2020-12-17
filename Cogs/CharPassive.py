@@ -18,7 +18,7 @@ class CharPassive(commands.Cog):
             embed.add_field(name="List of Silver Characters",
                             value="```\nsgl  : Silver Green Lantern\nsbm  : Silver Batman\nssm  : Silver Superman \nsds  : Silver Deadshot\nsvf  : Silver Flash\nsvbc : Silver Black Canary\nsvb  : Silver Bane\nsvc  : Silver Cyborg\nsvr  : Silver Robin\nsvhq : Silver Harley Quinn\nsvga : Silver Green Arrow\nsvam : Silver Aquaman\nsvww : Silver Wonder Woman\nsvgg : Silver Gorilla Grodd\nsvj  : Silver Joker\nsvcw : Silver Catwoman\nsvsc : Silver Scarecrow\nsvst : Legendary Silver Swamp Thing\ndf   : Doctor Fate\naww  : Amazon Wonder Woman```")
             embed.add_field(name="List of Legendary Characters",
-                            value="```\nbm   : Black manta\njlsm  : Justice League Puperman\nds   : Darkseid\nbngg : Batman Ninja Gorilla Grodd \nbnc  : Discount Braniac\nect  : Enchantress\nsshq : Suicide Squad Harley Quinn\nakbm : Arkham Knight Batman\nmmh  : Martian Manhunter ```")
+                            value="```\nbm   : Black manta\njlsm  : Justice League Puperman\nds   : Darkseid\nbngg : Batman Ninja Gorilla Grodd \nbnc  : Discount Braniac\nect  : Enchantress\nsshq : Suicide Squad Harley Quinn\nakbm : Arkham Knight Batman\nmmh  : Martian Manhunter\ngaww  : Golden Armor Wonder Woman```")
             embed.add_field(name="List of Gold Characters (Justice League)",
                             value="```\njlc  : Justice League Cyborg\njlf  : Justice League Flash\njla  : Justice League Aquaman\njlb  : Justice League Batman\nmww  : Mythic Wonder Woman```")
             embed.add_field(name="List of Gold Characters (Green Lanterns)",
@@ -698,6 +698,13 @@ Passive 3: Freeflow Counter""")
             embed.set_author(name="Suicide Squad Harley Quinn", url="https://discordapp.com")
             file = discord.File("./Images_Passive/mto_passives/sshq_full.jpg", filename="sshq_full.jpg")
             embed.set_image(url="attachment://sshq_full.jpg")
+            await ctx.channel.send(file=file, embed=embed)
+        elif cmd == 'gaww':
+            embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
+                                  description="""Passive 1: Athena's Power\nPassive 2: Divine Protection\nPassive 3: Offensive Guard""")
+            embed.set_author(name="Golden Armor Wonder Woman", url="https://discordapp.com")
+            file = discord.File("./Images_Passive/gaww.jpg", filename="gaww.jpg")
+            embed.set_image(url="attachment://gaww.jpg")
             await ctx.channel.send(file=file, embed=embed)
         else:
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5), url="https://discordapp.com",
