@@ -21,7 +21,8 @@ ds - Darkseid
 jls - Justice League Superman
 sshq - Suicide Squad Harley Quinn 
 sse - Suicide Squad Enchantress
-mmh - Martian Manhunter```""")
+mmh - Martian Manhunter
+gaww - Golden Armor Wonder Woman```""")
             embed.add_field(name="⬜ Silver Characters", value="""```aww - Amazon Wonder Woman
 svbc - Sonic Black Canary
 svcw - Silver Catwoman 
@@ -621,8 +622,8 @@ CAC resist  0%```""")
         if cmd == 'bnc':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Tank/Support Build - G70]**""")
-            embed.add_field(name="⚙ STATS", value="""```Attack     3,523 ♞
-Health     60,600 ♥️
+            embed.add_field(name="⚙ STATS", value="""```Attack     3,523
+Health     60,600
 Defense    75%
 CAD        150
 CAC        25
@@ -791,6 +792,19 @@ If not used there, have JLSM on the team to gain max def and replace all MM def 
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Martian Manhunter", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'gaww':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡ **[Damage Dealer Build - G70]**""")
+            embed.add_field(name="⚙ STATS", value="""```Coming Soon```""")
+            embed.add_field(name="⚙ TALENTS", value="""```Coming Soon```""")
+            embed.add_field(name="⚙ GEARS", value="""```Coming Soon```""")
+            embed.add_field(name="💎 FACTS", value="""```Coming Soon```""")
+            embed.set_footer(
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="Golden Armor Wonder Woman", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
 
@@ -2349,7 +2363,16 @@ CAC resist    70```""")
         if cmd == 'uhq':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡**[Damage Dealer Build - G60]**""")
-            embed.add_field(name="⚙STATS", value="""``````""")
+            embed.add_field(name="⚙STATS", value="""```Attack       4,445
+Health       24,896
+Defense    66 
+CAD           292 
+CAC           73 
+LAC            1
+FAC            1 
+Stun resist    0 
+DOT resist    0
+CAC resist    0```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAC, 3 CAD```""")
             embed.add_field(name="⚙GEARS", value="""```6 ATTACK, 3 HEALTH, 3 DEF, 2 CAD, 1 CAC```""")
 
@@ -2357,6 +2380,26 @@ CAC resist    70```""")
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
             embed.set_author(name="Unhinged Harley Quinn", url="https://discordapp.com")
+            embed.set_thumbnail(url="")
+            await ctx.channel.send(embed=embed)
+        if cmd == 'aga':
+            embed = discord.Embed(colour=discord.Colour(0xf8e71c),
+                                  description="""⚡**[Damage Dealer Build - G70]**""")
+            embed.add_field(name="⚙STATS", value="""```Defense       24 
+CAD           300 
+CAC           43 
+LAC           1
+FAC           1
+Stun resist   0
+DOT resist    0
+CAC resist    0```""")
+            embed.add_field(name="⚙TALENTS", value="""```5 CAD, 1 CAC```""")
+            embed.add_field(name="⚙GEARS", value="""```15 ATTACK```""")
+
+            embed.set_footer(
+                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
+
+            embed.set_author(name="Ace Green Arrow", url="https://discordapp.com")
             embed.set_thumbnail(url="")
             await ctx.channel.send(embed=embed)
 
