@@ -119,7 +119,7 @@ aga - Ace Green Arrow```""")
             await ctx.channel.send(embed=embed)
 
         #Silvers
-        if cmd == 'aww':
+        if cmd.lower() == 'aww':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Tank Build - G60]**""")
             embed.add_field(name="⚙ STATS", value="""```Attack       2,465
@@ -856,18 +856,18 @@ CAC resist    70```""")
         if cmd == 'bncw':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
                                   description="""⚡ **[Damage Dealer Build - G70]**""")
-            embed.add_field(name="⚙ STATS", value="""```Attack  5346
-Health 25252
+            embed.add_field(name="⚙ STATS", value="""```Attack  4476
+Health 25,252
 Defense 29
 CAD 300
-CAC  70
+CAC  75
 FAC  75
-LAC  18
+LAC  60
 Stun resist   0
 DOT resist    0
 CAC resist    0```""")
-            embed.add_field(name="⚙ TALENTS", value="""```3 CAC, 3 CAD```""")
-            embed.add_field(name="⚙ GEARS", value="""```8 ATTACK, 4 FAC, 2 CAD, 1 LAC```""")
+            embed.add_field(name="⚙ TALENTS", value="""```2 CAC, 3 CAD, 1 LAC```""")
+            embed.add_field(name="⚙ GEARS", value="""```1 CAC, 2 CAD, 3 LAC, 4 FAC, 5 ATTACK```""")
             embed.add_field(name="💎 FACTS", value="""```Bncw is a very good character to play on her own with claws of horus. When partnered with bngg, and bnr, she can do a massive amount of damage. It is very important to keep her attacks going, and stopping as little as possible. This is to maximize the bnr stack. I added a lethal attack roll to the build, so that she gains a small edge in arena, but if u want to build her solely for raids, build her with attack rather than lethal. She is meant to spam combos and sp3s, and keep an ongoing sp2 dot going throughout the game. (roughly one sp2 per 3-5 sp3s)```""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -1195,10 +1195,11 @@ Defense   70%
 CAD    170%
 CAC     25%
 FAC     1%
-Stun resist   60%
-DOT resist   70%
-CAC resist    70%```""")
-            embed.add_field(name="⚙ TALENTS", value="""```3 RES, 3 DEF```""")
+LAC     60%
+Stun resist   15%
+DOT resist   15%
+CAC resist    15%```""")
+            embed.add_field(name="⚙ TALENTS", value="""```1 RES, 5 LAC```""")
             embed.add_field(name="⚙ GEARS", value="""```15 ATTACK```""")
             embed.add_field(name="💎 FACTS", value="""```One of the great damage dealers in raids.```""")
             embed.set_footer(
@@ -1211,19 +1212,19 @@ CAC resist    70%```""")
         #The Justice League
         if cmd == 'jlc':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
-                                  description="""⚡ **[CB/Damage Dealer Build W/ JLF- G70]**""")
-            embed.add_field(name="⚙ STATS", value="""```Attack      4881
-Health     23108
-Defense    48 
-CAD        294
+                                  description="""⚡ **[CB/Damage Dealer Build - G70]**""")
+            embed.add_field(name="⚙ STATS", value="""```Attack      5171
+Health     22058
+Defense    24 
+CAD        300
 CAC         75
 FAC        75
 Stun resist   0 - 100% (passive)
 DOT resist    10
 CAC resist    0```""")
-            embed.add_field(name="⚙ TALENTS", value="""```3 CAC, 2 DEF, 1 CAD```""")
-            embed.add_field(name="⚙ GEARS", value="""```7 ATTACK, 3 CAD, 4 FAC, 1 CAC```""")
-            embed.add_field(name="💎 FACTS", value="""```JLC is meant to be played alongside JLF and JLAM for maximum damage. When playing this way, both JLC and JLF are the dmg dealers as well as the combo builders. when shear power is needed, it is best to use JLF's SP3. When power drain is needed, it is best to use JLC SP2.```""")
+            embed.add_field(name="⚙ TALENTS", value="""```3 CAC, 3 CAD```""")
+            embed.add_field(name="⚙ GEARS", value="""```8 ATTACK, 2 CAD, 4 FAC, 1 CAC```""")
+            embed.add_field(name="💎 FACTS", value="""```JLC is meant to be played alongside JLF and JLAM for maximum damage. When playing this way, both JLC and JLF are the dmg dealers as well as the combo builders. when shear power is needed, it is best to use JLF's SP3. When power drain is needed, it is best to use JLC SP2. Equip The All Blades Artifact on both JLF and JLC.```""")
             embed.add_field(name="⚡ [P2 Damage Dealer - G70]\n⚙ STATS", value="""```Attack        5,461
 Health        29,108
 Defense     73 
@@ -1247,32 +1248,19 @@ BE                   49 ```""")
             await ctx.channel.send(embed=embed)
         if cmd == 'jlf':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
-                                  description="""⚡ **[CB/Damage Dealer Build w/ JLC - G70]**""")
-            embed.add_field(name="⚙ STATS", value="""```Attack     5395
+                                  description="""⚡ **[CB/Damage Dealer Build - G70]**""")
+            embed.add_field(name="⚙ STATS", value="""```Attack     5685
 Health     22420
-Defense    48
-CAD        294
+Defense    24
+CAD        300
 CAC        75
 FAC        75
 Stun resist   0
 DOT resist    0
 CAC resist    0```""")
-            embed.add_field(name="⚙ TALENTS", value="""```2 DEF, 1 CAD, 3 CAC```""")
-            embed.add_field(name="⚙ GEARS", value="""```7 ATTACK, 3 CAC, 4 FAC, 1 CAD```""")
-            embed.add_field(name="💎 FACTS", value="""```JLF is meant to be played alongside JLC and JLAM for maximum dmg. When playing this way, both JLC and JLF are the dmg dealers as well as the combo builders. when shear power is needed, it is best to use JLF sp3. When power drain is needed, it is best to use JLC sp2```""")
-            embed.add_field(name="⚡ [Damage Dealer Build - G70]\n⚙ STATS", value="""```Attack            5,685
-Health            22,420
-Defense         24 
-CAD               300 
-CAC               75 
-LAC                1
-FAC                75 
-Stun resist     0
-DOT resist     0
-CAC resist     0 ```""")
             embed.add_field(name="⚙ TALENTS", value="""```3 CAD, 3 CAC```""")
-            embed.add_field(name="⚙ GEARS", value="""```8 ATTACK, 3 CAC, 4 FAC```""")
-            embed.add_field(name="💎 FACTS", value="""```Damage dealer build for raids. You can also have 3 defense effects in gear if you want (his attack will be 4815 with max defense). Pair him with Justice League Cyborg and Justice League Aquaman to deal massive damage.```""")
+            embed.add_field(name="⚙ GEARS", value="""```8 ATTACK, 2 CAC, 4 FAC, 1 CAD```""")
+            embed.add_field(name="💎 FACTS", value="""```JLF is meant to be played alongside JLC and JLAM for maximum dmg. When playing this way, both JLC and JLF are the dmg dealers as well as the combo builders. when shear power is needed, it is best to use JLF sp3. When power drain is needed, it is best to use JLC sp2. Equip The All Blades Artifact on both JLF and JLC.```""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -1282,19 +1270,31 @@ CAC resist     0 ```""")
             await ctx.channel.send(embed=embed)
         if cmd == 'jla':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
-                                  description="""⚡ **[Support Build - G60]**""")
-            embed.add_field(name="⚙ STATS", value="""```Attack      4,301
-Health     34,898
-Defense    75 
-CAD       150
-CAC        22 
-LAC        1
-FAC        61 
-Stun resist   75 
-DOT resist   75 
-CAC resist   70```""")
-            embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
-            embed.add_field(name="⚙ GEARS", value="""```5 ATTACK, 5 HEALTH, 4 FAC, 1 DEF```""")
+                                  description="""⚡ **[Damage Dealer Build - G60]**""")
+            embed.add_field(name="⚙ STATS", value="""```Attack      4,801
+Health     22,428
+Defense    21 
+CAD       292
+CAC        72 
+FAC        75 
+Stun resist  0 
+DOT resist   0 
+CAC resist   0```""")
+            embed.add_field(name="⚙ TALENTS", value="""```3 CAD, 3 CAC```""")
+            embed.add_field(name="⚙ GEARS", value="""```7 ATTACK, 5 FAC, 2 CAD, 1 CAC```""")
+
+            embed.add_field(name="⚡ [Damage Dealer Build - G70]/n⚙ STATS", value="""```Attack      5,641
+Health     22,058
+Defense    24 
+CAD       300
+CAC        75 
+FAC        69 
+Stun resist  0 
+DOT resist   0 
+CAC resist   0```""")
+            embed.add_field(name="⚙ TALENTS", value="""```3 CAD, 3 CAC```""")
+            embed.add_field(name="⚙ GEARS", value="""```8 ATTACK, 4 FAC, 2 CAD, 1 CAC```""")
+            embed.add_field(name="💎 FACTS", value="""```JLAM is meant to be used along with JLF and JLC to get maximum damage in raids. Equip The All Blades Artifact on both JLF and JLC.```""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -1661,19 +1661,43 @@ CAC resist    70 ```""")
             await ctx.channel.send(embed=embed)
         if cmd == 'ba':
             embed = discord.Embed(colour=discord.Colour(0xf8e71c),
-                                  description="""⚡**[Damage Dealer Build - G70]**""")
-            embed.add_field(name="⚙STATS", value="""```Attack     5816
-Health     24234
-Defense    75    
-CAD        294    
-CAC        75    
+                                  description="""⚡ **[Fast Attack Build - G60]**""")
+            embed.add_field(name="⚙STATS", value="""```Attack     5154
+Health     23,234
+Defense    25    
+CAD        292    
+CAC        73    
+FAC        61    
+Stun resist   0
+DOT resist    0        
+CAC resist    0 ```""")
+            embed.add_field(name="⚙TALENTS", value="""```3 CAC, 3 CAD```""")
+            embed.add_field(name="⚙GEARS", value="""```9 ATTACK, 4 FAC, 2 CAD, 1 CAC```""")
+
+            embed.add_field(name="⚡ [Damage Dealer Build - G60]\n⚙STATS", value="""```Attack     6154
+Health     23,234
+Defense    25    
+CAD        292    
+CAC        73    
 FAC        1    
 Stun resist   0
 DOT resist    0        
 CAC resist    0 ```""")
-            embed.add_field(name="⚙TALENTS", value="""```3 DEF, 2 CAC, 1 CAD```""")
-            embed.add_field(name="⚙GEARS", value="""```9 ATTACK, 3 CAD, 2 CAC, 1 DEF```""")
+            embed.add_field(name="⚙TALENTS", value="""```3 CAC, 3 CAD```""")
+            embed.add_field(name="⚙GEARS", value="""```12 ATTACK, 2 CAD, 1 CAC```""")
 
+            embed.add_field(name="⚡ [Damage Dealer/ Fast Attack Build - G70]\n⚙STATS", value="""```Attack     6994 (DD) or 5514 (FA)
+Health     23,234
+Defense    25    
+CAD        300    
+CAC        75    
+FAC        1 (DD) or 69 (FA)   
+Stun resist   0
+DOT resist    0        
+CAC resist    0 ```""")
+            embed.add_field(name="⚙TALENTS", value="""```3 CAC, 3 CAD```""")
+            embed.add_field(name="⚙GEARS", value="""```12 ATTACK, 2 CAD, 1 CAC```""")
+            embed.add_field(name="💎 FACTS", value="""```For Fast Attack build, replace 4 FAC with ATTACK in gear talents. This will reduce attack value, but deals good damage even when using FA build.```""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 

@@ -115,11 +115,11 @@ Reason I have created a patreon account is: Motivation, Encouragement and Inspir
         embed.add_field(name="Bot's Logo Design",
                         value="`ARCAS#0954` is a great guy and makes Logo desgins for Discord Profile Pics. He made this logo desgin specially for the bot.")
         embed.add_field(name="Character Build Details",
-                        value="`ʙᴏʀɴ2ᴋɪʟʟ™#4215` from `Destiny` and `[Δ₭] OVERMAN#0001` from `Apokolips Kingdom` have accepted to use the builds from their servers. `SIGMA#5422` and `YSOSERIOUS™#7777` has helped in designing the character Build template.")
+                        value="`ʙᴏʀɴ2ᴋɪʟʟ™#4215` from `Destiny` and `[Δ₭] OVERMAN#0001` from `Apokolips Kingdom`, `Decebalus#7982` from `ГΘGUΞ` have accepted to use the builds from their servers. `SIGMA#5422` and `YSOSERIOUS™#7777` has helped in designing the character Build template.")
         embed.add_field(name="Character Passive Details",
                         value="`SIGMA#5422` and `shadowofintent#1026` have helped me in adding the passive info. Both of them shared the screenshots of their characters, so that, it would be easy to see the picture than read the details.")
         embed.add_field(name="Honourable Mentions",
-                        value="Many people use this bot everyday. But, with request of few people, they have helped this bot get to this stage. So, my special thanks to\n- `Noremac#7255`: Bot Tester\n- `resveratrol#7110`: Suggestions\n- `The asian cat#3430`: Bot Tester\n- `SigvaldTheGrim#2431`: Youtuber who spoke about my bot\n- `AGB | Roids#0182`: The Aftermath Overlord who accepted to build this bot in Aftermath Server\n- `《ԙ》kreampuffs#1992`: Suggestions\n- `MattRyan#7598`: Bot Tester and Suggestions\n- `EthanHunt#2416`: Suggestions\nand many more..\n\n*This is the Way!*")
+                        value="Many people use this bot everyday. But, with request of few people, they have helped this bot get to this stage. So, my special thanks to\n- `Decebalus#7982`: Build Suggestions\n- `Noremac#7255`: Bot Tester\n- `resveratrol#7110`: Suggestions\n- `The asian cat#3430`: Bot Tester\n- `SigvaldTheGrim#2431`: Youtuber who spoke about my bot\n- `AGB | Roids#0182`: The Aftermath Overlord who accepted to build this bot in Aftermath Server\n- `《ԙ》kreampuffs#1992`: Suggestions\n- `MattRyan#7598`: Bot Tester and Suggestions\n- `EthanHunt#2416`: Suggestions\n and many more..\n\n*This is the Way!*")
         file = discord.File("./STAR_LABS.jpg", filename="STAR_LABS.jpg")
         embed.set_thumbnail(url="attachment://STAR_LABS.jpg")
         await ctx.channel.send(embed=embed, file=file)
