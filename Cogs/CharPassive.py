@@ -13,26 +13,102 @@ class CharPassive(commands.Cog):
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
                                   description="There are passives for each and every character, which get enabled during battle or at the start of the battle. To know the character's passive, type, ```i!p [character name]``` Where, we type the character's name without the brackets []. For Example, ```i!p jsgl```The following list of characters have their respective passives.")
 
-            embed.set_author(name="Character Passives", url="https://discordapp.com",
-                             icon_url="https://cdn.discordapp.com/embed/avatars/3.png")
-            embed.add_field(name="List of Silver Characters",
-                            value="```\nsgl  : Silver Green Lantern\nsbm  : Silver Batman\nssm  : Silver Superman \nsds  : Silver Deadshot\nsvf  : Silver Flash\nsvbc : Silver Black Canary\nsvb  : Silver Bane\nsvc  : Silver Cyborg\nsvr  : Silver Robin\nsvhq : Silver Harley Quinn\nsvga : Silver Green Arrow\nsvam : Silver Aquaman\nsvww : Silver Wonder Woman\nsvgg : Silver Gorilla Grodd\nsvj  : Silver Joker\nsvcw : Silver Catwoman\nsvsc : Silver Scarecrow\nsvst : Legendary Silver Swamp Thing\ndf   : Doctor Fate\naww  : Amazon Wonder Woman```")
-            embed.add_field(name="List of Legendary Characters",
-                            value="```\nbm   : Black manta\njlsm  : Justice League Puperman\nds   : Darkseid\nbngg : Batman Ninja Gorilla Grodd \nbnc  : Discount Braniac\nect  : Enchantress\nsshq : Suicide Squad Harley Quinn\nakbm : Arkham Knight Batman\nmmh  : Martian Manhunter\ngaww  : Golden Armor Wonder Woman```")
-            embed.add_field(name="List of Gold Characters (Justice League)",
-                            value="```\njlc  : Justice League Cyborg\njlf  : Justice League Flash\njla  : Justice League Aquaman\njlb  : Justice League Batman\nmww  : Mythic Wonder Woman```")
-            embed.add_field(name="List of Gold Characters (Green Lanterns)",
-                            value="```\njsgl : John Stewart Green Lantern\negl  : Emeral Green Lantern\nats  : Atrocitus```")
-            embed.add_field(name="List of Gold Characters (Multiverse)",
-                            value="```\nmvf  : Multiverse Flash\nmvasg: Multiverse Armored SuperGirl\nmvbl : Multiverse Black Lightning\nmvga : Multiverse Green Arrow\nmvcc : Multiverse Captain Cold\nmvwc : Multiverse White Canary\nmvbw : Multiverse Batwoman\nmvsg : Multiverse Supergirl```")
-            embed.add_field(name="List of Gold Characters (League of Anarchy)",
-                            value="```\nllj  : Last Laugh Joker\nepi  : Entangling Poison Ivy\nhbhq : Heart Breaker Harley Quinn```")
-            embed.add_field(name="List of Gold Characters (Batman Ninjas)",
-                            value="```\nbnr  : Batman Ninja Robin\nbnbm : Batman Ninja Batman\nbnlj : Batman Ninja Lord Joker\nbncw : Batman Ninja Catwoman\nbnhq : Batman Ninja Harley Quinn```")
-            embed.add_field(name="List of Gold Characters (Others Part 1)",
-                            value="```\npbm  : Predator Batman\nhb   : Hellboy\nszm or shz  : Shazam\nrdn  : Raiden \nrf   : Reverse Flash\nbb   : Blue Beetle\nkbm  : Knightmare Batman\nba   : Black Adam\nesf  : Energised StarFire \npg   : Power Girl\ndsg  : Dark Super Girl\nfpi  : Flora Poison Ivy\nhsc  : Horrific Scarecrow\nsff  : Speed force Flash\ngrid : Grid\naga  : Ace green arrow\nssdf : Soul Stealer Dr.Fate\nubc  : Unbreakable Cyborg\npst  : Primal Swamp Thing\ntkgg : Telekinetic Gorilla Grodd\nsz   : Subzero\nbmr  : Blade Master Robin\ncc   : Captain Cold\nuhq  : Unhinged Harley Quinn\nrh   : Redhood\npsg  : Powered Supergirl \nssds  : Suicide Squad Deadshot\nfs   : Firestorm\ncth  : Cheetah\neb   : Enraged Bane\nmtcw : Masterthief Catwoman\ncbm  : Classic Batman\nsbc  : Sonic Black Canary\nsb   : Silver Banshee \nasm  : Armoured Superman\ncsm  : Classic Superman```")
-            embed.add_field(name="List of Gold Characters (Others Part 2)",
-                            value="```\naaam : Atlantean Armor Aquaman\nnw   : Nightwing\nwqww : Warrior Queen Wonder Woman```")
+            embed.set_author(name="Character Passives", url="https://discordapp.com")
+            embed.add_field(name="🟪 Legendary Characters", value="""```akbm - Arkham Knight Batman
+bm   - Black Manta
+bnc  - Brainiac
+bngg - Batman Ninja Gorilla Grodd
+ds   - Darkseid
+gaww - Golden Armor Wonder Woman
+jls  - Justice League Superman
+mmh  - Martian Manhunter
+sshq - Suicide Squad Harley Quinn 
+sse  - Suicide Squad Enchantress```""")
+            embed.add_field(name="⬜ Silver Characters", value="""```aww  - Amazon Wonder Woman
+svam - Silver Aquaman 
+svb  - Silver Bane
+svbm - Silver Batman
+svbc - Silver Black Canary
+svc  - Silver Cyborg
+svcw - Silver Catwoman 
+svdf - Silver Doctor Fate
+svds - Silver Deadshot
+svf  - Silver Flash
+svga - Silver Green Arrow
+svgg - Silver Gorilla Grodd
+svgl - Silver Green Lantern
+svhq - Silver Harley Quinn
+svj  - Silver Joker 
+svr  - Silver Robin
+svsc - Silver Scarecrow
+svsm - Silver Superman
+svst - Silver Swamp Thing
+svww - Silver Wonder Woman ```""")
+            embed.add_field(name="🟨 Gold Characters (Batman Ninjas)", value="""```bnbm - Batman Ninja Batman
+bncw - Batman Ninja Catwoman
+bnhq - Batman Ninja Harley Quinn
+bnlj - Batman Ninja Lord Joker
+bnr  - Batman Ninja Robin```""")
+            embed.add_field(name="🟨 Gold Characters (Multiverse Gang)", value="""```mvasg - Multiverse Armored Supergirl
+mvbl  - Multiverse Black Lightning
+mvbw  - Multiverse Bat Woman
+mvcc  - Multiverse Captain Cold
+mvf   - Multiverse The Flash
+mvga  - Multiverse Green Arrow 
+mvsg  - Multiverse Supergirl
+mvwc  - Multiverse White Canary```""")
+            embed.add_field(name="🟨 Gold Characters (The Justice League)", value="""```jla - Justice League Aquaman
+jlc - Justice League Cyborg
+jlf - Justice League Flash
+jlb - Justice League Batman
+mww - Mythic Wonder woman```""")
+            embed.add_field(name="🟨 Gold Characters (League of Anarchy)", value="""```epi  - Entangling Poison Ivy
+hbhq - Heart Breaker Harley Quinn
+llj  - Last Laugh Joker ```""")
+
+            embed.add_field(name='🟨 Gold Characters (Others Part 1)', value="""```aaam  - Atlantean Armored Aquaman
+aga   - Ace Green Arrow
+atc   - Atrocitus
+asm   - Armoured Superman
+ba    - Black Adam
+bb    - Blue Beetle
+bmr   - Blade Master Robin
+cbm   - Classic Batman
+cc    - Captain Cold
+csm   - Classic Superman 
+cth   - Cheetah
+dsg   - Dark Super Girl
+eb    - Enraged Bane
+egl   - Emerald Green Lantern
+esf   - Energized Starfire
+fpi   - Flora Poison Ivy 
+fs    - Firestorm
+grid  - Grid
+hb    - Hellboy
+hsc   - Horrific Scarecrow 
+jsgl  - John Stewart Green Lantern
+kbm   - Knightmare Batman
+koaam - King of Atlantis Aquaman
+mtcw  - Masterthief Catwoman
+nw    - Nightwing
+pbm   - Predator Batman
+pg    - Power Girl
+psg   - Powered Supergirl
+pst   - Primal Swamp Thing```""")
+            embed.add_field(name='🟨 Gold Characters (Others Part 2)', value="""```rdn   - Raiden
+rf    - Reverse Flash
+rh    - Red Hood
+sb    - Silver Banshee
+sbc   - Sonic Black Canary
+sff   - Speed Force the Flash
+ssdf  - Soul Stealer Doctor Fate 
+ssds  - Suicide Squad Deadshot
+sz    - Subzero
+szm   - Shazam 
+tkgg  - TeleKinetic Gorilla Grodd 
+ubc   - Unbreakable Cyborg
+uhq   - Unhinged Harley Quinn
+wqww  - Warrior Queen Wonder Woman```""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
             # await ctx.channel.send(embed=embed)
@@ -202,8 +278,8 @@ Passive 3: Freeflow Counter""")
         elif cmd == 'svww':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
                                   description="""""")
-            file = discord.File("./Images_Passive/Sil_Flash.jpg", filename="Sil_Flash.jpg")
-            embed.set_image(url="attachment://Sil_Flash.jpg")
+            file = discord.File("./Images_Passive/Sil_WW.jpg", filename="Sil_WW.jpg")
+            embed.set_image(url="attachment://Sil_WW.jpg")
             embed.set_author(name="Silver Wonder Woman", url="https://discordapp.com")
             await ctx.channel.send(embed=embed, file=file)
         elif cmd == 'aww':
@@ -584,8 +660,8 @@ Passive 3: Freeflow Counter""")
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
                                   description="""Passive 1: Force Field\nPassive 2: Living Metal\nPassive 3: 12th Level Intellect""")
             embed.set_author(name="Brainiac", url="https://discordapp.com")
-            file = discord.File("./Images_Passive/mto_passives/bnc_full.jpg", filename="bnc_full.jpg")
-            embed.set_image(url="attachment://bnc_full.jpg")
+            file = discord.File("./Images_Passive/mto_passives/brainy_full.jpg", filename="brainy_full.jpg")
+            embed.set_image(url="attachment://brainy_full.jpg")
             await ctx.channel.send(file=file, embed=embed)
         elif cmd == 'bncw':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
