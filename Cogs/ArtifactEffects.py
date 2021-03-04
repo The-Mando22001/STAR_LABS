@@ -36,10 +36,12 @@ Lethal Attack damage - 40%
 Health - 5700
 Damage for Special 1 - 60%
 Damage for Special 2 - 60%
-Damage for Special 3 - 60%```""")
+Damage for Special 3 - 60%```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
         embed.set_footer(
-            text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Build info provided by SIGMA#5422 | Artifact Effect Info provided by SIGMA#5422")
+            text=f"Last used by: {ctx.message.author.name} | Wanna find out who helped in moulding this bot into a successful one? Type i!credits to get the answer.")
 
         embed.set_author(name="Artifact Effects", url="https://discordapp.com")
         file = discord.File("arteff.png", filename="arteff.png")

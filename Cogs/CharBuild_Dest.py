@@ -107,7 +107,9 @@ szm   - Shazam
 tkgg  - TeleKinetic Gorilla Grodd 
 ubc   - Unbreakable Cyborg
 uhq   - Unhinged Harley Quinn
-wqww  - Warrior Queen Wonder Woman```""")
+wqww  - Warrior Queen Wonder Woman```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -130,7 +132,9 @@ DOT resist   75
 CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙ GEARS", value="""```13 HEALTH, 2 DEF```""")
-            embed.add_field(name="💎 FACTS", value="""```She gives 5% health to all female heroes in your roster```""")
+            embed.add_field(name="💎 FACTS", value="""```She gives 5% health to all female heroes in your roster```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -163,7 +167,9 @@ DOT resist   60
 CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```3 RES, 3 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```7 HEALTH, 4 ATTACK, 3 FAC, 1 DEF```""")
-            embed.add_field(name="💎 FACTS", value="""```Pair her with Silver Green Arrow for max FAC and silver bane for max CAC. It is necessary to have fast attack chance on her since she deals 150% fast attack damage.```""")
+            embed.add_field(name="💎 FACTS", value="""```Pair her with Silver Green Arrow for max FAC and silver bane for max CAC. It is necessary to have fast attack chance on her since she deals 150% fast attack damage.```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -185,7 +191,9 @@ DOT resist   0
 CAC resist   0```""")
             embed.add_field(name="⚙ TALENTS", value="""```3 CAD, 3 CAC```""")
             embed.add_field(name="⚙ GEARS", value="""```3 DEF, 2 CAD, 1 CAC, 5 ATTACK, 4 HEALTH```""")
-            embed.add_field(name="💎 FACTS", value="""```Her special 1 is DOT. You can also build her as a combo builder since she has great basics. Never use her down swipe attack!```""")
+            embed.add_field(name="💎 FACTS", value="""```Her special 1 is DOT. You can also build her as a combo builder since she has great basics. Never use her down swipe attack!```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -207,7 +215,9 @@ DOT resist   0
 CAC resist   0```""")
             embed.add_field(name="⚙ TALENTS", value="""```3 CAC, 3 CAD```""")
             embed.add_field(name="⚙ GEARS", value="""```2 CAD, 1 CAC, 12 ATTACK```""")
-            embed.add_field(name="💎 FACTS", value="""```Damage dealer for raids. He has a strong special 3 and can do good damage. You can have 3 defense effects in gears if you want. His passive gives 30% stun resist for team per might teammate and 20% team defense per metahuman teammate; thus when you use him with 2 might opponents the whole team will have max stun resist and when used with 2 metahuman teammates the whole team will have 40% defense.```""")
+            embed.add_field(name="💎 FACTS", value="""```Damage dealer for raids. He has a strong special 3 and can do good damage. You can have 3 defense effects in gears if you want. His passive gives 30% stun resist for team per might teammate and 20% team defense per metahuman teammate; thus when you use him with 2 might opponents the whole team will have max stun resist and when used with 2 metahuman teammates the whole team will have 40% defense.```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -229,7 +239,9 @@ DOT resist   75
 CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙ GEARS", value="""```2 DEF, 4 FAC, 9 HEALTH```""")
-            embed.add_field(name="💎 FACTS", value="""```Silver cyborg is one of the best tanks in the game. His passive allows him to heal slowly after tagging out and to maximize his healing we have him as a tank. Use the metahuman artifact on him to improve his healing further. We have fast attack chance on him since he has good basics. You can also build him as a full tank.```""")
+            embed.add_field(name="💎 FACTS", value="""```Silver cyborg is one of the best tanks in the game. His passive allows him to heal slowly after tagging out and to maximize his healing we have him as a tank. Use the metahuman artifact on him to improve his healing further. We have fast attack chance on him since he has good basics. You can also build him as a full tank.```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -251,7 +263,9 @@ DOT resist   75
 CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙ GEARS", value="""```2 DEF, 1 FAC, 4 ATTACk, 8 HEALTH```""")
-            embed.add_field(name="💎 FACTS", value="""```Silver flash gives 20% fast attack chance to himself and his teammates. He also gains fast attack chance on tag in so we don't need to have extra effects in gears.```""")
+            embed.add_field(name="💎 FACTS", value="""```Silver flash gives 20% fast attack chance to himself and his teammates. He also gains fast attack chance on tag in so we don't need to have extra effects in gears.```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -272,7 +286,9 @@ Stun resist  0
 DOT resist   0
 CAC resist   0```""")
             embed.add_field(name="⚙ TALENTS", value="""```3 CAD, 3 CAC```""")
-            embed.add_field(name="⚙ GEARS", value="""```3 DEF, 2 CAD, 1 CAC, 6 ATTACK, 3 HEALTH```""")
+            embed.add_field(name="⚙ GEARS", value="""```3 DEF, 2 CAD, 1 CAC, 6 ATTACK, 3 HEALTH```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -296,7 +312,9 @@ DOT resist   0
 CAC resist   0```""")
             embed.add_field(name="⚙ TALENTS", value="""```1 CAD, 1 CAC, 4 DEF```""")
             embed.add_field(name="⚙ GEARS", value="""```3 CAD, 3 CAC, 4 ATTACK, 4 FAC, 1 HEALTH```""")
-            embed.add_field(name="💎 FACTS", value="""```She gives 10% attack to herself and teammates. She also deals 100% damage on swipe attacks so we have fast attack chance to take advantage of it.```""")
+            embed.add_field(name="💎 FACTS", value="""```She gives 10% attack to herself and teammates. She also deals 100% damage on swipe attacks so we have fast attack chance to take advantage of it.```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -318,7 +336,9 @@ DOT resist   75
 CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙ GEARS", value="""```1 DEF, 7 ATTACK, 7 DEF```""")
-            embed.add_field(name="💎 FACTS", value="""```Silver Swamp Thing healing is based on how much attack he has. Use him with all blades or metahuman artifact to improve his healing.```""")
+            embed.add_field(name="💎 FACTS", value="""```Silver Swamp Thing healing is based on how much attack he has. Use him with all blades or metahuman artifact to improve his healing.```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -339,7 +359,9 @@ Stun resist  75
 DOT resist   75
 CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
-            embed.add_field(name="⚙ GEARS", value="""```1 DEF, 14 HEALTH```""")
+            embed.add_field(name="⚙ GEARS", value="""```1 DEF, 14 HEALTH```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -361,7 +383,9 @@ Stun resist  75
 DOT resist   75 
 CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
-            embed.add_field(name="⚙ GEARS", value="""```9 HEALTH, 2 DEF, 4 FAC```""")
+            embed.add_field(name="⚙ GEARS", value="""```9 HEALTH, 2 DEF, 4 FAC```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -383,7 +407,9 @@ Stun resist  0
 DOT resist   0
 CAC resist   0```""")
             embed.add_field(name="⚙ TALENTS", value="""```3 CAD, 3 CAC```""")
-            embed.add_field(name="⚙ GEARS", value="""```3 DEF, 1 CAC, 2 CAD, 7 ATTACK, 2 HEALTH```""")
+            embed.add_field(name="⚙ GEARS", value="""```3 DEF, 1 CAC, 2 CAD, 7 ATTACK, 2 HEALTH```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -405,7 +431,9 @@ Stun resist  75
 DOT resist   75
 CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
-            embed.add_field(name="⚙ GEARS", value="""```2 DEF, 13 HEALTH```""")
+            embed.add_field(name="⚙ GEARS", value="""```2 DEF, 13 HEALTH```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -427,7 +455,9 @@ Stun resist  75
 DOT resist   75 
 CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
-            embed.add_field(name="⚙ GEARS", value="""```9 HEALTH, 2 DEF, 4 FAC```""")
+            embed.add_field(name="⚙ GEARS", value="""```9 HEALTH, 2 DEF, 4 FAC```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -451,7 +481,9 @@ CAC resist   70
 BE           49```""")
             embed.add_field(name="⚙ TALENTS", value="""```2 BE, 4 RES```""")
             embed.add_field(name="⚙ GEARS", value="""```4 FAC, 8 HEALTH, 3 DEF```""")
-            embed.add_field(name="💎 FACTS", value="""```One of the best support characters in the game, silver doctor fate is a good combo builder and support. We have 2 block effectiveness talents to reduce damage from armor-piercing specials of brainiac in phase 3.```""")
+            embed.add_field(name="💎 FACTS", value="""```One of the best support characters in the game, silver doctor fate is a good combo builder and support. We have 2 block effectiveness talents to reduce damage from armor-piercing specials of brainiac in phase 3.```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -473,7 +505,9 @@ DOT resist   0
 CAC resist   0```""")
             embed.add_field(name="⚙ TALENTS", value="""```5 CAD, 1 CAC```""")
             embed.add_field(name="⚙ GEARS", value="""```15 ATTACK```""")
-            embed.add_field(name="💎 FACTS", value="""```Use silver bane as a combo builder and to max his critical attack chance. You can also use black canary as she provides 25% CAC to green arrow. He has a high damage special 3.```""")
+            embed.add_field(name="💎 FACTS", value="""```Use silver bane as a combo builder and to max his critical attack chance. You can also use black canary as she provides 25% CAC to green arrow. He has a high damage special 3.```
+    
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -494,7 +528,9 @@ Stun resist  75
 DOT resist   75
 CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
-            embed.add_field(name="⚙ GEARS", value="""```2 DEF, 13 HEALTH```""")
+            embed.add_field(name="⚙ GEARS", value="""```2 DEF, 13 HEALTH```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -517,7 +553,9 @@ DOT resist   75
 CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙ GEARS", value="""```10 HEALTH, 4 FAC, 1 DEF```""")
-            embed.add_field(name="💎 FACTS", value="""```Silver Superman has a 50% chance to ignore opponent basic attacks. Recommended artifacts: Nth Metal Armor, Kryptonian Regeneration Matrix, and Cosmic Staff.```""")
+            embed.add_field(name="💎 FACTS", value="""```Silver Superman has a 50% chance to ignore opponent basic attacks. Recommended artifacts: Nth Metal Armor, Kryptonian Regeneration Matrix, and Cosmic Staff.```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -539,7 +577,9 @@ DOT resist   75
 CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙ GEARS", value="""```9 HEALTH, 2 DEF, 4 FAC```""")
-            embed.add_field(name="💎 FACTS", value="""```Silver lantern is a good combo builder and tank as his passive gives a shield of 25%; hence, the more health he has the more his shield can withstand.```""")
+            embed.add_field(name="💎 FACTS", value="""```Silver lantern is a good combo builder and tank as his passive gives a shield of 25%; hence, the more health he has the more his shield can withstand.```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -561,7 +601,9 @@ DOT resist   0
 CAC resist   0```""")
             embed.add_field(name="⚙ TALENTS", value="""```3 CAC, 3 CAD```""")
             embed.add_field(name="⚙ GEARS", value="""```13 ATTACK, 1 CAC, 1 CAD```""")
-            embed.add_field(name="💎 FACTS", value="""```Silver Batman has the highest special 3 damage in the game. He's an excellent damage dealer. You can also drop the CAD and add one more attack when you use MVF as a combo builder. The best team for him in raids would be Justice League Superman and another batman (AKBM or JLBM preferably).```""")
+            embed.add_field(name="💎 FACTS", value="""```Silver Batman has the highest special 3 damage in the game. He's an excellent damage dealer. You can also drop the CAD and add one more attack when you use MVF as a combo builder. The best team for him in raids would be Justice League Superman and another batman (AKBM or JLBM preferably).```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -598,7 +640,9 @@ CAC resist   70
 BE           49```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 BE```""")
             embed.add_field(name="⚙ GEARS", value="""```8 HEALTH, 3 ATTACK, 4 FAC```""")
-            embed.add_field(name="💎 FACTS", value="""```Since AKBM passive gives max defense and a ton of health he can be easily built as a damage dealer. If you use him in raids the best team for him would be justice League Superman and Justice League Batman. He also gets 20% attack and 20% health from classic Batman.```""")
+            embed.add_field(name="💎 FACTS", value="""```Since AKBM passive gives max defense and a ton of health he can be easily built as a damage dealer. If you use him in raids the best team for him would be justice League Superman and Justice League Batman. He also gets 20% attack and 20% health from classic Batman.```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -620,7 +664,9 @@ DOT resist   0
 CAC resist   0```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 AP, 2 CAC```""")
             embed.add_field(name="⚙ GEARS", value="""```4 ATTACK, 5 FAC, 2 CAC, 4 CAD```""")
-            embed.add_field(name="💎 FACTS", value="""```The best team for BM is Brainiac & Justice League Flash (this team does well vs GG and HSC). However, another great pip for BM is vs P4 (it’s loads of fun) and your team with him should be: Brainiac and AGA. With this pip, BM has TAB equipped and AGA tagging in and out to power drain/lock P4 Brainiac.```""")
+            embed.add_field(name="💎 FACTS", value="""```The best team for BM is Brainiac & Justice League Flash (this team does well vs GG and HSC). However, another great pip for BM is vs P4 (it’s loads of fun) and your team with him should be: Brainiac and AGA. With this pip, BM has TAB equipped and AGA tagging in and out to power drain/lock P4 Brainiac.```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -645,7 +691,9 @@ CAC resist   60```""")
             embed.add_field(name="💎 FACTS", value="""```The Brainiac is only useful as support to other legendary characters, or as a Tank for the arena. 
 Side note: teamed with manta be sure to add 3 slots of lethal to brainiacs gear so manta gets 75% of it. 
 Suggested teammates: Black Manta, DS, AKBM.
-Suggested artifact: NTH Armor.```""")
+Suggested artifact: NTH Armor.```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -667,7 +715,9 @@ DOT resist   0
 CAC resist   0```""")
             embed.add_field(name="⚙ TALENTS", value="""```5 CAD, 1 LAC```""")
             embed.add_field(name="⚙ GEARS", value="""```5 ATTACK, 4 FAC, 2 LAC, 3 CAC, 1 CAD```""")
-            embed.add_field(name="💎 FACTS", value="""```In the Batman Ninja Team, BNR can be used to not only build combo (tag-in combo too) but also blind his enemies; moreover, BNC can be used for obtaining health, lethal boost, and attack. BNGG's first special deals +150.05% damage to blinded opponents at level 70! Also, BNGGe can be one of the best combo builders outside of the BN team legendary team, or on a SHAZAM, KOA team because he can build up the power bar while building a combo because of his passive.```""")
+            embed.add_field(name="💎 FACTS", value="""```In the Batman Ninja Team, BNR can be used to not only build combo (tag-in combo too) but also blind his enemies; moreover, BNC can be used for obtaining health, lethal boost, and attack. BNGG's first special deals +150.05% damage to blinded opponents at level 70! Also, BNGGe can be one of the best combo builders outside of the BN team legendary team, or on a SHAZAM, KOA team because he can build up the power bar while building a combo because of his passive.```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -694,7 +744,9 @@ CAC          75
 FAC          69
 LAC          15 (Base)```""")
             embed.add_field(name="⚙ TALENTS", value="""```3 CAC, 3 CAD```""")
-            embed.add_field(name="⚙ GEARS", value="""```8 ATTACK, 4 FAC, 2 CAD, 1 CAC```""")
+            embed.add_field(name="⚙ GEARS", value="""```8 ATTACK, 4 FAC, 2 CAD, 1 CAC```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -711,7 +763,9 @@ CAC          71
 FAC          69
 AP           96```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 AP, 1 CAC, 1 CAD```""")
-            embed.add_field(name="⚙ GEARS", value="""```6 ATTACK, 4 FAC, 3 CAD, 2 CAC```""")
+            embed.add_field(name="⚙ GEARS", value="""```6 ATTACK, 4 FAC, 3 CAD, 2 CAC```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -734,7 +788,9 @@ DOT resist   40
 CAC resist   40```""")
             embed.add_field(name="⚙ TALENTS", value="""```2 RES, 2 AP, 1 CAC, 1 ATTACK```""")
             embed.add_field(name="⚙ GEARS", value="""```3 CAD, 7 ATTACK, 3 CAC, 2 DEF```""")
-            embed.add_field(name="💎 FACTS", value="""```SSHQ can be very dangerous when teamed up with her other SS teammates. The Suicide Squad is mainly an arena team, but her passives that strip multiple percentages of opponents stats can allow you to decimate a team. Additionally, she does not need much CAC as her other passive when teamed with SSDS it gives her +50% CAC.```""")
+            embed.add_field(name="💎 FACTS", value="""```SSHQ can be very dangerous when teamed up with her other SS teammates. The Suicide Squad is mainly an arena team, but her passives that strip multiple percentages of opponents stats can allow you to decimate a team. Additionally, she does not need much CAC as her other passive when teamed with SSDS it gives her +50% CAC.```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -770,7 +826,9 @@ DOT resist   20
 CAC resist   20```""")
             embed.add_field(name="⚙ TALENTS", value="""```2 AP, 2 CAC, 1 ATTACK, 1 LAC```""")
             embed.add_field(name="⚙ GEARS", value="""```10 ATTACK, 4 CAD, 1 CAC```""")
-            embed.add_field(name="💎 FACTS", value="""```When SSE is paired with her team, The Suicide Squad, she can be a very dangerous character if built this way. Using her passives that heal her and her SP3 gives her an immortality "dome" which allows her to deal lots of damage safely if used correctly in battle.```""")
+            embed.add_field(name="💎 FACTS", value="""```When SSE is paired with her team, The Suicide Squad, she can be a very dangerous character if built this way. Using her passives that heal her and her SP3 gives her an immortality "dome" which allows her to deal lots of damage safely if used correctly in battle.```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -795,7 +853,9 @@ CAC resist   70```""")
             embed.add_field(name="⚙ GEARS", value="""```3 CAD, 3 CAC, 1 FAC, 1 DEF, 10 ATTACK```""")
             embed.add_field(name="💎 FACTS", value="""```Recommended Artifact: Metahuman Artifact.
 Works as Sb support in normal and solo raids. 
-If not used there, have JLSM on the team to gain max def and replace all MM def with CAD on Talents and Atk on Gears.```""")
+If not used there, have JLSM on the team to gain max def and replace all MM def with CAD on Talents and Atk on Gears.```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -816,7 +876,9 @@ DOT resist   0
 CAC resist   0```""")
             embed.add_field(name="⚙ TALENTS", value="""```6 CAD```""")
             embed.add_field(name="⚙ GEARS", value="""```12 ATTACK, 3 CAC```""")
-            embed.add_field(name="💎 FACTS", value="""```Because of her 3rd passive, she does not need to have any FAC. If you use her in raids you will have a combo builder and if you use her in arena, you can hold block to gain combo meter hits.```""")
+            embed.add_field(name="💎 FACTS", value="""```Because of her 3rd passive, she does not need to have any FAC. If you use her in raids you will have a combo builder and if you use her in arena, you can hold block to gain combo meter hits.```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -840,7 +902,9 @@ DOT resist   0
 CAC resist   0```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 DEF, 2 BE```""")
             embed.add_field(name="⚙ GEARS", value="""```5 ATTACK, 4 FAC, 3 CAD, 3 HEALTH```""")
-            embed.add_field(name="💎 FACTS", value="""```Batman Ninja Batman gets full critical attack chance and armor Pierce on basics and specials when he's hit by crit or AP attack. So we don't have CAC on him since we are utilizing his passive. We also have fast attack chance for higher combos and utilize his ap passive. Block effectiveness is to reduce damage from AP attacks. He's not an ideal damage dealer for raids.```""")
+            embed.add_field(name="💎 FACTS", value="""```Batman Ninja Batman gets full critical attack chance and armor Pierce on basics and specials when he's hit by crit or AP attack. So we don't have CAC on him since we are utilizing his passive. We also have fast attack chance for higher combos and utilize his ap passive. Block effectiveness is to reduce damage from AP attacks. He's not an ideal damage dealer for raids.```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -861,7 +925,9 @@ Stun resist  75
 DOT resist   75 
 CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
-            embed.add_field(name="⚙ GEARS", value="""```6 HEALTH, 4 FAC, 4 LAC, 1 DEF```""")
+            embed.add_field(name="⚙ GEARS", value="""```6 HEALTH, 4 FAC, 4 LAC, 1 DEF```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -883,7 +949,9 @@ DOT resist   0
 CAC resist   0```""")
             embed.add_field(name="⚙ TALENTS", value="""```2 CAC, 3 CAD, 1 LAC```""")
             embed.add_field(name="⚙ GEARS", value="""```1 CAC, 2 CAD, 3 LAC, 4 FAC, 5 ATTACK```""")
-            embed.add_field(name="💎 FACTS", value="""```Bncw is a very good character to play on her own with claws of horus. When partnered with bngg, and bnr, she can do a massive amount of damage. It is very important to keep her attacks going, and stopping as little as possible. This is to maximize the bnr stack. I added a lethal attack roll to the build, so that she gains a small edge in arena, but if u want to build her solely for raids, build her with attack rather than lethal. She is meant to spam combos and sp3s, and keep an ongoing sp2 dot going throughout the game. (roughly one sp2 per 3-5 sp3s)```""")
+            embed.add_field(name="💎 FACTS", value="""```Bncw is a very good character to play on her own with claws of horus. When partnered with bngg, and bnr, she can do a massive amount of damage. It is very important to keep her attacks going, and stopping as little as possible. This is to maximize the bnr stack. I added a lethal attack roll to the build, so that she gains a small edge in arena, but if u want to build her solely for raids, build her with attack rather than lethal. She is meant to spam combos and sp3s, and keep an ongoing sp2 dot going throughout the game. (roughly one sp2 per 3-5 sp3s)```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -905,7 +973,9 @@ DOT resist   0
 CAC resist   10 ```""")
             embed.add_field(name="⚙ TALENTS", value="""```2 LAC, 4 CAC```""")
             embed.add_field(name="⚙ GEARS", value="""```6 ATTACK, 4 CAD, 3 FAC, 2 LAC```""")
-            embed.add_field(name="💎 FACTS", value="""```BNR, or Batman Ninja Robin, is key to the ninja team. He gives various buffs to his teammates like a combo meter which starts at 7 hits, lethal attack damage per lethal hit, and 30% lac when the opponent is blinded and misses a basic attack on you. Robin's main damage comes from his 30% LAD every 14 seconds and it stacks; hence, it is essential to build him and his fellow teammates with LAC and FAC to take full advantage of his passives and deal massive damage in raids. This build serves as both a damage dealer and a combo builder for BNGG when he is built as a damage dealer.```""")
+            embed.add_field(name="💎 FACTS", value="""```BNR, or Batman Ninja Robin, is key to the ninja team. He gives various buffs to his teammates like a combo meter which starts at 7 hits, lethal attack damage per lethal hit, and 30% lac when the opponent is blinded and misses a basic attack on you. Robin's main damage comes from his 30% LAD every 14 seconds and it stacks; hence, it is essential to build him and his fellow teammates with LAC and FAC to take full advantage of his passives and deal massive damage in raids. This build serves as both a damage dealer and a combo builder for BNGG when he is built as a damage dealer.```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -940,7 +1010,9 @@ DOT resist   75
 CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙ GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```""")
-            embed.add_field(name="💎 FACTS", value="""```BNLJ is a great support character as well and can revive your teammates and himself twice when the opposite team has a Batman. Hence, he is very handy in any team, especially against Arkham Knight Batman. We have FAC since he has good basic attacks. You can replace them with health if you want.```""")
+            embed.add_field(name="💎 FACTS", value="""```BNLJ is a great support character as well and can revive your teammates and himself twice when the opposite team has a Batman. Hence, he is very handy in any team, especially against Arkham Knight Batman. We have FAC since he has good basic attacks. You can replace them with health if you want.```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -983,7 +1055,9 @@ CAC resist   0```""")
             embed.add_field(name="💎 FACTS", value="""```Suggested Team: mvbw, mvf and mvasg
 Suggested Artifacts: The All-Blades or Claw of Horus
 
-MVBW when teamed with these 2 teammates is when she's at her most dangerous! She makes an excellent 2nd/alternate DD/Support to ASG.  A lot of players sleep on her potential. Don't be one of them. Give her a try she's dangerous and fun to use in the arenas, and raids with this build. MVF will add all the CAC, and CAD she needs, and ASG with her SP2, and SP3 not only adds to her defensive/offensive stats but they will also increase her special moves damage for each active MV buffer. Her other passives also are extremely helpful. A chance to keep your combo if broken by getting hit, a unique buffer slowing passive, and her SP1 gives you a chance at a free SP3. Very versatile! ```""")
+MVBW when teamed with these 2 teammates is when she's at her most dangerous! She makes an excellent 2nd/alternate DD/Support to ASG.  A lot of players sleep on her potential. Don't be one of them. Give her a try she's dangerous and fun to use in the arenas, and raids with this build. MVF will add all the CAC, and CAD she needs, and ASG with her SP2, and SP3 not only adds to her defensive/offensive stats but they will also increase her special moves damage for each active MV buffer. Her other passives also are extremely helpful. A chance to keep your combo if broken by getting hit, a unique buffer slowing passive, and her SP1 gives you a chance at a free SP3. Very versatile! ```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -1018,7 +1092,9 @@ DOT resist   0
 CAC resist   0```""")
             embed.add_field(name="⚙ TALENTS", value="""```5 CAD, 1 ATTACK```""")
             embed.add_field(name="⚙ GEARS", value="""```15 ATTACK```""")
-            embed.add_field(name="💎 FACTS", value="""```Damage dealer build for raids. You can have defense in gears if you want. His passive maxes his critical attack chance and also gives 45% critical attack damage.```""")
+            embed.add_field(name="💎 FACTS", value="""```Damage dealer build for raids. You can have defense in gears if you want. His passive maxes his critical attack chance and also gives 45% critical attack damage.```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -1054,7 +1130,9 @@ DOT resist   0
 CAC resist   0```""")
             embed.add_field(name="⚙ TALENTS", value="""```3 DEF, 3 CAD```""")
             embed.add_field(name="⚙ GEARS", value="""```13 ATTACK, 1 CAD, 1 DEF```""")
-            embed.add_field(name="💎 FACTS", value="""```Damage dealer build for raids. Pair with MVF for max critical attack chance and damage. He has a great special 2 and armor-piercing special 3. Defense effect on gear is just for maxing defense, you can switch it to attack if you want.```""")
+            embed.add_field(name="💎 FACTS", value="""```Damage dealer build for raids. Pair with MVF for max critical attack chance and damage. He has a great special 2 and armor-piercing special 3. Defense effect on gear is just for maxing defense, you can switch it to attack if you want.```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -1088,7 +1166,9 @@ Stun resist  75
 DOT resist   75 
 CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
-            embed.add_field(name="⚙ GEARS", value="""```7 ATTACK, 6 HEALTH, 2 DEF```""")
+            embed.add_field(name="⚙ GEARS", value="""```7 ATTACK, 6 HEALTH, 2 DEF```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -1124,7 +1204,9 @@ DOT resist   75
 CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙ GEARS", value="""```7 ATTACK, 6 HEALTH, 2 DEF```""")
-            embed.add_field(name="💎 FACTS", value="""```Mixed build for arena and champions arena. If u use her with akbm remove defense and some health and add CAC and CAD.```""")
+            embed.add_field(name="💎 FACTS", value="""```Mixed build for arena and champions arena. If u use her with akbm remove defense and some health and add CAC and CAD.```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -1158,7 +1240,9 @@ Stun resist  75
 DOT resist   75
 CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
-            embed.add_field(name="⚙ GEARS", value="""```8 HEALTH, 6 ATTACK, 1 DEF```""")
+            embed.add_field(name="⚙ GEARS", value="""```8 HEALTH, 6 ATTACK, 1 DEF```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -1192,7 +1276,9 @@ Stun resist  72
 DOT resist   72 
 CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```6 RES```""")
-            embed.add_field(name="⚙ GEARS", value="""```6 ATTACK, 7 HEALTH, 2 DEF```""")
+            embed.add_field(name="⚙ GEARS", value="""```6 ATTACK, 7 HEALTH, 2 DEF```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -1214,7 +1300,9 @@ DOT resist   15
 CAC resist   15```""")
             embed.add_field(name="⚙ TALENTS", value="""```1 RES, 5 LAC```""")
             embed.add_field(name="⚙ GEARS", value="""```15 ATTACK```""")
-            embed.add_field(name="💎 FACTS", value="""```One of the great damage dealers in raids.```""")
+            embed.add_field(name="💎 FACTS", value="""```One of the great damage dealers in raids.```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -1251,7 +1339,9 @@ CAC resist   0
 BE           49```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 DEF, 2 BE```""")
             embed.add_field(name="⚙ GEARS", value="""```9 ATTACK, 4 FAC, 2 HEALTH```""")
-            embed.add_field(name="💎 FACTS", value="""```JLC can do decent damage in phase 2 and can be a useful cleanup pip especially in tier 7/8 raids. To be used with claw of horus artifact. Suggested teams would be with JLF and DF/PG. You can also use silver or speedforce the flash for FAC and have extra attack in gears.```""")
+            embed.add_field(name="💎 FACTS", value="""```JLC can do decent damage in phase 2 and can be a useful cleanup pip especially in tier 7/8 raids. To be used with claw of horus artifact. Suggested teams would be with JLF and DF/PG. You can also use silver or speedforce the flash for FAC and have extra attack in gears.```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -1273,7 +1363,9 @@ DOT resist   0
 CAC resist   0```""")
             embed.add_field(name="⚙ TALENTS", value="""```3 CAD, 3 CAC```""")
             embed.add_field(name="⚙ GEARS", value="""```8 ATTACK, 2 CAC, 4 FAC, 1 CAD```""")
-            embed.add_field(name="💎 FACTS", value="""```JLF is meant to be played alongside JLC and JLAM for maximum dmg. When playing this way, both JLC and JLF are the dmg dealers as well as the combo builders. when shear power is needed, it is best to use JLF sp3. When power drain is needed, it is best to use JLC sp2. Equip The All Blades Artifact on both JLF and JLC.```""")
+            embed.add_field(name="💎 FACTS", value="""```JLF is meant to be played alongside JLC and JLAM for maximum dmg. When playing this way, both JLC and JLF are the dmg dealers as well as the combo builders. when shear power is needed, it is best to use JLF sp3. When power drain is needed, it is best to use JLC sp2. Equip The All Blades Artifact on both JLF and JLC.```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -1307,7 +1399,9 @@ DOT resist   0
 CAC resist   0```""")
             embed.add_field(name="⚙ TALENTS", value="""```3 CAD, 3 CAC```""")
             embed.add_field(name="⚙ GEARS", value="""```8 ATTACK, 4 FAC, 2 CAD, 1 CAC```""")
-            embed.add_field(name="💎 FACTS", value="""```JLAM is meant to be used along with JLF and JLC to get maximum damage in raids. Equip The All Blades Artifact on both JLF and JLC.```""")
+            embed.add_field(name="💎 FACTS", value="""```JLAM is meant to be used along with JLF and JLC to get maximum damage in raids. Equip The All Blades Artifact on both JLF and JLC.```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -1329,7 +1423,9 @@ DOT resist   75
 CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙ GEARS", value="""```5 HEALTH, 4 ATTACK, 4 FAC, 2 DEF```""")
-            embed.add_field(name="💎 FACTS", value="""```When used with Justice League Superman as a combo builder, you can replace all attack effects with health. We have some attack so his basics can hit hard with cyborg or Superman. He also gets 20% attack and 20% health from classic Batman.```""")
+            embed.add_field(name="💎 FACTS", value="""```When used with Justice League Superman as a combo builder, you can replace all attack effects with health. We have some attack so his basics can hit hard with cyborg or Superman. He also gets 20% attack and 20% health from classic Batman.```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -1355,7 +1451,9 @@ CAC resist   60 ```""")
 
 An all-purpose MWW build. A solid DD option for those who use JLF with LOA on GG/P1, and have JLA/JLC/JLB/MWW leftover. 
 
-MWW is a good primary DD for TAB tag-ins due to a shorter time-duration basic attack combo chain, power block, and armor-piercing on SP1 in comparison to JLA. This build is designed to take some hits for 3 minutes and survive tech class changes without losing too much health. The 60% DOT resist is use to make hp management from TAB DOT easier.```""")
+MWW is a good primary DD for TAB tag-ins due to a shorter time-duration basic attack combo chain, power block, and armor-piercing on SP1 in comparison to JLA. This build is designed to take some hits for 3 minutes and survive tech class changes without losing too much health. The 60% DOT resist is use to make hp management from TAB DOT easier.```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -1379,7 +1477,9 @@ DOT resist   75
 CAC resist   70```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙ GEARS", value="""```3 CAD, 2 CAC, 4 FAC, 3 HEALTH, 2 DEF, 1 ATTACK```""")
-            embed.add_field(name="💎 FACTS", value="""```EPI is the key to the LOA team as she provides DOT on basic attacks for herself and LOA teammates. When she dies the DOT will go away; hence, it is necessary to make sure she's built as a hybrid so she can heal and as well as survive the match. Her healing is based on how much damage she does; hence, it is ideal to have a critical attack chance and damage and fast attack chance to heal faster. Use all blades or claw of horus to boost her attack and healing. You can also use a metahuman or agility artifact on her.```""")
+            embed.add_field(name="💎 FACTS", value="""```EPI is the key to the LOA team as she provides DOT on basic attacks for herself and LOA teammates. When she dies the DOT will go away; hence, it is necessary to make sure she's built as a hybrid so she can heal and as well as survive the match. Her healing is based on how much damage she does; hence, it is ideal to have a critical attack chance and damage and fast attack chance to heal faster. Use all blades or claw of horus to boost her attack and healing. You can also use a metahuman or agility artifact on her.```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -1400,7 +1500,9 @@ DOT resist   0
 CAC resist   10```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 AP, 2 CAC```""")
             embed.add_field(name="⚙ GEARS", value="""```6 ATTACK, 4 FAC, 4 CAD, 1 CAC```""")
-            embed.add_field(name="💎 FACTS", value="""```Heartbreaker Harley Quinn (HBHQ) Is one of INJ2s top 10 damage dealing characters (DDs). All damage is done to stunned opponents. She is ideally teamed up w/AKBM, and EPI. Also she's always good as a support character on her original LOA team. Most effective vs GG, P1, P3. A must have for solo raids.```""")
+            embed.add_field(name="💎 FACTS", value="""```Heartbreaker Harley Quinn (HBHQ) Is one of INJ2s top 10 damage dealing characters (DDs). All damage is done to stunned opponents. She is ideally teamed up w/AKBM, and EPI. Also she's always good as a support character on her original LOA team. Most effective vs GG, P1, P3. A must have for solo raids.```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -1433,7 +1535,9 @@ DOT resist   0
 CAC resist   15```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 AP, 2 CAC```""")
             embed.add_field(name="⚙ GEARS", value="""```5 FAC, 4 CAD, 5 ATTACK, 1 CAC```""")
-            embed.add_field(name="💎 FACTS", value="""```96% Armor-piercing LLJ build. Especially effective on GG in T7/T8 with EPI & JLF.```""")
+            embed.add_field(name="💎 FACTS", value="""```96% Armor-piercing LLJ build. Especially effective on GG in T7/T8 with EPI & JLF.```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -1457,7 +1561,9 @@ DOT resist   0
 CAC resist   0```""")
             embed.add_field(name="⚙ TALENTS", value="""```5 CAD, 1 CAC```""")
             embed.add_field(name="⚙ GEARS", value="""```2 HEALTH, 6 ATTACK, 4 FAC, 2 CAC, 1 CAD```""")
-            embed.add_field(name="💎 FACTS", value="""```100% damage on basics for limited time after using either of his 3 specials. So we have him offensively built to take advantage of his passive. His sp3 gives 90% defense and hence we don't need to have defense in his gears or talents. Do not use his special 1.```""")
+            embed.add_field(name="💎 FACTS", value="""```100% damage on basics for limited time after using either of his 3 specials. So we have him offensively built to take advantage of his passive. His sp3 gives 90% defense and hence we don't need to have defense in his gears or talents. Do not use his special 1.```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -1480,7 +1586,9 @@ CAC resist   70
 BE           49 ```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 BE```""")
             embed.add_field(name="⚙ GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```""")
-            embed.add_field(name="💎 FACTS", value="""```Armored Superman has a chance to ignore the first special attack (1/2/3) of the opponent and provides 20% team defense which also applies to himself. He's a great tank and decent combo builder.```""")
+            embed.add_field(name="💎 FACTS", value="""```Armored Superman has a chance to ignore the first special attack (1/2/3) of the opponent and provides 20% team defense which also applies to himself. He's a great tank and decent combo builder.```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -1513,7 +1621,9 @@ DOT resist   0
 CAC resist   0```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 AP, 2 DEF```""")
             embed.add_field(name="⚙ GEARS", value="""```11 ATTACK, 4 FAC```""")
-            embed.add_field(name="💎 FACTS", value="""```Non-crit KOAAM is for Phase 2 and Captain Cold since P2 is immune to crit and CC is highly crit resistant. We have armor pierce talents to bypass defense and high attack to deal raw damage. The recommended team for phase 2 would be shazam and doctor fate. You can also use Nightwing or Atrocitus. For captain cold, use shazam and doctor fate.```""")
+            embed.add_field(name="💎 FACTS", value="""```Non-crit KOAAM is for Phase 2 and Captain Cold since P2 is immune to crit and CC is highly crit resistant. We have armor pierce talents to bypass defense and high attack to deal raw damage. The recommended team for phase 2 would be shazam and doctor fate. You can also use Nightwing or Atrocitus. For captain cold, use shazam and doctor fate.```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -1535,7 +1645,9 @@ DOT resist   0
 CAC resist   10```""")
             embed.add_field(name="⚙ TALENTS", value="""```5 CAD, 1 CAC```""")
             embed.add_field(name="⚙ GEARS", value="""```12 ATTACK, 2 CAC, 1 CAD```""")
-            embed.add_field(name="💎 FACTS", value="""```SB is perhaps the best damage dealer for DF Boss. It can be paired with PBM or RF. Begin the match with an sp2 to apply torment then proceed to disable DF with SB sp1, or PBM sp1, before building combo for SB sp3.```""")
+            embed.add_field(name="💎 FACTS", value="""```SB is perhaps the best damage dealer for DF Boss. It can be paired with PBM or RF. Begin the match with an sp2 to apply torment then proceed to disable DF with SB sp1, or PBM sp1, before building combo for SB sp3.```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -1557,7 +1669,9 @@ DOT resist   75
 CAC resist   70 ```""")
             embed.add_field(name="⚙ TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙ GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```""")
-            embed.add_field(name="💎 FACTS", value="""```Shazam is a great tank and combo builder. If you're not willing to have FAC on him then replace them with health. Recommended artifacts are the Nth Metal Armor, Kryptonian Regeneration Matrix, and Metahuman to boost healing for the entire team with his SP3.```""")
+            embed.add_field(name="💎 FACTS", value="""```Shazam is a great tank and combo builder. If you're not willing to have FAC on him then replace them with health. Recommended artifacts are the Nth Metal Armor, Kryptonian Regeneration Matrix, and Metahuman to boost healing for the entire team with his SP3.```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -1577,7 +1691,9 @@ Stun resist  0
 DOT resist   0
 CAC resist   0```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAC, 3 DEF```""")
-            embed.add_field(name="⚙GEARS", value="""```10 ATTACK, 1 CAC, 4 CAD```""")
+            embed.add_field(name="⚙GEARS", value="""```10 ATTACK, 1 CAC, 4 CAD```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -1598,7 +1714,9 @@ Stun resist  68
 DOT resist   68
 CAC resist   68```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 1 AP, 1 CAC```""")
-            embed.add_field(name="⚙GEARS", value="""```6 HEALTH, 4 DEF, 5 FAC```""")
+            embed.add_field(name="⚙GEARS", value="""```6 HEALTH, 4 DEF, 5 FAC```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -1620,7 +1738,9 @@ Stun resist  0
 DOT resist   0
 CAC resist   0```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAD, 3 CAC```""")
-            embed.add_field(name="⚙GEARS", value="""```5 ATTACK, 4 HEALTH, 3 DEF, 2 CAD, 1 CAC```""")
+            embed.add_field(name="⚙GEARS", value="""```5 ATTACK, 4 HEALTH, 3 DEF, 2 CAD, 1 CAC```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -1642,7 +1762,9 @@ Stun resist  75
 DOT resist   75 
 CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
-            embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```""")
+            embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -1663,7 +1785,9 @@ Stun resist  75
 DOT resist   75        
 CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
-            embed.add_field(name="⚙GEARS", value="""```14 HEALTH, 1 DEF```""")
+            embed.add_field(name="⚙GEARS", value="""```14 HEALTH, 1 DEF```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -1709,7 +1833,9 @@ DOT resist   0
 CAC resist   0```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAC, 3 CAD```""")
             embed.add_field(name="⚙GEARS", value="""```12 ATTACK, 2 CAD, 1 CAC```""")
-            embed.add_field(name="💎 FACTS", value="""```For Fast Attack build, replace 4 FAC with ATTACK in gear talents. This will reduce attack value, but deals good damage even when using FA build.```""")
+            embed.add_field(name="💎 FACTS", value="""```For Fast Attack build, replace 4 FAC with ATTACK in gear talents. This will reduce attack value, but deals good damage even when using FA build.```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -1729,7 +1855,9 @@ Stun resist  60
 DOT resist   60        
 CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```3 RES, 1 AP, 1 DEF, 1 CAC```""")
-            embed.add_field(name="⚙GEARS", value="""```3 DEF, 3 HEALTH, 3 ATTACK, 6 FAC```""")
+            embed.add_field(name="⚙GEARS", value="""```3 DEF, 3 HEALTH, 3 ATTACK, 6 FAC```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -1750,7 +1878,9 @@ Stun resist  40
 DOT resist   40        
 CAC resist   40```""")
             embed.add_field(name="⚙TALENTS", value="""```2 RES, 2 DEF, 2 CAD```""")
-            embed.add_field(name="⚙GEARS", value="""```10 ATTACK, 2 CAD, 3 CAC```""")
+            embed.add_field(name="⚙GEARS", value="""```10 ATTACK, 2 CAD, 3 CAC```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -1771,7 +1901,9 @@ Stun resist  0
 DOT resist   0        
 CAC resist   0```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAD, 1 CAC, 2 AP```""")
-            embed.add_field(name="⚙GEARS", value="""```10 ATTACK, 5 FAC, 2 CAC, 1 CAD```""")
+            embed.add_field(name="⚙GEARS", value="""```10 ATTACK, 5 FAC, 2 CAC, 1 CAD```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -1793,7 +1925,9 @@ Stun resist  0
 DOT resist   0        
 CAC resist   0```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAC, 1 CAD, 1 DEF, 1 LETHAL```""")
-            embed.add_field(name="⚙GEARS", value="""```12 ATTACK, 2 CAD, 1 CAC```""")
+            embed.add_field(name="⚙GEARS", value="""```12 ATTACK, 2 CAD, 1 CAC```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -1814,7 +1948,9 @@ Stun resist  0
 DOT resist   0    
 CAC resist   0```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAC, 2 DEF, 1 CAD```""")
-            embed.add_field(name="⚙GEARS", value="""```8 ATTACK, 3 CAD, 1 CAC, 2 FAC, 1 DEF```""")
+            embed.add_field(name="⚙GEARS", value="""```8 ATTACK, 3 CAD, 1 CAC, 2 FAC, 1 DEF```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -1835,7 +1971,9 @@ Stun resist  0
 DOT resist   0        
 CAC resist   0```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAC, 2 DEF, 1 CAD```""")
-            embed.add_field(name="⚙GEARS", value="""```9 ATTACK, 2 DEF, 4 CAD```""")
+            embed.add_field(name="⚙GEARS", value="""```9 ATTACK, 2 DEF, 4 CAD```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -1856,7 +1994,9 @@ Stun resist  20
 DOT resist   20        
 CAC resist   20```""")
             embed.add_field(name="⚙TALENTS", value="""```2 CAD, 1 CAC, 1 AP, 1 DEF, 1 RES```""")
-            embed.add_field(name="⚙GEARS", value="""```4 ATTACK, 2 DEF, 3 CAD, 4 FAC, 2 CAC```""")
+            embed.add_field(name="⚙GEARS", value="""```4 ATTACK, 2 DEF, 3 CAD, 4 FAC, 2 CAC```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -1877,7 +2017,9 @@ Stun resist  75
 DOT resist   75        
 CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
-            embed.add_field(name="⚙GEARS", value="""```13 HEALTH, 2 DEF```""")
+            embed.add_field(name="⚙GEARS", value="""```13 HEALTH, 2 DEF```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -1898,7 +2040,9 @@ Stun resist  70
 DOT resist   60        
 CAC resist   60```""")
             embed.add_field(name="⚙TALENTS", value="""```3 RES, 2 CAC, 1 CAD```""")
-            embed.add_field(name="⚙GEARS", value="""```11 ATTACK, 1 CAC, 3 CAD```""")
+            embed.add_field(name="⚙GEARS", value="""```11 ATTACK, 1 CAC, 3 CAD```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -1920,7 +2064,9 @@ DOT resist   0
 CAC resist   0```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAC, 3 CAD```""")
             embed.add_field(name="⚙GEARS", value="""```14 ATTACK, 1 CAD```""")
-            embed.add_field(name="💎 FACTS", value="""```Pair with MVF to get full CAD```""")
+            embed.add_field(name="💎 FACTS", value="""```Pair with MVF to get full CAD```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -1940,7 +2086,9 @@ Stun resist  40
 DOT resist   40        
 CAC resist   40```""")
             embed.add_field(name="⚙TALENTS", value="""```2 DEF, 2 RES, 1 CAC, 1 LAC```""")
-            embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 2 DEF, 4 FAC```""")
+            embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 2 DEF, 4 FAC```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -1961,7 +2109,9 @@ Stun resist  60
 DOT resist   60        
 CAC resist   60```""")
             embed.add_field(name="⚙TALENTS", value="""```3 RES, 1 BE, 2 DEF```""")
-            embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 2 DEF, 4 FAC```""")
+            embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 2 DEF, 4 FAC```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -1982,7 +2132,9 @@ Stun resist  0
 DOT resist   0        
 CAC resist   0```""")
             embed.add_field(name="⚙TALENTS", value="""```4 CAC, 2 CAD```""")
-            embed.add_field(name="⚙GEARS", value="""```10 ATTACK, 2 DEF, 3 CAD```""")
+            embed.add_field(name="⚙GEARS", value="""```10 ATTACK, 2 DEF, 3 CAD```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -2003,7 +2155,9 @@ Stun resist  75
 DOT resist   75        
 CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
-            embed.add_field(name="⚙GEARS", value="""```14 HEALTH, 1 DEF```""")
+            embed.add_field(name="⚙GEARS", value="""```14 HEALTH, 1 DEF```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -2025,7 +2179,9 @@ Stun resist  20
 DOT resist   20        
 CAC resist   20```""")
             embed.add_field(name="⚙TALENTS", value="""```2 DEF, 1 RES, 1 CAD, 1 CAC, 1 LETHAL```""")
-            embed.add_field(name="⚙GEARS", value="""```5 ATTACK, 2 DEF, 4 FAC, 2 CAD, 2 CAC```""")
+            embed.add_field(name="⚙GEARS", value="""```5 ATTACK, 2 DEF, 4 FAC, 2 CAD, 2 CAC```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -2057,7 +2213,9 @@ Stun resist   60
 DOT resist    60
 CAC resist    60```""")
             embed.add_field(name="⚙TALENTS", value="""```3 RES, 3 DEF```""")
-            embed.add_field(name="⚙GEARS", value="""```7 ATTACK, 8 HEALTH```""")
+            embed.add_field(name="⚙GEARS", value="""```7 ATTACK, 8 HEALTH```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -2078,7 +2236,9 @@ Stun resist  60
 DOT resist   60
 CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```3 RES, 3 CAC```""")
-            embed.add_field(name="⚙GEARS", value="""```8 HEALTH, 4 DEF, 2 ATTACK, 1 FAC```""")
+            embed.add_field(name="⚙GEARS", value="""```8 HEALTH, 4 DEF, 2 ATTACK, 1 FAC```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -2100,7 +2260,9 @@ Stun resist  0
 DOT resist   0        
 CAC resist   0```""")
             embed.add_field(name="⚙TALENTS", value="""```2 CAC, 4 CAD```""")
-            embed.add_field(name="⚙GEARS", value="""```9 ATTACK, 3 DEF, 2 CAD, 1 CAC```""")
+            embed.add_field(name="⚙GEARS", value="""```9 ATTACK, 3 DEF, 2 CAD, 1 CAC```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -2122,7 +2284,9 @@ Stun resist  75
 DOT resist   75 
 CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
-            embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```""")
+            embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -2144,7 +2308,9 @@ Stun resist  75
 DOT resist   75 
 CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
-            embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```""")
+            embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -2166,7 +2332,9 @@ Stun resist  75
 DOT resist   75 
 CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
-            embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```""")
+            embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -2189,7 +2357,9 @@ DOT resist   75
 CAC resist   70
 BE           49```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 BE```""")
-            embed.add_field(name="⚙GEARS", value="""```8 HEALTH, 4 FAC, 3 DEF```""")
+            embed.add_field(name="⚙GEARS", value="""```8 HEALTH, 4 FAC, 3 DEF```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -2211,7 +2381,9 @@ Stun resist  0
 DOT resist   0
 CAC resist   0```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAC, 3 CAD```""")
-            embed.add_field(name="⚙GEARS", value="""```6 ATTACK, 2 HEALTH, 4 FAC, 3 DEF```""")
+            embed.add_field(name="⚙GEARS", value="""```6 ATTACK, 2 HEALTH, 4 FAC, 3 DEF```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -2233,7 +2405,9 @@ Stun resist  75
 DOT resist   75 
 CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
-            embed.add_field(name="⚙GEARS", value="""```4 ATTACK, 5 HEALTH, 4 FAC, 2 DEF```""")
+            embed.add_field(name="⚙GEARS", value="""```4 ATTACK, 5 HEALTH, 4 FAC, 2 DEF```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -2255,7 +2429,9 @@ Stun resist  75
 DOT resist   75
 CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
-            embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```""")
+            embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -2277,7 +2453,9 @@ Stun resist  75
 DOT resist   75 
 CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
-            embed.add_field(name="⚙GEARS", value="""```14 HEALTH, 1 DEF```""")
+            embed.add_field(name="⚙GEARS", value="""```14 HEALTH, 1 DEF```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -2313,7 +2491,9 @@ DOT resist   75
 CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
             embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```""")
-            embed.add_field(name="💎 FACTS", value="""```Apart from being a damage dealer, captain cold makes a great tank and combo builder. He gives his entire team 50% critical attack resistance and has a 100% chance to disable special 1/2 of the current opponent who's on the field. He serves as a good counter to might shield opponents since he can lock their shield. You can also have some attack slots in gear instead of health.```""")
+            embed.add_field(name="💎 FACTS", value="""```Apart from being a damage dealer, captain cold makes a great tank and combo builder. He gives his entire team 50% critical attack resistance and has a 100% chance to disable special 1/2 of the current opponent who's on the field. He serves as a good counter to might shield opponents since he can lock their shield. You can also have some attack slots in gear instead of health.```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -2335,7 +2515,9 @@ Stun resist  75
 DOT resist   75 
 CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
-            embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```""")
+            embed.add_field(name="⚙GEARS", value="""```9 HEALTH, 4 FAC, 2 DEF```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -2357,7 +2539,9 @@ Stun resist  75
 DOT resist   75 
 CAC resist   70```""")
             embed.add_field(name="⚙TALENTS", value="""```4 RES, 2 DEF```""")
-            embed.add_field(name="⚙GEARS", value="""```7 HEALTH, 6 ATTACK, 2 DEF```""")
+            embed.add_field(name="⚙GEARS", value="""```7 HEALTH, 6 ATTACK, 2 DEF```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -2379,7 +2563,9 @@ Stun resist  0
 DOT resist   0
 CAC resist   0```""")
             embed.add_field(name="⚙TALENTS", value="""```3 CAC, 3 CAD```""")
-            embed.add_field(name="⚙GEARS", value="""```6 ATTACK, 3 HEALTH, 3 DEF, 2 CAD, 1 CAC```""")
+            embed.add_field(name="⚙GEARS", value="""```6 ATTACK, 3 HEALTH, 3 DEF, 2 CAD, 1 CAC```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
@@ -2399,7 +2585,9 @@ Stun resist  0
 DOT resist   0
 CAC resist   0```""")
             embed.add_field(name="⚙TALENTS", value="""```5 CAD, 1 CAC```""")
-            embed.add_field(name="⚙GEARS", value="""```15 ATTACK```""")
+            embed.add_field(name="⚙GEARS", value="""```15 ATTACK```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")

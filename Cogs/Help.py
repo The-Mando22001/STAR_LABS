@@ -26,7 +26,7 @@ class Help(commands.Cog):
                               description="Please vote this bot. The bot's **main purpose** is to help those who require the necessary information. You can vote this bot for every **12 hours**. Open this link in a browser - [Vote the bot in top.gg](https://top.gg/bot/742228161986691145/vote)")
         embed.set_author(name="STAR LABS Vote", url="https://discordapp.com")
         embed.set_footer(
-            text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
+            text=f"Last used by: {ctx.message.author.name} | Wanna find out who helped in moulding this bot into a successful one? Type i!credits to get the answer.")
 
         await ctx.channel.send(embed=embed)
 
@@ -45,7 +45,7 @@ Reason I have created a patreon account is: Motivation, Encouragement and Inspir
 `This is The Way`""")
         embed.set_author(name="Patreon Support", url="https://discordapp.com")
         embed.set_footer(
-            text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
+            text=f"Last used by: {ctx.message.author.name} | Wanna find out who helped in moulding this bot into a successful one? Type i!credits to get the answer.")
 
         await ctx.channel.send(embed=embed)
 
@@ -70,7 +70,7 @@ Reason I have created a patreon account is: Motivation, Encouragement and Inspir
         await ctx.guild.create_text_channel('🧮sp-calc', category=category)
         await ctx.guild.create_text_channel('🧮artifact-calc', category=category)
         await ctx.guild.create_text_channel('🧮xp-calc', category=category)
-        await ctx.channel.send("Setup completed Successfully")
+        await ctx.channel.send("Setup completed Successfully. If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).")
 
     @_setup.error
     async def setup_error(self, ctx, error):
@@ -79,7 +79,7 @@ Reason I have created a patreon account is: Motivation, Encouragement and Inspir
                                   description="There is an error while using this command. Please check the following.")
             embed.set_author(name="Something wrong with Setup command..", url="https://discordapp.com")
             embed.add_field(name='S. T. A. R. LABS Missing Permissions', value="The bot **must** have `Manage Channels` permission to create category and channels.")
-            embed.add_field(name="User Missing Permissions", value="The person who used this command **must** have `Manage Messages` **and** `Manage Channels` permissions to run this command.")
+            embed.add_field(name="User Missing Permissions", value="The person who used this command **must** have `Manage Messages` **and** `Manage Channels` permissions to run this command.\n\nIf you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).")
             error = ['https://media.giphy.com/media/3oEjHERaTIdeuFQrXq/giphy.gif',
                      'https://media.giphy.com/media/3osxY9kuM2NGUfvThe/giphy.gif',
                      'https://media.giphy.com/media/8L0Pky6C83SzkzU55a/giphy.gif',
@@ -88,7 +88,7 @@ Reason I have created a patreon account is: Motivation, Encouragement and Inspir
                      'https://media.giphy.com/media/ifdPjn6m4WyNlnXMTj/giphy.gif']
             embed.set_image(url=choice(error))
             embed.set_footer(
-                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Wanna find out who helped in moulding this bot into a successful one? Type i!credits to get the answer.")
             await ctx.channel.send(embed=embed)
 
 
@@ -98,10 +98,10 @@ Reason I have created a patreon account is: Motivation, Encouragement and Inspir
     async def invite(self, ctx):
         print(f"Bot invite pressed by {ctx.message.author.name}")
         embed = discord.Embed(colour=discord.Colour(0xe01c38), url="https://discordapp.com",
-                              description="Open this link in browser - [Invite the bot](https://discord.com/api/oauth2/authorize?client_id=742228161986691145&permissions=67492945&scope=bot)\nSupport server link - [Aftermath Server](https://discord.gg/bfbYNWE)")
+                              description="Open this link in browser - [Invite the bot](https://discord.com/api/oauth2/authorize?client_id=742228161986691145&permissions=67492945&scope=bot)\nSupport server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy)")
         embed.set_author(name="Bot invite and support links", url="https://discordapp.com")
         embed.set_footer(
-            text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
+            text=f"Last used by: {ctx.message.author.name} | Wanna find out who helped in moulding this bot into a successful one? Type i!credits to get the answer.")
 
         await ctx.channel.send(embed=embed)
 
@@ -115,11 +115,11 @@ Reason I have created a patreon account is: Motivation, Encouragement and Inspir
         embed.add_field(name="Bot's Logo Design",
                         value="`ARCAS#0954` is a great guy and makes Logo desgins for Discord Profile Pics. He made this logo desgin specially for the bot.")
         embed.add_field(name="Character Build Details",
-                        value="`ʙᴏʀɴ2ᴋɪʟʟ™#4215` from `Destiny` and `[Δ₭] OVERMAN#0001` from `Apokolips Kingdom`, `Decebalus#7982` from `ГΘGUΞ` have accepted to use the builds from their servers. `SIGMA#5422` and `YSOSERIOUS™#7777` has helped in designing the character Build template.")
+                        value="`ʙᴏʀɴ2ᴋɪʟʟ™#4215` and `Herood#6676` from `Destiny` and `[Δ₭] OVERMAN#0001` from `Apokolips Kingdom`, `Decebalus#7982` from `ГΘGUΞ` have accepted to use the builds from their servers. `SIGMA#5422` and `YSOSERIOUS™#7777` has helped in designing the character Build template.")
         embed.add_field(name="Character Passive Details",
                         value="`SIGMA#5422` and `shadowofintent#1026` have helped me in adding the passive info. Both of them shared the screenshots of their characters, so that, it would be easy to see the picture than read the details.")
         embed.add_field(name="Honourable Mentions",
-                        value="Many people use this bot everyday. But, with request of few people, they have helped this bot get to this stage. So, my special thanks to\n- `Decebalus#7982`: Build Suggestions\n- `Noremac#7255`: Bot Tester\n- `resveratrol#7110`: Suggestions\n- `The asian cat#3430`: Bot Tester\n- `SigvaldTheGrim#2431`: Youtuber who spoke about my bot\n- `AGB | Roids#0182`: The Aftermath Overlord who accepted to build this bot in Aftermath Server\n- `《ԙ》kreampuffs#1992`: Suggestions\n- `MattRyan#7598`: Bot Tester and Suggestions\n- `EthanHunt#2416`: Suggestions\n and many more..\n\n*This is the Way!*")
+                        value="Many people use this bot everyday. But, with request of few people, they have helped this bot get to this stage. So, my special thanks to\n- `Decebalus#7982`: Build Suggestions\n- `Noremac#7255`: Bot Tester\n- `resveratrol#7110`: Suggestions\n- `The asian cat#3430`: Bot Tester\n- `SigvaldTheGrim#2431`: Youtuber who spoke about my bot\n- `AGB | Roids#0182`: The Aftermath Overlord who accepted to build this bot in Aftermath Server\n- `《ԙ》kreampuffs#1992`: Suggestions\n- `MattRyan#7598`: Bot Tester and Suggestions\n- `EthanHunt#2416`: Suggestions\n and many more..\n\n*This is the Way!*\n\nIf you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).")
         file = discord.File("./STAR_LABS.jpg", filename="STAR_LABS.jpg")
         embed.set_thumbnail(url="attachment://STAR_LABS.jpg")
         await ctx.channel.send(embed=embed, file=file)
@@ -160,9 +160,9 @@ Reason I have created a patreon account is: Motivation, Encouragement and Inspir
             embed.add_field(name="Team Synergy Information",
                             value="This will show the Team synergy information, which give boost to your characters in battle during team selection. To know more, type, `i!syn`")
             embed.add_field(name="Upgrade Calculator",
-                        value="You can type start and end of number of levels of any upgrade (gear, artifact, xp and sp) to calculate how much material or coins required. To know more, type, `i!help calc`")
+                        value="You can type start and end of number of levels of any upgrade (gear, artifact, xp and sp) to calculate how much material or coins required. To know more, type, `i!help calc`\n\nIf you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).")
             embed.set_footer(
-                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Wanna find out who helped in moulding this bot into a successful one? Type i!credits to get the answer.")
         # file = discord.File("./source.gif", filename="source.gif")
         # embed.set_image(url="attachment://source.gif")
             await ctx.channel.send(embed=embed)
@@ -179,9 +179,9 @@ Reason I have created a patreon account is: Motivation, Encouragement and Inspir
             embed.add_field(name="List of Silver Characters",
                             value="To get a list of Silver characters, type, ```i!chars silver``` to get the list.")
             embed.add_field(name="List of Legendary Characters",
-                            value="To get a list of Legendary characters, type, ```i!chars legend``` to get the list.")
+                            value="To get a list of Legendary characters, type, ```i!chars legend``` to get the list.\n\nIf you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).")
             embed.set_footer(
-                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Wanna find out who helped in moulding this bot into a successful one? Type i!credits to get the answer.")
             await ctx.channel.send(embed=embed)
 
         elif cmd == 'b' or cmd == 'build':
@@ -282,10 +282,10 @@ cc - Captain Cold
 sbc - Sonic Black Canary
 ubc - Unbreakable Cyborg
 fs - Firestorm
-uhq - Unhinged Harley Quinn```""")
+uhq - Unhinged Harley Quinn```\n\nIf you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
             embed.set_footer(
-                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Wanna find out who helped in moulding this bot into a successful one? Type i!credits to get the answer.")
             embed.set_image(url="")
             await ctx.channel.send(embed=embed)
 
@@ -296,26 +296,103 @@ uhq - Unhinged Harley Quinn```""")
 
             embed.set_author(name="Character Passives", url="https://discordapp.com",
                              icon_url="https://cdn.discordapp.com/embed/avatars/3.png")
-            embed.add_field(name="List of Silver Characters",
-                            value="```\nsgl  : Silver Green Lantern\nsbm  : Silver Batman\nssm  : Silver Superman \nsds  : Silver Deadshot\nsvf  : Silver Flash\nsvbc : Silver Black Canary\nsvb  : Silver Bane\nsvc  : Silver Cyborg\nsvr  : Silver Robin\nsvhq : Silver Harley Quinn\nsvga : Silver Green Arrow\nsvam : Silver Aquaman\nsvww : Silver Wonder Woman\nsvgg : Silver Gorilla Grodd\nsvj  : Silver Joker\nsvcw : Silver Catwoman\nsvsc : Silver Scarecrow\nsvst : Legendary Silver Swamp Thing\ndf   : Doctor Fate```")
-            embed.add_field(name="List of Legendary Characters",
-                            value="```\nbm   : Black manta\nbvs  : Bvs superman\nds   : Darkseid\nbngg : Batman Ninja Gorilla Grodd \nbnc  : Discount Braniac\nect  : Enchantress\nsshq : Suicide Squad Harley Quinn\nakbm : Arkham Knight Batman```")
-            embed.add_field(name="List of Gold Characters (Justice League)",
-                            value="```\njlc  : Justice League Cyborg\njlf  : Justice League Flash\njla  : Justice League Aquaman\njlb  : Justice League Batman\nmww  : Mythic Wonder Woman```")
-            embed.add_field(name="List of Gold Characters (Green Lanterns)",
-                            value="```\njsgl : John Stewart Green Lantern\negl  : Emeral Green Lantern\nats  : Atrocitus```")
-            embed.add_field(name="List of Gold Characters (Multiverse)",
-                            value="```\nmvf  : Multiverse Flash\nmvasg: Multiverse Armored SuperGirl\nmvbl : Multiverse Black Lightning\nmvga : Multiverse Green Arrow\nmvcc : Multiverse Captain Cold\nmvwc : Multiverse White Canary\nmvbw : Multiverse Batwoman\nmvsg : Multiverse Supergirl```")
-            embed.add_field(name="List of Gold Characters (League of Anarchy)",
-                            value="```\nllj  : Last Laugh Joker\nepi  : Entangling Poison Ivy\nhbhq : Heart Breaker Harley Quinn```")
-            embed.add_field(name="List of Gold Characters (Batman Ninjas)",
-                            value="```\nbnr  : Batman Ninja Robin\nbnbm : Batman Ninja Batman\nbnlj : Batman Ninja Lord Joker\nbncw : Batman Ninja Catwoman\nbnhq : Batman Ninja Harley Quinn```")
-            embed.add_field(name="List of Gold Characters (Others Part 1)",
-                            value="```\npbm  : Predator Batman\naww  : Amazon Wonder Woman\nhb   : Hellboy\nszm  : Shazam\nrdn  : Raiden \nrf   : Reverse Flash\nbb   : Blue Beetle\nkbm  : Knightmare Batman\nba   : Black Adam\nesf  : Energised StarFire \npg   : Power Girl\ndsg  : Dark Super Girl\nfpi  : Flora Poison Ivy\nhsc  : Horrific Scarecrow\nsff  : Speed force Flash\ngrid : Grid\naga  : Ace green arrow\nssdf : Soul Stealer Dr.Fate\nubc  : Unbreakable Cyborg\npst  : Primal Swamp Thing\ntkgg : Telekinetic Gorilla Grodd\nsz   : Subzero\nbmr  : Blade Master Robin\ncc   : Captain Cold\nuhq  : Unhinged Harley Quinn\nrh   : Redhood\npsg  : Powered Supergirl \nmds  : Marksman Deadshot\nfs   : Firestorm\ncth  : Cheetah\neb   : Enraged Bane\nmtcw : Masterthief Catwoman\ncbm  : Classic Batman\nsbc  : Sonic Black Canary\nsb   : Silver Banshee \nasm  : Armoured Superman\ncsm  : Classic Superman```")
-            embed.add_field(name="List of Gold Characters (Others Part 2)",
-                            value="```\naaam : Atlantean Armor Aquaman\nnw   : Nightwing\nwqww : Warrior Queen Wonder Woman```")
+            embed.add_field(name="🟪 Legendary Characters", value="""```akbm - Arkham Knight Batman
+bm - Black Manta
+bnc - Brainiac
+bngg - Batman Ninja Gorilla Grodd
+ds - Darkseid
+jls - Justice League Superman
+sshq - Suicide Squad Harley Quinn 
+sse - Suicide Squad Enchantress
+mmh - Martian Manhunter```""")
+            embed.add_field(name="⬜ Silver Characters", value="""```aww - Amazon Wonder Woman
+svbc - Sonic Black Canary
+svcw - Silver Catwoman 
+svam - Silver Aquaman 
+svc - Silver Cyborg
+svf - Silver Flash
+svj - Silver Joker 
+svhq - Silver Harley Quinn
+svst - Silver Swamp Thing
+svgg - Silver Gorilla Grodd
+svb - Silver Bane
+svds - Silver Deadshot
+svsc - Silver Scarecrow
+svr - Silver Robin
+svdf - Silver Doctor Fate
+svga - Silver Green Arrow
+svww - Silver Wonder Woman 
+svsm - Silver Superman
+svgl - Silver Green Lantern
+svbm - Silver Batman```""")
+            embed.add_field(name="🟨 Gold Characters (Batman Ninjas)", value="""```bnbm - Batman Ninja Batman
+bnhq - Batman Ninja Harley Quinn
+bncw - Batman Ninja Catwoman
+bnr - Batman Ninja Robin
+bnlj - Batman Ninja Lord Joker```""")
+            embed.add_field(name="🟨 Gold Characters (Multiverse Gang)", value="""```mvbw - Multiverse Bat Woman
+mvf - Multiverse The Flash
+mvbl - Multiverse Black Lightning
+mvga - Multiverse Green Arrow 
+mvwc - Multiverse White Canary
+mvbw - Multiverse Batwoman
+mvcc - Multiverse Captain Cold
+mvsg - Multiverse Supergirl
+mvasg - Multiverse Armored Supergirl```""")
+            embed.add_field(name="🟨 Gold Characters (The Justice League)", value="""```jlc - Justice League Cyborg
+jlf - Justice League Flash
+jla - Justice League Aquaman
+jlb - Justice League Batman
+mww - Mythic Wonder woman```""")
+            embed.add_field(name="🟨 Gold Characters (League of Anarchy)", value="""```epi - Entangling Poison Ivy
+hbhq - Heart Breaker Harley Quinn
+llj - Last Laugh Joker ```""")
+
+            embed.add_field(name='🟨 Gold Characters (Others Part 1)', value="""```bb - Blue Beetle
+asm - Armoured Superman
+koaam - King of Atlantis Aquaman
+sb - Silver Banshee
+szm - Shazam
+aaam - Atlantean Armored Aquaman
+egl - Emerald Green Lantern
+mtcw - Masterthief Catwoman
+bmr - Blade Master Robin
+atc - Atrocitus
+ba - Black Adam
+csm - Classic Superman 
+dsg - Dark Super Girl
+esf - Energized Starfire
+fpi - Flora Poison Ivy 
+hb - Hellboy
+hsc - Horrific Scarecrow 
+jsgl - John Stewart Green Lantern
+kbm - Knightmare Batman
+pg - Power Girl 
+pbm - Predator Batman
+rh - Red Hood
+rf - Reverse Flash
+sff - Speed Force the Flash
+tkgg - TeleKinetic Gorilla Grodd 
+wqww - Warrior Queen Wonder Woman 
+rdn - Raiden
+sz - Subzero
+ssds - Suicide Squad Deadshot```""")
+            embed.add_field(name='🟨 Gold Characters (Others Part 2)', value="""```grid - Grid
+cbm - Classic Batman
+eb - Enraged Bane
+nw - Nightwing
+psg - Powered Supergirl
+cth - Cheetah
+rdn - Raiden
+ssdf - Soul Stealer Doctor Fate 
+pst - Primal Swamp Thing
+cc - Captain Cold
+sbc - Sonic Black Canary
+ubc - Unbreakable Cyborg
+fs - Firestorm
+uhq - Unhinged Harley Quinn```\n\nIf you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
-                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Wanna find out who helped in moulding this bot into a successful one? Type i!credits to get the answer.")
 
             # await ctx.channel.send(embed=embed)
             await ctx.channel.send(embed=embed)
@@ -334,9 +411,9 @@ uhq - Unhinged Harley Quinn```""")
             embed.add_field(name="XP Upgrade Calculator",
                             value="The command will show amount of xp required to upgrade a character from one level to another. To know more, type, ```i!xp [from] [to]```")
             embed.add_field(name="Artifact Upgrade Calculator",
-                            value="The command will show the amount of artifact material required to upgrade the artifacts. To know more, type, ```i!a [from] [to]```")
+                            value="The command will show the amount of artifact material required to upgrade the artifacts. To know more, type, ```i!a [from] [to]```\n\nIf you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).")
             embed.set_footer(
-                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Wanna find out who helped in moulding this bot into a successful one? Type i!credits to get the answer.")
 
             # await ctx.channel.send(embed=embed)
             await ctx.channel.send(embed=embed)
@@ -345,7 +422,7 @@ uhq - Unhinged Harley Quinn```""")
 
         else:
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5), url="https://discordapp.com",
-                                  description="You have typed a command which is not present in the command list, to know the help commands, type ```i!help```")
+                                  description="You have typed a command which is not present in the command list, to know the help commands, type ```i!help```\n\nIf you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).")
             embed.set_author(name="Something wrong..", url="https://discordapp.com")
             error = ['https://media.giphy.com/media/3oEjHERaTIdeuFQrXq/giphy.gif',
                      'https://media.giphy.com/media/3osxY9kuM2NGUfvThe/giphy.gif',
@@ -355,7 +432,7 @@ uhq - Unhinged Harley Quinn```""")
                      'https://media.giphy.com/media/ifdPjn6m4WyNlnXMTj/giphy.gif']
             embed.set_image(url=choice(error))
             embed.set_footer(
-                text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
+                text=f"Last used by: {ctx.message.author.name} | Wanna find out who helped in moulding this bot into a successful one? Type i!credits to get the answer.")
 
             await ctx.channel.send(embed=embed)
 

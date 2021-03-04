@@ -56,9 +56,11 @@ Beta Club - club
 
 **Legendary Tier**
 Lexcorp Warsuit - suit
-Kryptonite Spear - spear```""")
+Kryptonite Spear - spear```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.add_field(name="Usage of Command",
-                            value="To get more information on each artifact, for example, to get info about claw of horus, type, ```i!art coh``` and you will get the info. Similarly, you need to type the command as, ```i!art [Artifact command]``` to get info on the respective artifact. Where,\nArtifact command - written beside the artifacts in the artifacts list. To get the list, type, ```i!art```")
+                            value="To get more information on each artifact, for example, to get info about claw of horus, type, ```i!art coh``` and you will get the info. Similarly, you need to type the command as, ```i!art [Artifact command]``` to get info on the respective artifact. Where,\nArtifact command - written beside the artifacts in the artifacts list. To get the list, type, ```i!art```\n\nIf you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).")
             embed.set_author(name="Artifact Info", url="https://discordapp.com",
                              icon_url="https://cdn.discordapp.com/embed/avatars/3.png")
             await ctx.channel.send(embed=embed)
@@ -66,7 +68,9 @@ Kryptonite Spear - spear```""")
             embed = discord.Embed(colour=discord.Colour(0x0cf700),
                                   description="""**Effects**
 -Gain a percentage in Health
--[Tech characters] Gain a percentage in Attack against Might Heroes""")
+-[Tech characters] Gain a percentage in Attack against Might Heroes
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Amulet of Tech", url="https://discordapp.com")
             file = discord.File("./Images_Artifacts/A_Tech.png", filename="A_Tech.png")
             embed.set_image(url="attachment://A_Tech.png")
@@ -75,7 +79,9 @@ Kryptonite Spear - spear```""")
             embed = discord.Embed(colour=discord.Colour(0x0cf700),
                                   description="""**Effects:**
 -Additional percentage of Special attack Damage
--[Arcane Characters] Gain a percentage in Attack against Arcane Heroes""")
+-[Arcane Characters] Gain a percentage in Attack against Arcane Heroes
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Amulet of Arcane", url="https://discordapp.com")
             file = discord.File("./Images_Artifacts/A_Arcane.png", filename="A_Arcane.png")
             embed.set_image(url="attachment://A_Arcane.png")
@@ -84,7 +90,9 @@ Kryptonite Spear - spear```""")
             embed = discord.Embed(colour=discord.Colour(0x0cf700),
                                   description="""**Effects:**
 -Increase all healing effects on self by a percentage and teammates by a percentage.
--[Metahuman Characters] Gain a percentage in Attack against Tech Heroes""")
+-[Metahuman Characters] Gain a percentage in Attack against Tech Heroes
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Amulet of Metahuman", url="https://discordapp.com")
             file = discord.File("./Images_Artifacts/A_Meta.png", filename="A_Meta.png")
             embed.set_image(url="attachment://A_Meta.png")
@@ -93,7 +101,9 @@ Kryptonite Spear - spear```""")
             embed = discord.Embed(colour=discord.Colour(0x0cf700),
                                   description="""**Effects:**
 -Gain a percentage of Damage for Basic, Tag, and Swipe attacks
--[Might Characters] Gain a percentage in Attack against Agility Heroes""")
+-[Might Characters] Gain a percentage in Attack against Agility Heroes
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Amulet of Might", url="https://discordapp.com")
             file = discord.File("./Images_Artifacts/A_Might.png", filename="A_Might.png")
             embed.set_image(url="attachment://A_Might.png")
@@ -102,7 +112,9 @@ Kryptonite Spear - spear```""")
             embed = discord.Embed(colour=discord.Colour(0x0cf700),
                                   description="""**Effects:**
 -Plus a percentage DoT Damage
--[Agility Characters] Gain a percentage in Attack against Metahuman Heroes""")
+-[Agility Characters] Gain a percentage in Attack against Metahuman Heroes
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Amulet of Agility", url="https://discordapp.com")
             file = discord.File("./Images_Artifacts/A_Agility.png", filename="A_Agility.png")
             embed.set_image(url="attachment://A_Agility.png")
@@ -111,7 +123,9 @@ Kryptonite Spear - spear```""")
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
                                   description="""**Effects:**
 -Gain a percentage in Attack on tag-in for a brief amount of time and inflict DoT on self, dealing 20% of current health in damage
--[Red Hood] Gain a percentage in Lethal Chance and reduces Supermove cost by 5""")
+-[Red Hood] Gain a percentage in Lethal Chance and reduces Supermove cost by 5
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="The All - Blades", url="https://discordapp.com")
             file = discord.File("./Images_Artifacts/tab.png", filename="tab.png")
             embed.set_image(url="attachment://tab.png")
@@ -120,7 +134,9 @@ Kryptonite Spear - spear```""")
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
                                   description="""**Effects:**
 -Gain a percentage in Attack
--A percentage of chance to Stun on Swipe attack and Jump attacks.""")
+-A percentage of chance to Stun on Swipe attack and Jump attacks.
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Claw of Horus", url="https://discordapp.com")
             file = discord.File("./Images_Artifacts/coh.png", filename="coh.png")
             embed.set_image(url="attachment://coh.png")
@@ -129,7 +145,9 @@ Kryptonite Spear - spear```""")
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
                                   description="""**Effects:**
 -Whenever losing greater than 10% of max Health from a single attack, gain a shield that blocks a percentage of all incoming damage for a short amount of time.
--While shield is active, reflect a percentage of damage from Special attacks""")
+-While shield is active, reflect a percentage of damage from Special attacks
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Cosmic Staff", url="https://discordapp.com")
             file = discord.File("./Images_Artifacts/cs.png", filename="cs.png")
             embed.set_image(url="attachment://cs.png")
@@ -138,7 +156,9 @@ Kryptonite Spear - spear```""")
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
                                   description="""**Effects:**
 -Once per battle, revive with a percentage of health when knocked out
--[Superman] Gain a percentage of Attack when revived""")
+-[Superman] Gain a percentage of Attack when revived
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Kryptonian Regeneration Matrix", url="https://discordapp.com")
             file = discord.File("./Images_Artifacts/regen.png", filename="regen.png")
             embed.set_image(url="attachment://regen.png")
@@ -148,119 +168,153 @@ Kryptonite Spear - spear```""")
                                   description="""**Effects:**
 -Gain a percentage in Health
 -Gain a small percentage in Attack for each percent of currently missing Health
--[Legendary Characters] A percentage of damage dealt to the active Hero is split between all teammates""")
+-[Legendary Characters] A percentage of damage dealt to the active Hero is split between all teammates
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Nth Metal Armor", url="https://discordapp.com")
             file = discord.File("./Images_Artifacts/nth.png", filename="nth.png")
             embed.set_image(url="attachment://nth.png")
             await ctx.channel.send(embed=embed, file=file)
         if cmd == 'rod':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
-                                  description="""Apokolips Artifact""")
+                                  description="""Apokolips Artifact
+                                  
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Mega Rod", url="https://discordapp.com")
             file = discord.File("./Images_Artifacts/ak_mega.jpg", filename="ak_mega.jpg")
             embed.set_image(url="attachment://ak_mega.jpg")
             await ctx.channel.send(embed=embed, file=file)
         if cmd == 'radion':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
-                                  description="""Apokolips Artifact""")
+                                  description="""Apokolips Artifact
+                                  
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Radion", url="https://discordapp.com")
             file = discord.File("./Images_Artifacts/ak_radion.jpg", filename="ak_radion.jpg")
             embed.set_image(url="attachment://ak_radion.jpg")
             await ctx.channel.send(embed=embed, file=file)
         if cmd == 'axe':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
-                                  description="""Apokolips Artifact""")
+                                  description="""Apokolips Artifact
+                                  
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Electro Axe", url="https://discordapp.com")
             file = discord.File("./Images_Artifacts/ak_axe.jpg", filename="ak_axe.jpg")
             embed.set_image(url="attachment://ak_axe.jpg")
             await ctx.channel.send(embed=embed, file=file)
         if cmd == 'entropy':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
-                                  description="""Apokolips Artifact""")
+                                  description="""Apokolips Artifact
+                                  
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Entropy Aegis", url="https://discordapp.com")
             file = discord.File("./Images_Artifacts/ak_entropy.jpg", filename="ak_entropy.jpg")
             embed.set_image(url="attachment://ak_entropy.jpg")
             await ctx.channel.send(embed=embed, file=file)
         if cmd == 'hod':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
-                                  description="""Apokolips Artifact""")
+                                  description="""Apokolips Artifact
+                                  
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Heart of Darkness", url="https://discordapp.com")
             file = discord.File("./Images_Artifacts/ak_hod.jpg", filename="ak_hod.jpg")
             embed.set_image(url="attachment://ak_hod.jpg")
             await ctx.channel.send(embed=embed, file=file)
         if cmd == 'fb':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
-                                  description="""Apokolips Artifact""")
+                                  description="""Apokolips Artifact
+                                  
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Father Box", url="https://discordapp.com")
             file = discord.File("./Images_Artifacts/ak_fb.jpg", filename="ak_fb.jpg")
             embed.set_image(url="attachment://ak_fb.jpg")
             await ctx.channel.send(embed=embed, file=file)
         if cmd == 'spear':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
-                                  description="""Kryptonite Artifact""")
+                                  description="""Kryptonite Artifact
+                                  
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Kryptonite Spear", url="https://discordapp.com")
             file = discord.File("./Images_Artifacts/rok_spear.jpg", filename="rok_spear.jpg")
             embed.set_image(url="attachment://rok_spear.jpg")
             await ctx.channel.send(embed=embed, file=file)
         if cmd == 'blade':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
-                                  description="""Kryptonite Artifact""")
+                                  description="""Kryptonite Artifact
+                                  
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Flashing Blade", url="https://discordapp.com")
             file = discord.File("./Images_Artifacts/rok_blade.jpg", filename="rok_blade.jpg")
             embed.set_image(url="attachment://rok_blade.jpg")
             await ctx.channel.send(embed=embed, file=file)
         if cmd == 'harness':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
-                                  description="""Kryptonite Artifact""")
+                                  description="""Kryptonite Artifact
+                                  
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Astro-Harness", url="https://discordapp.com")
             file = discord.File("./Images_Artifacts/rok_harness.jpg", filename="rok_harness.jpg")
             embed.set_image(url="attachment://rok_harness.jpg")
             await ctx.channel.send(embed=embed, file=file)
         if cmd == 'ring':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
-                                  description="""Kryptonite Artifact""")
+                                  description="""Kryptonite Artifact
+                                  
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Kryptonite Ring", url="https://discordapp.com")
             file = discord.File("./Images_Artifacts/rok_ring.jpg", filename="rok_ring.jpg")
             embed.set_image(url="attachment://rok_ring.jpg")
             await ctx.channel.send(embed=embed, file=file)
         if cmd == 'gloves':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
-                                  description="""Kryptonite Artifact""")
+                                  description="""Kryptonite Artifact
+                                  
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Kryptonite Gloves", url="https://discordapp.com")
             file = discord.File("./Images_Artifacts/rok_gloves.jpg", filename="rok_gloves.jpg")
             embed.set_image(url="attachment://rok_gloves.jpg")
             await ctx.channel.send(embed=embed, file=file)
         if cmd == 'suit':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
-                                  description="""Kryptonite Artifact""")
+                                  description="""Kryptonite Artifact
+                                  
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Lexcorp Warsuit", url="https://discordapp.com")
             file = discord.File("./Images_Artifacts/rok_warsuit.jpg", filename="rok_warsuit.jpg")
             embed.set_image(url="attachment://rok_warsuit.jpg")
             await ctx.channel.send(embed=embed, file=file)
         if cmd == 'club':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
-                                  description="""Kryptonite Artifact""")
+                                  description="""Kryptonite Artifact
+                                  
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Beta Club", url="https://discordapp.com")
             file = discord.File("./Images_Artifacts/rok_club.jpg", filename="rok_club.jpg")
             embed.set_image(url="attachment://rok_club.jpg")
             await ctx.channel.send(embed=embed, file=file)
         if cmd == 'mps':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
-                                  description="""Kryptonite Artifact""")
+                                  description="""Kryptonite Artifact
+                                  
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Metallo's Power Source", url="https://discordapp.com")
             file = discord.File("./Images_Artifacts/rok_powsource.jpg", filename="rok_powsource.jpg")
             embed.set_image(url="attachment://rok_powsource.jpg")
             await ctx.channel.send(embed=embed, file=file)
         if cmd == 'knife':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
-                                  description="""Kryptonite Artifact""")
+                                  description="""Kryptonite Artifact
+                                  
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Kryptonite Knife", url="https://discordapp.com")
             file = discord.File("./Images_Artifacts/rok_knife.jpg", filename="rok_knife.jpg")
             embed.set_image(url="attachment://rok_knife.jpg")
             await ctx.channel.send(embed=embed, file=file)
         if cmd == 'bullets':
             embed = discord.Embed(colour=discord.Colour(0x2b8bf5),
-                                  description="""Kryptonite Artifact""")
+                                  description="""Kryptonite Artifact
+                                  
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Kryptonite Bullets", url="https://discordapp.com")
             file = discord.File("./Images_Artifacts/rok_bullets.jpg", filename="rok_bullets.jpg")
             embed.set_image(url="attachment://rok_bullets.jpg")

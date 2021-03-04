@@ -30,7 +30,7 @@ class Calculator(commands.Cog):
         embed.add_field(name="XP Upgrade Calculator",
                         value="The command will show amount of xp required to upgrade a character from one level to another. To know more, type, ```w!xp [from] [to]```")
         embed.add_field(name="Artifact Upgrade Calculator",
-                        value="The command will show the amount of artifact material required to upgrade the artifacts. To know more, type, ```w!art [from] [to]```")
+                        value="The command will show the amount of artifact material required to upgrade the artifacts. To know more, type, ```w!art [from] [to]```\n\nIf you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).")
         embed.set_footer(
             text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
 
@@ -43,7 +43,9 @@ class Calculator(commands.Cog):
             total = gear_cost[b]-gear_cost[a]
             embed = discord.Embed(colour=discord.Colour(0x118d9e),
                                   description=f"""Here is the result.
-```From level {a} to {b}\n\nAmount of gear material required:\n\nOne gear    - {total}\nTwo Gears   - {total*2}\nThree Gears - {total*3}\nFour Gears  - {total*4}\nFive Gears  - {total*5}```""")
+```From level {a} to {b}\n\nAmount of gear material required:\n\nOne gear    - {total}\nTwo Gears   - {total*2}\nThree Gears - {total*3}\nFour Gears  - {total*4}\nFive Gears  - {total*5}```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             #embed.set_image(url="")
             embed.set_author(name="Gear Calculator", url="https://discordapp.com")
             await ctx.channel.send(embed=embed)
@@ -52,14 +54,18 @@ class Calculator(commands.Cog):
         elif (a==b) or (a==0 and b==0):
             embed = discord.Embed(colour=discord.Colour(0x118d9e),
                                   description=f"""Here is the result.
-            ```From level {a} to {b}\n\nAmount of gear material required:\n\nOne gear    - {total}\nTwo Gears   - {total * 2}\nThree Gears - {total * 3}\nFour Gears  - {total * 4}\nFive Gears  - {total * 5}```""")
+            ```From level {a} to {b}\n\nAmount of gear material required:\n\nOne gear    - {total}\nTwo Gears   - {total * 2}\nThree Gears - {total * 3}\nFour Gears  - {total * 4}\nFive Gears  - {total * 5}```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             # embed.set_image(url="")
             embed.set_author(name="Gear Calculator", url="https://discordapp.com")
             await ctx.channel.send(embed=embed)
         else:
             embed = discord.Embed(colour=discord.Colour(0x118d9e),
                                   description=f"""Please make sure to check the 'from' and 'to' numbers provided. It should be,
-            ```i!gear 1 20```\nNot,```i!gear 20 1```""")
+            ```i!gear 1 20```\nNot,```i!gear 20 1```
+            
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             # embed.set_image(url="")
             embed.set_author(name="Gear Calculator", url="https://discordapp.com")
             await ctx.channel.send(embed=embed)
@@ -78,7 +84,7 @@ class Calculator(commands.Cog):
             embed.add_field(name="Gold Tier Artifacts",
                             value=f"```Amount of azure material required is {total_gold}.\n\nAmount of apokolips material required is {total_gold}.```")
             embed.add_field(name="Legendary Tier Artifacts",
-                            value=f"```Amount of azure material required is {total_legend}.\n\nAmount of apokolips material required is {total_legend}.```")
+                            value=f"```Amount of azure material required is {total_legend}.\n\nAmount of apokolips material required is {total_legend}.```\n\nIf you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).")
 
             # embed.set_image(url="")
             embed.set_author(name="Artifact Calculator", url="https://discordapp.com")
@@ -96,7 +102,7 @@ class Calculator(commands.Cog):
             embed.add_field(name="Gold Tier Artifacts",
                             value=f"Azure Artifacts```Claw Of Horus, Cosmic Staff, The All Blades\n\nAmount of azure material required is {total_gold}```Apokolips Artifacts```Electro Axe, Radion\nAmount of apokolips material required is {total_gold}```")
             embed.add_field(name="Legendary Tier Artifacts",
-                            value=f"Azure Artifacts```Kryptonian Regeneration Matrix, Nth Metal Armor\n\nAmount of azure material required is {total_legend}```Apokolips Artifacts```Entropy Aegis, Heart Of Darkness, The Father Box\nAmount of apokolips material required is {total_legend}```")
+                            value=f"Azure Artifacts```Kryptonian Regeneration Matrix, Nth Metal Armor\n\nAmount of azure material required is {total_legend}```Apokolips Artifacts```Entropy Aegis, Heart Of Darkness, The Father Box\nAmount of apokolips material required is {total_legend}```\n\nIf you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).")
 
             # embed.set_image(url="")
             embed.set_author(name="Artifact Calculator", url="https://discordapp.com")
@@ -105,7 +111,9 @@ class Calculator(commands.Cog):
         else:
             embed = discord.Embed(colour=discord.Colour(0x118d9e),
                                   description=f"""Please make sure to check the 'from' and 'to' numbers provided. It should be,
-                    ```i!a 1 5```\nNot,```i!a 5 1```""")
+                    ```i!a 1 5```\nNot,```i!a 5 1```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             # embed.set_image(url="")
             embed.set_author(name="Artifact Calculator", url="https://discordapp.com")
             await ctx.channel.send(embed=embed)
@@ -158,7 +166,9 @@ class Calculator(commands.Cog):
 
             embed = discord.Embed(colour=discord.Colour(0x118d9e),
                                   description=f"""Here is the result.
-    ```From XP level {a} to {b}\n\nAmount of XP required: {total_xp}\n\nAmount of Non matching XP Capsules Required:\nTier 1 (25 XP per capsule)  : {t1}\nTier 2 (50 XP per capsule)  : {t2}\nTier 3 (100 XP per capsule) : {t3}\nTier 4 (375 XP per capsule) : {t4}\nTier 5 (750 XP per capsule) : {t5}\nTier 6 (1500 XP per capsule): {t6}\n\nAmount of Matching XP Capsules Required:\nTier 1 (50 XP per capsule)  : {m1}\nTier 2 (100 XP per capsule) : {m2}\nTier 3 (200 XP per capsule) : {m3}\nTier 4 (750 XP per capsule) : {m4}\nTier 5 (1500 XP per capsule): {m5}\nTier 6 (3000 XP per capsule): {m6}```""")
+```From XP level {a} to {b}\n\nAmount of XP required: {total_xp}\n\nAmount of Non matching XP Capsules Required:\nTier 1 (25 XP per capsule)  : {t1}\nTier 2 (50 XP per capsule)  : {t2}\nTier 3 (100 XP per capsule) : {t3}\nTier 4 (375 XP per capsule) : {t4}\nTier 5 (750 XP per capsule) : {t5}\nTier 6 (1500 XP per capsule): {t6}\n\nAmount of Matching XP Capsules Required:\nTier 1 (50 XP per capsule)  : {m1}\nTier 2 (100 XP per capsule) : {m2}\nTier 3 (200 XP per capsule) : {m3}\nTier 4 (750 XP per capsule) : {m4}\nTier 5 (1500 XP per capsule): {m5}\nTier 6 (3000 XP per capsule): {m6}```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             # embed.set_image(url="")
             embed.set_author(name="XP Level Calculator", url="https://discordapp.com")
             await ctx.channel.send(embed=embed)
@@ -167,7 +177,9 @@ class Calculator(commands.Cog):
         else:
             embed = discord.Embed(colour=discord.Colour(0x118d9e),
                                   description=f"""Please make sure to check the 'from' and 'to' numbers provided. It should be,
-                ```i!xp 1 20```\nNot,```i!xp 20 1```""")
+```i!xp 1 20```\nNot,```i!xp 20 1```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             # embed.set_image(url="")
             embed.set_author(name="XP Level Calculator", url="https://discordapp.com")
             await ctx.channel.send(embed=embed)
@@ -183,7 +195,9 @@ class Calculator(commands.Cog):
             total_sp_3 = sp_cost_3[b] - sp_cost_3[a]
             embed = discord.Embed(colour=discord.Colour(0x118d9e),
                                   description=f"""Here is the result.
-        ```From Abilities Sp level {a} to {b}\n\nCost of the following are:\n\nSP1 - {total_sp_1}\nSP2 - {total_sp_2}\nSP3 - {total_sp_3}```""")
+```From Abilities Sp level {a} to {b}\n\nCost of the following are:\n\nSP1 - {total_sp_1}\nSP2 - {total_sp_2}\nSP3 - {total_sp_3}```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             # embed.set_image(url="")
             embed.set_author(name="SP Level Calculator", url="https://discordapp.com")
             await ctx.channel.send(embed=embed)
@@ -192,7 +206,9 @@ class Calculator(commands.Cog):
         else:
             embed = discord.Embed(colour=discord.Colour(0x118d9e),
                                   description=f"""Please make sure to check the 'from' and 'to' numbers provided. It should be,
-                    ```i!sp 1 20```\nNot,```i!sp 20 1```""")
+```i!sp 1 20```\nNot,```i!sp 20 1```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             # embed.set_image(url="")
             embed.set_author(name="SP Level Calculator", url="https://discordapp.com")
             await ctx.channel.send(embed=embed)

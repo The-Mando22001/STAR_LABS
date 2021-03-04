@@ -75,10 +75,10 @@ class TeamSynergy(commands.Cog):
             embed.add_field(name="Team Synergy List",
                             value="The following list shows the teams available for creating team synergy:```1. Suicide Squad - ssq\n2. Justice League - jl\n3. Batman Ninja - bn\n4. League of Anarchy - loa\n5. Multiverse Team - mv```")
             embed.add_field(name="Command Usage",
-                            value="Each team has it's own command. So, to check team synergy of any team, type ```i!syn [team command]```For Example, ```i!syn bn```For Batman Ninja Team Synergy details.")
+                            value="Each team has it's own command. So, to check team synergy of any team, type ```i!syn [team command]```For Example, ```i!syn bn```For Batman Ninja Team Synergy details.\n\nIf you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).")
             embed.set_author(name="Team Synergy Command", url="https://discordapp.com")
             embed.set_footer(
-                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Builds Made by SIGMA#5422 | Passive info provided by SIGMA#5422, shadowofintent#1026")
+                text=f"Last used by: {ctx.message.author.name} | Wanna find out who helped in moulding this bot into a successful one? Type i!credits to get the answer.")
             await ctx.channel.send(embed=embed)
 
         if cmd == 'ssq':
@@ -89,10 +89,12 @@ In addition to a successful Ranged Attack from Deadshot having a chance to disab
 
 Finally, Harley reduces the cost of the Suicide Squad's team's Power bar cost.
 
-*"So that's it, huh? We're some kind of Suicide squad?"* - Suicide Squad Team""")
+*"So that's it, huh? We're some kind of Suicide squad?"* - Suicide Squad Team
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Suicide Squad Team Synergy", url="https://discordapp.com")
             embed.set_footer(
-                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Builds Made by SIGMA#5422 | Passive info provided by SIGMA#5422, shadowofintent#1026")
+                text=f"Last used by: {ctx.message.author.name} | Wanna find out who helped in moulding this bot into a successful one? Type i!credits to get the answer.")
             file = discord.File("./Images_Syn/ssq.jpg", filename="ssq.jpg")
             embed.set_image(url="attachment://ssq.jpg")
             await ctx.channel.send(embed=embed, file=file)
@@ -105,10 +107,12 @@ For an offensive focused team, The Flash will grant you an unblockable special a
 
 Defensive-minded players will gravitate towards teams that include Batman so all teammates can ignore damage from one special ability per battle. The Legendary Justice League Superman improves the defense of your entire Justice League team and benefits from being paired with and against any Batman or Wonder Woman.  Finally, Aquaman can revive a knocked-out teammate when he uses his Supermove.
 
-*"People said the age of heroes would never come again."* - Justice League Team""")
+*"People said the age of heroes would never come again."* - Justice League Team
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Justice League Team Synergy", url="https://discordapp.com")
             embed.set_footer(
-                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Builds Made by SIGMA#5422 | Passive info provided by SIGMA#5422, shadowofintent#1026")
+                text=f"Last used by: {ctx.message.author.name} | Wanna find out who helped in moulding this bot into a successful one? Type i!credits to get the answer.")
             file = discord.File("./Images_Syn/jl.jpg", filename="jl.jpg")
             embed.set_image(url="attachment://jl.jpg")
             await ctx.channel.send(embed=embed, file=file)
@@ -123,10 +127,12 @@ For those who want to add staying power to their team, Ninja Lord Joker’s pass
 
 Harley Quinn is unique in that just having her on your roster will provide a benefit to all of your BN characters! Even if she is not included on your team, your character will get a bonus to their attack and health.
 
-*"And You Thought You Knew Every Batman Story..."* - Batman Ninja Team""")
+*"And You Thought You Knew Every Batman Story..."* - Batman Ninja Team
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Batman Ninja Team Synergy", url="https://discordapp.com")
             embed.set_footer(
-                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Builds Made by SIGMA#5422 | Passive info provided by SIGMA#5422, shadowofintent#1026")
+                text=f"Last used by: {ctx.message.author.name} | Wanna find out who helped in moulding this bot into a successful one? Type i!credits to get the answer.")
             file = discord.File("./Images_Syn/bn.jpg", filename="bn.jpg")
             embed.set_image(url="attachment://bn.jpg")
             await ctx.channel.send(embed=embed, file=file)
@@ -137,10 +143,12 @@ Harley Quinn is unique in that just having her on your roster will provide a ben
 
 If The Joker is active and an opponent tags-in a teammate, which his special 3 can force them to do, there is a chance they will be stunned. The team has numerous abilities that can place a DoT on the opponent, which are boosted in strength from The Joker, as well as any basic attack thanks to Poison Ivy’s passive. With your opponent’s resistance to stun and DoT reduced from Harley Quinn, she and Ivy can truly wreak havoc. While active, Poison Ivy heals herself and her LOA teammates for a percent of DoT dealt.
 
-*"Introduce a little anarchy, upset the established order and everything becomes... chaos..."* - League of Anarchy Team""")
+*"Introduce a little anarchy, upset the established order and everything becomes... chaos..."* - League of Anarchy Team
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="League of Anarchy Team Synergy", url="https://discordapp.com")
             embed.set_footer(
-                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Builds Made by SIGMA#5422 | Passive info provided by SIGMA#5422, shadowofintent#1026")
+                text=f"Last used by: {ctx.message.author.name} | Wanna find out who helped in moulding this bot into a successful one? Type i!credits to get the answer.")
             file = discord.File("./Images_Syn/loa.jpg", filename="loa.jpg")
             embed.set_image(url="attachment://loa.jpg")
             await ctx.channel.send(embed=embed, file=file)
@@ -157,10 +165,12 @@ Batwoman’s increased special attack damage from each MV team buff paired with 
 
 The Flash provides great offensive benefits to his teammates and can be a great 3rd member on any Multiverse-centric team, allowing MV teammates to fire off their specials often.
 
-*"There are all types of universe in the Multiverse, but never the same universe twice.."* - Mutliverse Team""")
+*"There are all types of universe in the Multiverse, but never the same universe twice.."* - Mutliverse Team
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Multiverse Team Synergy", url="https://discordapp.com")
             embed.set_footer(
-                text="Made by Mando_The_Mercenary#9484 | Bot's Logo designed by ARCAS#0954 | Builds Made by SIGMA#5422 | Passive info provided by SIGMA#5422, shadowofintent#1026")
+                text=f"Last used by: {ctx.message.author.name} | Wanna find out who helped in moulding this bot into a successful one? Type i!credits to get the answer.")
             file = discord.File("./Images_Syn/mv.jpg", filename="mv.jpg")
             embed.set_image(url="attachment://mv.jpg")
             await ctx.channel.send(embed=embed, file=file)

@@ -9,7 +9,7 @@ class CharList(commands.Cog):
     async def chars(self, ctx, cmd=None):
         if cmd is None:
             embed = discord.Embed(colour=discord.Colour(0x60dcd5), url="https://discordapp.com",
-                                  description="This command will show the full names of the abbrieviated names. Type, ```1. i!chars gold - for gold characters\n2. i!chars silver - for silver characters\n3. i!chars legend - for legendary characters```")
+                                  description="This command will show the full names of the abbrieviated names. Type, ```1. i!chars gold - for gold characters\n2. i!chars silver - for silver characters\n3. i!chars legend - for legendary characters```\n\nIf you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).")
 
             embed.set_author(name="Character Abbrieviation", url="https://discordapp.com",
                              icon_url="https://cdn.discordapp.com/embed/avatars/0.png")
@@ -31,14 +31,14 @@ class CharList(commands.Cog):
             embed.add_field(name="List of Gold Characters (Others Part 1)",
                             value="```\npbm  : Predator Batman\naww  : Amazon Wonder Woman\nhb   : Hellboy\nszm  : Shazam\nrdn  : Raiden \nrf   : Reverse Flash\nbb   : Blue Beetle\nkbm  : Knightmare Batman\nba   : Black Adam\nesf  : Energised StarFire \npg   : Power Girl\ndsg  : Dark Super Girl\nfpi  : Flora Poison Ivy\nhsc  : Horrific Scarecrow\nsff  : Speed force Flash\ngrid : Grid\naga  : Ace green arrow\nssdf : Soul Stealer Dr.Fate\nubc  : Unbreakable Cyborg\npst  : Primal Swamp Thing\ntkgg : Telekinetic Gorilla Grodd\nsz   : Subzero\nbmr  : Blade Master Robin\ncc   : Captain Cold\nuhq  : Unhinged Harley Quinn\nrh   : Redhood\npsg  : Powered Supergirl \nmds  : Marksman Deadshot\nfs   : Firestorm\ncth  : Cheetah\neb   : Enraged Bane\nmtcw : Masterthief Catwoman\ncbm  : Classic Batman\nsbc  : Sonic Black Canary\nsb   : Silver Banshee \nasm  : Armoured Superman\ncsm  : Classic Superman```")
             embed.add_field(name="List of Gold Characters (Others Part 2)",
-                            value="```\naaam : Atlantean Armor Aquaman\nnw   : Nightwing\nwqww : Warrior Queen Wonder Woman```")
+                            value="```\naaam : Atlantean Armor Aquaman\nnw   : Nightwing\nwqww : Warrior Queen Wonder Woman```\n\nIf you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).")
             embed.set_author(name="Character Abbrieviation Gold", url="https://discordapp.com",
                              icon_url="https://cdn.discordapp.com/embed/avatars/0.png")
 
             await ctx.channel.send(embed=embed)
         if cmd == "silver":
             embed = discord.Embed(colour=discord.Colour(0x6cf1ea), url="https://discordapp.com",
-                                  description="```\nsgl  : Silver Green Lantern\nsbm  : Silver Batman\nssm  : Silver Superman \nsds  : Silver Deadshot\nsvf  : Silver Flash\nsvbc : Silver Black Canary\nsvb  : Silver Bane\nsvc  : Silver Cyborg\nsvr  : Silver Robin\nsvhq : Silver Harley Quinn\nsvga : Silver Green Arrow\nsvam : Silver Aquaman\nsvww : Silver Wonder Woman\nsvgg : Silver Gorilla Grodd\nsvj  : Silver Joker\nsvcw : Silver Catwoman\nsvsc : Silver Scarecrow\nsvst : Legendary Silver Swamp Thing\ndf   : Doctor Fate```")
+                                  description="```\nsgl  : Silver Green Lantern\nsbm  : Silver Batman\nssm  : Silver Superman \nsds  : Silver Deadshot\nsvf  : Silver Flash\nsvbc : Silver Black Canary\nsvb  : Silver Bane\nsvc  : Silver Cyborg\nsvr  : Silver Robin\nsvhq : Silver Harley Quinn\nsvga : Silver Green Arrow\nsvam : Silver Aquaman\nsvww : Silver Wonder Woman\nsvgg : Silver Gorilla Grodd\nsvj  : Silver Joker\nsvcw : Silver Catwoman\nsvsc : Silver Scarecrow\nsvst : Legendary Silver Swamp Thing\ndf   : Doctor Fate```\n\nIf you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).")
 
             embed.set_author(name="Character Abbrieviation Silvers", url="https://discordapp.com",
                              icon_url="https://cdn.discordapp.com/embed/avatars/0.png")
@@ -46,7 +46,7 @@ class CharList(commands.Cog):
             await ctx.channel.send(embed=embed)
         if cmd == "legend":
             embed = discord.Embed(colour=discord.Colour(0x6b7892), url="https://discordapp.com",
-                                  description="```\nbm   : Black manta\nbvs  : Bvs superman\nds   : Darkseid\nbngg : Batman Ninja Gorilla Grodd \nbnc  : Discount Braniac\nect  : Enchantress\nsshq : Suicide Squad Harley Quinn\nakbm : Arkham Knight Batman```")
+                                  description="```\nbm   : Black manta\nbvs  : Bvs superman\nds   : Darkseid\nbngg : Batman Ninja Gorilla Grodd \nbnc  : Discount Braniac\nect  : Enchantress\nsshq : Suicide Squad Harley Quinn\nakbm : Arkham Knight Batman```\n\nIf you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).")
 
             embed.set_author(name="Character Abbrieviation Legendaries", url="https://discordapp.com",
                              icon_url="https://cdn.discordapp.com/embed/avatars/0.png")

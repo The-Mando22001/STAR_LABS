@@ -108,7 +108,9 @@ szm   - Shazam
 tkgg  - TeleKinetic Gorilla Grodd 
 ubc   - Unbreakable Cyborg
 uhq   - Unhinged Harley Quinn
-wqww  - Warrior Queen Wonder Woman```""")
+wqww  - Warrior Queen Wonder Woman```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_footer(
                 text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
             # await ctx.channel.send(embed=embed)
