@@ -11,7 +11,11 @@ import csv
 import pytz
 from datetime import datetime
 import time
+import itertools
+import json
+""" import schedule
 
+schedule.every(25).seconds.do(update_cache) """
 
 #Token Placed in another txt file
 f = open('token.txt', 'r')
@@ -27,7 +31,7 @@ async def determine_prefix(bot, message):
     guild = message.guild
     #Only allow custom prefixs in guild
     if guild:
-        return custom_prefixes.get(guild.id, default_prefixes)
+        return commands.when_mentioned_or(*custom_prefixes.get(str(guild.id), default_prefixes))(bot, message)
     else:
         return default_prefixes
 
@@ -43,6 +47,74 @@ build_feature = {}
 passive_feature = {}
 calc_feature = {}
 
+#guilds = []
+#channel_list = []
+#role_list = []
+#status_list = []
+jumpcd_user = []
+jumpcd_time = []
+
+""" def update_cache():
+global channel_list
+global role_list
+global status_list
+global guilds
+
+channel_list = []
+role_list = []
+status_list = []
+guilds = []
+
+with open('data.json') as json_file: 
+    data = json.load(json_file) 
+
+    temp = data['solo']
+    for t in temp:
+        #guilds.append(t['id'])
+        if (client.get_guild(t['id']) != None):
+            if client.get_channel(t['channel']):
+                if (t['status'] == True):
+                    guilds.append(t['id'])
+                    role: discord.Role = t['role']
+                    channel: discord.TextChannel = t['channel']
+                    role_list.append(role)
+                    channel_list.append(channel) """
+
+@tasks.loop(seconds=60)
+async def update_jumpcd():
+    global jumpcd_user
+    global jumpcd_time
+    jumpcd_user = []
+    jumpcd_time = []
+    with open('jumpcd.json') as json_file: 
+        data = json.load(json_file)
+
+        temps = data['jumpcd']
+        for p in temps:
+            if client.get_user(p['id']):
+                if int(p['time_rem']) > 0:
+                    jumpcd_user.append(int(p['id']))
+                    jumpcd_time.append(int(p['time_rem']))
+
+        for num, user in zip(jumpcd_time, jumpcd_user):
+            num = num - 60
+            if num == 0:
+                value = check_jumpcd_json(jumpcd_user[jumpcd_user.index(user)])
+                temps[value]['time_rem'] = 0
+                
+                #print(jumpcd_user.index(user))
+                try:
+                    msg = await client.fetch_user(int(user))
+                    await msg.send('This is cooldown reminder! Your cooldown is now 0. You are now able to attend jumps!')
+                except:
+                    pass
+                finally:
+                    write_json_jumpcd(data)
+            else:
+                value = check_jumpcd_json(jumpcd_user[jumpcd_user.index(user)])
+                #print(jumpcd_user[jumpcd_user.index(user)])
+                temps[value]['time_rem'] = num
+                write_json_jumpcd(data)
 
 #Replies when ready
 @client.event
@@ -52,19 +124,101 @@ async def on_ready():
     print("bot is online")
     print(client.user)
     count = 0
-    global voice_feature
-    global synergy_feature
-    global build_feature
-    global passive_feature
-    global calc_feature
     for guild in client.guilds:
         count = count+1
-        voice_feature[guild.id] = True
-        synergy_feature[guild.id] = True
-        build_feature[guild.id] = True
-        passive_feature[guild.id] = True
-        calc_feature[guild.id] = True
     print(f'Total number of Servers: {count}')
+    
+    
+
+    try:
+        update_prefix.start()
+    except:
+        update_prefix.cancel()
+        update_prefix.start()
+    
+    try:
+        update_jumpcd.start()
+    except:
+        update_jumpcd.cancel()
+        update_jumpcd.start()
+    
+    """ while True:
+        schedule.run_pending()
+        time.sleep(1) """
+
+@tasks.loop(seconds=1)
+async def update_prefix():
+    global custom_prefixes
+    custom_prefixes = {}
+    with open('prefix.json') as json_file: 
+        data = json.load(json_file)
+
+        temps = data['prefix']
+        for p in temps:
+            custom_prefixes[str(p['id'])] = p['pre']
+            #print(p)
+
+def write_json_prefix(data, filename='prefix.json'): 
+        with open(filename,'w') as f: 
+            json.dump(data, f, indent=4) 
+
+def write_json_jumpcd(data, filename='jumpcd.json'):
+    with open(filename, 'w') as f:
+        json.dump(data, f, indent=4)
+
+@tasks.loop(seconds=1)
+async def start_solo_reminder():
+    status_list = []
+    guilds = []
+    
+    
+                        
+    time_in = datetime.now(pytz.timezone('Asia/Kolkata'))
+    count = time_in.strftime("%I.%M.%S")
+    if count == '07.00.00':
+        channel_list = []
+        role_list = []
+        with open('data.json') as json_file: 
+            data = json.load(json_file) 
+        
+            temp = data['solo']
+            for t in temp:
+                #guilds.append(t['id'])
+                if (client.get_guild(t['id']) != None):
+                    if client.get_channel(t['channel']):
+                        if (t['status'] == True):
+                            #guilds.append(t['id'])
+                            role: discord.Role = t['role']
+                            channel: discord.TextChannel = t['channel']
+                            role_list.append(role)
+                            channel_list.append(channel)
+        for (channel, role) in zip(channel_list, role_list):
+            channel = await client.fetch_channel(int(channel))
+            await channel.send(f'<@&{role}> 30 mins early reminder for pip refresh!! Play your pips before it expires!')
+
+        json_file.close()
+    if count == '07.30.00':
+        channel_list = []
+        role_list = []
+        with open('data.json') as json_file: 
+            data = json.load(json_file) 
+        
+            temp = data['solo']
+            for t in temp:
+                #guilds.append(t['id'])
+                if (client.get_guild(t['id'])):
+                    if client.get_channel(t['channel']):
+                        if (t['status'] == True):
+                            #guilds.append(t['id'])
+                            role: discord.Role = t['role']
+                            channel: discord.TextChannel = t['channel']
+                            role_list.append(role)
+                            channel_list.append(channel)
+        for (channel, role) in zip(channel_list, role_list):
+            channel = await client.fetch_channel(int(channel))
+            await channel.send(f'<@&{role}> Solo Raid Pip refresh!! Play your pips before it expires!')
+
+        json_file.close()
 
 @client.command(name='serverstats', aliases=['ss','stats'])
 async def _serverstats(ctx):
@@ -86,156 +240,332 @@ async def _serverstats(ctx):
     embed.set_thumbnail(url="attachment://STAR_LABS.jpg")
     await ctx.channel.send(embed=embed, file=file)
 
+
+
 @tasks.loop(seconds=20)
 async def change_status():
-    await client.change_presence(activity=discord.Game(f"type {choice(default_prefixes)}help"))
+    count = 0
+    for guild in client.guilds:
+        count = count+1
+    await client.change_presence(activity=discord.Game(f"Injustice 2 Mobile! Running in {count} Servers."))
+
+def write_json(data, filename='data.json'): 
+        with open(filename,'w') as f: 
+            json.dump(data, f, indent=4) 
+    
+def check_solo_json(value):
+    with open('data.json') as json_file: 
+        data = json.load(json_file) 
+    
+        temp = data['solo']
+        guilds = []
+        for t in temp:
+            guilds.append(t['id'])
+
+        try:
+            value = guilds.index(value)
+        except:
+            value = -1
+    
+    return value
+
+def check_prefix_json(value):
+    with open('prefix.json') as json_file: 
+        data = json.load(json_file) 
+    
+        temp = data['prefix']
+        guilds = []
+        for t in temp:
+            guilds.append(int(t['id']))
+
+        try:
+            value = guilds.index(value)
+        except:
+            value = -1
+    
+    return value
+
+def check_jumpcd_json(value):
+    with open('jumpcd.json') as json_file:
+        data = json.load(json_file)
+
+        temp = data['jumpcd']
+        users = []
+        for t in temp:
+            users.append(int(t['id']))
+
+        try:
+            value = users.index(value)
+        except:
+            value = -1
+
+    return value
+
 
 
 @client.command(pass_context=True)
-async def dashboard(ctx):
-    embed = discord.Embed(colour=discord.Colour(0xc414c4),
-                          description=f"""Welcome to STAR LABS Dashboard {ctx.message.author.name}!""")
-    embed.set_author(name="STAR LABS Dashboard", url="https://discordapp.com")
-    await ctx.channel.send(embed=embed)
+@commands.has_permissions(manage_guild=True, manage_channels=True)
+async def solo(ctx, *, values: str):
+    txt = values.split(" ")
+    
+    if txt[0] == 'register':
+        value = check_solo_json(ctx.message.guild.id)
+        if value == -1:
+            if txt[1] == '-c':
+                channel = txt[2]
+                channel = channel.replace("<","")
+                channel = channel.replace("#","")
+                channel = channel.replace(">","")
+                channel = int(channel)
+                print(channel)
+                print(type(channel))
+            elif txt[1] == '-r':
+                role = txt[2]
+                role = role.replace("<","")
+                role = role.replace("@","")
+                role = role.replace("&","")
+                role = role.replace(">","")
+                role = int(role)
+                print(role)
+                print(type(role))
+        
+            if txt[3] == '-c':
+                channel = txt[4]
+                channel = channel.replace("<","")
+                channel = channel.replace("#","")
+                channel = channel.replace(">","")
+                channel = int(channel)
+                print(channel)
+                print(type(channel))
+            elif txt[3] == '-r':
+                role = txt[4]
+                role = role.replace("<","")
+                role = role.replace("@","")
+                role = role.replace("&","")
+                role = role.replace(">","")
+                role = int(role)
+                print(role)
+                print(type(role))
+            guild = ctx.message.guild.id
+            status = False
+            y = {"id": guild, "status": status, "channel": channel, "role": role}
+            with open('data.json') as json_file: 
+                data = json.load(json_file) 
+            temp = data['solo']
+            temp.append(y)
+            write_json(data) 
+            await ctx.channel.send(f'Role registered successfully. Reminder will be starting in <#{channel}> and remind <@&{role}>')
+        else:
+            await ctx.channel.send('Reminder already registered!')  
+    
+    if txt[0] == 'on':
+        value = check_solo_json(ctx.message.guild.id)
+        if value != -1:
+            with open('data.json') as json_file: 
+                    data = json.load(json_file) 
+            temp = data['solo']
+            temp[value]['status'] = True
+            write_json(data)
+            await ctx.channel.send("Solo Raid Reminder Switched on!")
+        else:
+            await ctx.channel.send("This feature is not registered! Kindly register to enable this feature.")
+    
+    if txt[0] == 'off':
+        value = check_solo_json(ctx.message.guild.id)
+        if value != -1:
+            with open('data.json') as json_file: 
+                    data = json.load(json_file) 
+            temp = data['solo']
+            temp[value]['status'] = False
+            write_json(data)
+            await ctx.channel.send("Solo Raid Reminder Switched off!")
+        else:
+            await ctx.channel.send("This feature is not registered! Kindly register to enable this feature.")
+    
+    if txt[0] == 'update':
+        value = check_solo_json(ctx.message.guild.id)
+        if value == -1:
+            await ctx.channel.send("This feature is not registered! Kindly register to enable this feature.")
+        else:
+            if txt[1] == '-c':
+                channel = txt[2]
+                channel = channel.replace("<","")
+                channel = channel.replace("#","")
+                channel = channel.replace(">","")
+                channel = int(channel)
+            elif txt[1] == '-r':
+                role = txt[2]
+                role = role.replace("<","")
+                role = role.replace("@","")
+                role = role.replace("&","")
+                role = role.replace(">","")
+                role = int(role)
+        
+            if txt[3] == '-c':
+                channel = txt[4]
+                channel = channel.replace("<","")
+                channel = channel.replace("#","")
+                channel = channel.replace(">","")
+                channel = int(channel)
+            elif txt[3] == '-r':
+                role = txt[4]
+                role = role.replace("<","")
+                role = role.replace("@","")
+                role = role.replace("&","")
+                role = role.replace(">","")
+                role = int(role)
+            guild = ctx.message.guild.id
+            status = False
+            y = {"id": guild, "status": status, "channel": channel, "role": role}
+            with open('data.json') as json_file: 
+                data = json.load(json_file) 
+            temp = data['solo']
+            temp[value]['role'] = role
+            temp[value]['channel'] = channel
+            write_json(data)
+            await ctx.channel.send("Channel and role updated successfully.")
+        
+    if txt[0] == 'start':
+        if ctx.message.author.id == 685455946390044674:
+            start_solo_reminder.start()
+            await ctx.channel.send('Solo raid reminder started successfully!')
+        else:
+            await ctx.channel.send("You do not have the permission to start the reminder. You only have the permission to switch it on or off. Please ask Mando_The_Mercenary#9484 to start it.")
 
-@client.command(name='solo')
-async def solo_pip(ctx, cmd:str = None):
-    if ctx.message.author.id == 685455946390044674:
-        if cmd == 'start1':
-            await ctx.channel.send("Solo Raid Pip Reminder starts now.")
-            start_spam_aftermath.start(ctx.channel)
-        if cmd == 'start2':
-            await ctx.channel.send("Solo Raid Pip Reminder starts now.")
-            start_spam_rouge.start(ctx.channel)
-        if cmd == 'start3':
-            await ctx.channel.send("Solo Raid Pip Reminder starts now.")
-            start_spam_eternity.start(ctx.channel)
-        if cmd == 'start4':
-            await ctx.channel.send("Solo Raid Pip Reminder starts now.")
-            start_spam_haha.start(ctx.channel)
-        if cmd == 'start5':
-            await ctx.channel.send("Solo Raid Pip Reminder starts now.")
-            start_spam_gotham.start(ctx.channel)
-        if cmd == 'stop1':
-            await ctx.channel.send("Aight, I'mma stop reminding now")
-            start_spam_aftermath.cancel()
-        if cmd == 'stop2':
-            await ctx.channel.send("Aight, I'mma stop reminding now")
-            start_spam_rouge.cancel()
-        if cmd == 'stop3':
-            await ctx.channel.send("Aight, I'mma stop reminding now")
-            start_spam_eternity.cancel()
-        if cmd == 'stop4':
-            await ctx.channel.send("Aight, I'mma stop reminding now")
-            start_spam_haha.cancel()
-        if cmd == 'stop5':
-            await ctx.channel.send("Aight, I'mma stop reminding now")
-            start_spam_gotham.cancel()
+    if txt[0] == 'stop':
+        if ctx.message.author.id == 685455946390044674:
+            start_solo_reminder.cancel()
+            await ctx.channel.send('Solo raid reminder stopped successfully!')
+        else:
+            await ctx.channel.send("You do not have the permission to stop the reminder. You only have the permission to switch it on or off. Please ask Mando_The_Mercenary#9484 to stop it.")
+
+@solo.error
+async def solo_error(ctx, error):
+    if isinstance(error, commands.CheckFailure):
+        await ctx.channel.send("The command cannot be executed due to permission error. You need to have `Manage Server` and `Manage Channel` permissions in order to run this command. Kindly check and retry again with correct perms.")
+    #await ctx.channel.send(f'\{txt[0]} \{txt[1]}')
+
+@client.command()
+@commands.has_permissions(administrator=True)
+async def prefix(ctx,*, params: str = ""):
+    global custom_prefixes
+    if params == "":
+        await ctx.channel.send(f"The prefix for this server is/ are: {custom_prefixes.get(str(ctx.guild.id), default_prefixes)}")
     else:
-        await ctx.channel.send("You're not my Owner. Only my Owner and Sensei (Mando) has this permission to write the command. Contact him.")
+        stuff = params.split(" ")
+        if stuff[0] == 'set':
+            try:
+                value = check_prefix_json(ctx.message.guild.id)
+                if value == -1:
+                    y = {"id": str(ctx.guild.id), "pre" : stuff[1]}
+                    with open('prefix.json') as json_file: 
+                        data = json.load(json_file) 
+                    temp = data['prefix']
+                    temp.append(y)
+                    write_json_prefix(data)
+                else:
+                    with open('prefix.json') as json_file: 
+                        data = json.load(json_file) 
+                    temp = data['prefix']
+                    temp[value]['id'] = str(ctx.guild.id)
+                    temp[value]['pre'] = stuff[1]
+                    write_json_prefix(data)
+                await ctx.send(f"Prefixes set to {stuff[1]}.")
+            except:
+                value = check_prefix_json(ctx.message.guild.id)
+                if value == -1:
+                    y = {str(ctx.guild.id): default_prefixes}
+                    with open('prefix.json') as json_file: 
+                        data = json.load(json_file) 
+                    temp = data['prefix']
+                    temp.append(y)
+                    write_json_prefix(data)
+                else:
+                    with open('prefix.json') as json_file: 
+                        data = json.load(json_file) 
+                    temp = data['prefix']
+                    temp[value]['id'] = str(ctx.guild.id)
+                    temp[value]['pre'] = default_prefixes
+                    write_json_prefix(data)
+                await ctx.send(f"Default prefixes set to {default_prefixes}.")
+            
+        if stuff[0] == 'reset':
+            value = check_prefix_json(ctx.message.guild.id)
+            if value == -1:
+                await ctx.send(f"Prefix not set at all!")
+            else:
+                with open('prefix.json') as json_file: 
+                    data = json.load(json_file) 
+                temp = data['prefix']
+                temp[value]['id'] = str(ctx.guild.id)
+                temp[value]['pre'] = default_prefixes
+                write_json_prefix(data)
+                await ctx.send(f"Prefix reset to {default_prefixes}.")
 
-@tasks.loop(seconds=1)
-async def start_spam_aftermath(channel):
-    time_in = datetime.now(pytz.timezone('Asia/Kolkata'))
-    count = time_in.strftime("%I.%M.%S")
-    if count == '08.00.00':
-        await channel.send('<@&776819305714810911> 30 mins early reminder pip refresh!! Play your pips before it expires!')
-    if count == '08.30.00':
-        await channel.send('<@&776819305714810911> pip refresh!! Enjoy your solo raid pips!')
+@client.command(name='cooldown' , aliases = ['cd'])
+async def cd(ctx, command: str):
+    if command == 'start':
+        value = check_jumpcd_json(ctx.message.author.id)
+        if value == -1:
+            y = {"id": ctx.message.author.id, "time_rem": 1900800}
+            with open('jumpcd.json') as json_file: 
+                data = json.load(json_file) 
+            temp = data['jumpcd']
+            temp.append(y)
+            write_json_jumpcd(data)
+            await ctx.channel.send('Cooldown reminder started successfully. Will DM you in 22 days!')
+        else:
+            with open('jumpcd.json') as json_file:
+                data = json.load(json_file)
 
-@tasks.loop(seconds=1)
-async def start_spam_rouge(channel):
-    time_in = datetime.now(pytz.timezone('Asia/Kolkata'))
-    count = time_in.strftime("%I.%M.%S")
-    if count == '08.00.00':
-        await channel.send('<@&776976184843698207> 30 mins early reminder pip refresh!! Play your pips before it expires!')
-    if count == '08.30.00':
-        await channel.send('<@&776976184843698207> pip refresh!! Enjoy your solo raid pips!')
+                temp = data['jumpcd']
+                time_rem = []
+                for t in temp:
+                    time_rem.append(int(t['time_rem']))
+                
+                rem = time_rem[value]
+            if rem == 0:
+                value = check_jumpcd_json(ctx.message.author.id)
+                with open('jumpcd.json') as json_file: 
+                    data = json.load(json_file) 
+                temp = data['jumpcd']
+                temp[value]['time_rem'] = 1900800
+                write_json_jumpcd(data)
+                await ctx.channel.send('Cooldown reminder started successfully. Will DM you in 22 days!')
+            else:
+                await ctx.channel.send('Cooldown reminder already present! Type `i!cd status` to get the current status of cooldown.')
+    if command == 'stop':
+        value = check_jumpcd_json(ctx.message.author.id)
+        if value == -1:
+            await ctx.channel.send('**ERROR**! Cooldown reminder __not__ created. Check `i!cd start` to start the reminder.')
+        else:
+            value = check_jumpcd_json(ctx.message.author.id)
+            with open('jumpcd.json') as json_file: 
+                data = json.load(json_file) 
+            temp = data['jumpcd']
+            temp[value]['time_rem'] = 0
+            write_json_jumpcd(data)
+            await ctx.channel.send('Cooldown reminder stopped.')
+    if command == 'status' or command == 'info':
+        value = check_jumpcd_json(ctx.message.author.id)
+        if value == -1:
+            await ctx.channel.send('**ERROR**! Cooldown reminder __not__ created. Check `i!cd start` to start the reminder.')
+        else:
+            with open('jumpcd.json') as json_file:
+                data = json.load(json_file)
 
-@tasks.loop(seconds=1)
-async def start_spam_eternity(channel):
-    time_in = datetime.now(pytz.timezone('Asia/Kolkata'))
-    count = time_in.strftime("%I.%M.%S")
-    if count == '08.00.00':
-        await channel.send('<@&694066334140465172> 30 min Solo Raid pip refresh reminder!!')
-    if count == '08.30.00':
-        await channel.send('<@&694066334140465172> Solo Raid pip refresh reminder!!')
-
-@tasks.loop(seconds=1)
-async def start_spam_haha(channel):
-    time_in = datetime.now(pytz.timezone('Asia/Kolkata'))
-    count = time_in.strftime("%I.%M.%S")
-    if count == '08.00.00':
-        await channel.send('<@&789562565071339561> 30 min Solo Raid pip refresh reminder!!')
-    if count == '08.30.00':
-        await channel.send('<@&789562565071339561> Solo Raid pip refresh reminder!!')
-
-@tasks.loop(seconds=1)
-async def start_spam_gotham(channel):
-    time_in = datetime.now(pytz.timezone('Asia/Kolkata'))
-    count = time_in.strftime("%I.%M.%S")
-    if count == '08.00.00':
-        await channel.send('<@&789533444328783892> 30 min Solo Raid pip refresh reminder!!')
-    if count == '08.30.00':
-        await channel.send('<@&789533444328783892> Solo Raid pip refresh reminder!!')
-
-'''Loading, Unloading Extensions or Cogs'''
-class SecretServerError(commands.CheckFailure):
-    pass
-
-def check_server():
-    def predicate(ctx):
-        if not (ctx.message.guild.name == 'Aftermath Community'):
-            raise SecretServerError('Something Spooky is going on... don\'t worry')
-        return True
-    return commands.check(predicate)
-
-
-@client.command(name= 'load')
-@commands.has_permissions(administrator= True)
-@check_server()
-async def load(ctx, extension):
-    client.load_extension(f'Cogs.{extension}')
-    await ctx.channel.send(f"{extension} loaded successfully")
-
-@load.error
-async def secret_stuff(ctx, error):
-    if isinstance(error, SecretServerError):
-        await ctx.channel.send(error)
-
-
-@client.command(name= 'unload')
-@commands.has_permissions(administrator= True)
-@check_server()
-async def unload(ctx, extension):
-    client.unload_extension(f'Cogs.{extension}')
-    await ctx.channel.send(f"{extension} unloaded successfully")
-
-
-@unload.error
-async def secret_stuff(ctx, error):
-    if isinstance(error, SecretServerError):
-        await ctx.channel.send(error)
-
-
-@client.command(name='reload')
-@commands.has_permissions(administrator= True)
-@check_server()
-async def reload(ctx):
-    for filename in os.listdir('./Cogs'):
-        if filename.endswith('.py'):
-            client.unload_extension(f'Cogs.{filename[:-3]}')
-    await ctx.channel.send(f"Extensions unloaded successfully")
-    for filename in os.listdir('./Cogs'):
-        if filename.endswith('.py'):
-            client.load_extension(f'Cogs.{filename[:-3]}')
-    await ctx.channel.send(f"Extensions loaded successfully")
-
-
-@reload.error
-async def secret_stuff(ctx, error):
-    if isinstance(error, SecretServerError):
-        await ctx.channel.send(error)
+                temp = data['jumpcd']
+                time_rem = []
+                for t in temp:
+                    time_rem.append(int(t['time_rem']))
+                
+                rem = time_rem[value]
+            
+            days = rem // 86400
+            hours = (rem - (days*86400)) // 3600
+            minutes = (rem - (days*86400) - (hours*3600)) // 60
+            
+            await ctx.channel.send(f'I will remind you in {days} days, {hours} hours and {minutes} minutes.')
 
 #Ping command
 @client.command()
