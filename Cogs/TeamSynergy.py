@@ -75,10 +75,10 @@ class TeamSynergy(commands.Cog):
             embed.add_field(name="Team Synergy List",
                             value="The following list shows the teams available for creating team synergy:```1. Suicide Squad - ssq\n2. Justice League - jl\n3. Batman Ninja - bn\n4. League of Anarchy - loa\n5. Multiverse Team - mv```")
             embed.add_field(name="Command Usage",
-                            value="Each team has it's own command. So, to check team synergy of any team, type ```i!syn [team command]```For Example, ```i!syn bn```For Batman Ninja Team Synergy details.\n\nIf you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).")
+                            value="Each team has it's own command. So, to check team synergy of any team, type ```i!syn [team command]```For Example, ```i!syn bn```For Batman Ninja Team Synergy details.\n\n__**Note**__: If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).")
             embed.set_author(name="Team Synergy Command", url="https://discordapp.com")
             embed.set_footer(
-                text=f"Last used by: {ctx.message.author.name} | Wanna find out who helped in moulding this bot into a successful one? Type i!credits to get the answer.")
+                text=f"Requested by: {ctx.message.author.name} at {ctx.message.guild.name}",icon_url=ctx.guild.icon_url)
             await ctx.channel.send(embed=embed)
 
         if cmd == 'ssq':
@@ -91,10 +91,10 @@ Finally, Harley reduces the cost of the Suicide Squad's team's Power bar cost.
 
 *"So that's it, huh? We're some kind of Suicide squad?"* - Suicide Squad Team
 
-If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
+__**Note**__: If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Suicide Squad Team Synergy", url="https://discordapp.com")
             embed.set_footer(
-                text=f"Last used by: {ctx.message.author.name} | Wanna find out who helped in moulding this bot into a successful one? Type i!credits to get the answer.")
+                text=f"Requested by: {ctx.message.author.name} at {ctx.message.guild.name}",icon_url=ctx.guild.icon_url)
             file = discord.File("./Images_Syn/ssq.jpg", filename="ssq.jpg")
             embed.set_image(url="attachment://ssq.jpg")
             await ctx.channel.send(embed=embed, file=file)
@@ -109,10 +109,10 @@ Defensive-minded players will gravitate towards teams that include Batman so all
 
 *"People said the age of heroes would never come again."* - Justice League Team
 
-If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
+__**Note**__: If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Justice League Team Synergy", url="https://discordapp.com")
             embed.set_footer(
-                text=f"Last used by: {ctx.message.author.name} | Wanna find out who helped in moulding this bot into a successful one? Type i!credits to get the answer.")
+                text=f"Requested by: {ctx.message.author.name} at {ctx.message.guild.name}",icon_url=ctx.guild.icon_url)
             file = discord.File("./Images_Syn/jl.jpg", filename="jl.jpg")
             embed.set_image(url="attachment://jl.jpg")
             await ctx.channel.send(embed=embed, file=file)
@@ -129,10 +129,10 @@ Harley Quinn is unique in that just having her on your roster will provide a ben
 
 *"And You Thought You Knew Every Batman Story..."* - Batman Ninja Team
 
-If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
+__**Note**__: If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Batman Ninja Team Synergy", url="https://discordapp.com")
             embed.set_footer(
-                text=f"Last used by: {ctx.message.author.name} | Wanna find out who helped in moulding this bot into a successful one? Type i!credits to get the answer.")
+                text=f"Requested by: {ctx.message.author.name} at {ctx.message.guild.name}",icon_url=ctx.guild.icon_url)
             file = discord.File("./Images_Syn/bn.jpg", filename="bn.jpg")
             embed.set_image(url="attachment://bn.jpg")
             await ctx.channel.send(embed=embed, file=file)
@@ -145,10 +145,10 @@ If The Joker is active and an opponent tags-in a teammate, which his special 3 c
 
 *"Introduce a little anarchy, upset the established order and everything becomes... chaos..."* - League of Anarchy Team
 
-If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
+__**Note**__: If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="League of Anarchy Team Synergy", url="https://discordapp.com")
             embed.set_footer(
-                text=f"Last used by: {ctx.message.author.name} | Wanna find out who helped in moulding this bot into a successful one? Type i!credits to get the answer.")
+                text=f"Requested by: {ctx.message.author.name} at {ctx.message.guild.name}",icon_url=ctx.guild.icon_url)
             file = discord.File("./Images_Syn/loa.jpg", filename="loa.jpg")
             embed.set_image(url="attachment://loa.jpg")
             await ctx.channel.send(embed=embed, file=file)
@@ -167,10 +167,10 @@ The Flash provides great offensive benefits to his teammates and can be a great 
 
 *"There are all types of universe in the Multiverse, but never the same universe twice.."* - Mutliverse Team
 
-If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
+__**Note**__: If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             embed.set_author(name="Multiverse Team Synergy", url="https://discordapp.com")
             embed.set_footer(
-                text=f"Last used by: {ctx.message.author.name} | Wanna find out who helped in moulding this bot into a successful one? Type i!credits to get the answer.")
+                text=f"Requested by: {ctx.message.author.name} at {ctx.message.guild.name}",icon_url=ctx.guild.icon_url)
             file = discord.File("./Images_Syn/mv.jpg", filename="mv.jpg")
             embed.set_image(url="attachment://mv.jpg")
             await ctx.channel.send(embed=embed, file=file)

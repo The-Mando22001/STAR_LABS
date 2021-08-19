@@ -38,11 +38,10 @@ Damage for Special 1 - 60%
 Damage for Special 2 - 60%
 Damage for Special 3 - 60%```
 
-If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
+__**Note**__: If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
 
         embed.set_footer(
-            text=f"Last used by: {ctx.message.author.name} | Wanna find out who helped in moulding this bot into a successful one? Type i!credits to get the answer.")
-
+                text=f"Requested by: {ctx.message.author.name} at {ctx.message.guild.name}",icon_url=ctx.guild.icon_url)
         embed.set_author(name="Artifact Effects", url="https://discordapp.com")
         file = discord.File("arteff.png", filename="arteff.png")
         embed.set_image(url="attachment://arteff.png")

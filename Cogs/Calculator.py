@@ -24,16 +24,15 @@ class Calculator(commands.Cog):
         embed.set_author(name="Cost Calculator", url="https://discordapp.com",
                          icon_url="https://cdn.discordapp.com/embed/avatars/0.png")
         embed.add_field(name="Gear Calculator",
-                        value="The command will show amount of gear material required to upgrade 1 gear and 5 gears. To know more, type, ```w!gear [from] [to]```")
+                        value="The command will show amount of gear material required to upgrade 1 gear and 5 gears. To know more, type, ```i!gear [from] [to]```")
         embed.add_field(name="Sp Upgrade Calculator",
-                        value="The command will show the amount of coins required to upgrade each sp move. To know more, type, ```w!sp [from] [to]```")
+                        value="The command will show the amount of coins required to upgrade each sp move. To know more, type, ```i!sp [from] [to]```")
         embed.add_field(name="XP Upgrade Calculator",
-                        value="The command will show amount of xp required to upgrade a character from one level to another. To know more, type, ```w!xp [from] [to]```")
+                        value="The command will show amount of xp required to upgrade a character from one level to another. To know more, type, ```i!xp [from] [to]```")
         embed.add_field(name="Artifact Upgrade Calculator",
-                        value="The command will show the amount of artifact material required to upgrade the artifacts. To know more, type, ```w!art [from] [to]```\n\nIf you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).")
+                        value="The command will show the amount of artifact material required to upgrade the artifacts. To know more, type, ```i!art [from] [to]```\n\n__**Note**__: If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).")
         embed.set_footer(
-            text=f"Last used by: {ctx.message.author.name} | Check out the `credits` command to see the list of people who helped making this bot.")
-
+                text=f"Requested by: {ctx.message.author.name} at {ctx.message.guild.name}",icon_url=ctx.guild.icon_url)
         # await ctx.channel.send(embed=embed)
         await ctx.channel.send(embed=embed)
     @commands.command(name='gear', aliases=['gears'])
@@ -48,6 +47,8 @@ class Calculator(commands.Cog):
 If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             #embed.set_image(url="")
             embed.set_author(name="Gear Calculator", url="https://discordapp.com")
+            embed.set_footer(
+                text=f"Requested by: {ctx.message.author.name} at {ctx.message.guild.name}",icon_url=ctx.guild.icon_url)
             await ctx.channel.send(embed=embed)
 
             #await ctx.channel.send('first level is lower than second')
@@ -59,6 +60,8 @@ If you have any ideas, suggestions or you faced a problem, you can join the supp
 If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             # embed.set_image(url="")
             embed.set_author(name="Gear Calculator", url="https://discordapp.com")
+            embed.set_footer(
+                text=f"Requested by: {ctx.message.author.name} at {ctx.message.guild.name}",icon_url=ctx.guild.icon_url)
             await ctx.channel.send(embed=embed)
         else:
             embed = discord.Embed(colour=discord.Colour(0x118d9e),
@@ -68,6 +71,8 @@ If you have any ideas, suggestions or you faced a problem, you can join the supp
 If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             # embed.set_image(url="")
             embed.set_author(name="Gear Calculator", url="https://discordapp.com")
+            embed.set_footer(
+                text=f"Requested by: {ctx.message.author.name} at {ctx.message.guild.name}",icon_url=ctx.guild.icon_url)
             await ctx.channel.send(embed=embed)
 
     @commands.command()
@@ -80,14 +85,16 @@ If you have any ideas, suggestions or you faced a problem, you can join the supp
             embed = discord.Embed(colour=discord.Colour(0x118d9e),
                                   description="""Here are the results.""")
             embed.add_field(name="Silver Tier Artifacts",
-                            value=f"```Amount of azure material required is {total_silver}.\n\nAmount of apokolips material required is {total_silver}.```")
+                            value=f"```Amount of azure material required is {total_silver}.\n\nAmount of apokolips material required is {total_silver}\n\nAmount of Advent of Chaos material required is {total_silver}```")
             embed.add_field(name="Gold Tier Artifacts",
-                            value=f"```Amount of azure material required is {total_gold}.\n\nAmount of apokolips material required is {total_gold}.```")
+                            value=f"```Amount of azure material required is {total_gold}.\n\nAmount of apokolips material required is {total_gold}\n\nAmount of Advent of Chaos material required is {total_gold}```")
             embed.add_field(name="Legendary Tier Artifacts",
-                            value=f"```Amount of azure material required is {total_legend}.\n\nAmount of apokolips material required is {total_legend}.```\n\nIf you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).")
+                            value=f"```Amount of azure material required is {total_legend}.\n\nAmount of apokolips material required is {total_legend}\n\nAmount of Advent of Chaos material required is {total_legend}```\n\nIf you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).")
 
             # embed.set_image(url="")
             embed.set_author(name="Artifact Calculator", url="https://discordapp.com")
+            embed.set_footer(
+                text=f"Requested by: {ctx.message.author.name} at {ctx.message.guild.name}",icon_url=ctx.guild.icon_url)
             await ctx.channel.send(embed=embed)
 
             # await ctx.channel.send('first level is lower than second')
@@ -98,14 +105,16 @@ If you have any ideas, suggestions or you faced a problem, you can join the supp
             embed = discord.Embed(colour=discord.Colour(0x118d9e),
                                   description="""Here are the results.""")
             embed.add_field(name="Silver Tier Artifacts",
-                            value=f"Azure Artifacts```Amulet Of Tech, Amulet Of Might, Amulet Of Agility, Amulet Of Metahuman, Amulet Of Arcane\n\nAmount of azure material required is {total_silver}```Apokolips Artifacts```Mega Rod\nAmount of apokolips material required is {total_silver}```")
+                            value=f"```Amount of azure material required is {total_silver}\n\nAmount of apokolips material required is {total_silver}\n\nAmount of Advent of Chaos material required is {total_silver}```")
             embed.add_field(name="Gold Tier Artifacts",
-                            value=f"Azure Artifacts```Claw Of Horus, Cosmic Staff, The All Blades\n\nAmount of azure material required is {total_gold}```Apokolips Artifacts```Electro Axe, Radion\nAmount of apokolips material required is {total_gold}```")
+                            value=f"```Amount of azure material required is {total_gold}\n\nAmount of apokolips material required is {total_gold}\n\nAmount of Advent of Chaos material required is {total_gold}```")
             embed.add_field(name="Legendary Tier Artifacts",
-                            value=f"Azure Artifacts```Kryptonian Regeneration Matrix, Nth Metal Armor\n\nAmount of azure material required is {total_legend}```Apokolips Artifacts```Entropy Aegis, Heart Of Darkness, The Father Box\nAmount of apokolips material required is {total_legend}```\n\nIf you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).")
+                            value=f"```Amount of azure material required is {total_legend}\n\nAmount of apokolips material required is {total_legend}\n\nAmount of Advent of Chaos material required is {total_legend}```\n\nIf you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).")
 
             # embed.set_image(url="")
             embed.set_author(name="Artifact Calculator", url="https://discordapp.com")
+            embed.set_footer(
+                text=f"Requested by: {ctx.message.author.name} at {ctx.message.guild.name}",icon_url=ctx.guild.icon_url)
             await ctx.channel.send(embed=embed)
 
         else:
@@ -116,6 +125,8 @@ If you have any ideas, suggestions or you faced a problem, you can join the supp
 If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             # embed.set_image(url="")
             embed.set_author(name="Artifact Calculator", url="https://discordapp.com")
+            embed.set_footer(
+                text=f"Requested by: {ctx.message.author.name} at {ctx.message.guild.name}",icon_url=ctx.guild.icon_url)
             await ctx.channel.send(embed=embed)
 
     @commands.command()
@@ -171,6 +182,8 @@ If you have any ideas, suggestions or you faced a problem, you can join the supp
 If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             # embed.set_image(url="")
             embed.set_author(name="XP Level Calculator", url="https://discordapp.com")
+            embed.set_footer(
+                text=f"Requested by: {ctx.message.author.name} at {ctx.message.guild.name}",icon_url=ctx.guild.icon_url)
             await ctx.channel.send(embed=embed)
 
             # await ctx.channel.send('first level is lower than second')
@@ -182,6 +195,8 @@ If you have any ideas, suggestions or you faced a problem, you can join the supp
 If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             # embed.set_image(url="")
             embed.set_author(name="XP Level Calculator", url="https://discordapp.com")
+            embed.set_footer(
+                text=f"Requested by: {ctx.message.author.name} at {ctx.message.guild.name}",icon_url=ctx.guild.icon_url)
             await ctx.channel.send(embed=embed)
 
     @commands.command()
@@ -200,6 +215,8 @@ If you have any ideas, suggestions or you faced a problem, you can join the supp
 If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             # embed.set_image(url="")
             embed.set_author(name="SP Level Calculator", url="https://discordapp.com")
+            embed.set_footer(
+                text=f"Requested by: {ctx.message.author.name} at {ctx.message.guild.name}",icon_url=ctx.guild.icon_url)
             await ctx.channel.send(embed=embed)
 
             # await ctx.channel.send('first level is lower than second')
@@ -211,7 +228,26 @@ If you have any ideas, suggestions or you faced a problem, you can join the supp
 If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
             # embed.set_image(url="")
             embed.set_author(name="SP Level Calculator", url="https://discordapp.com")
+            embed.set_footer(
+                text=f"Requested by: {ctx.message.author.name} at {ctx.message.guild.name}",icon_url=ctx.guild.icon_url)
             await ctx.channel.send(embed=embed)
+
+    @commands.command()
+    async def orb(self, ctx):
+        embed = discord.Embed(colour=discord.Colour(0xe01c38), url="https://discordapp.com",
+                              description="Orbs are found in League Raid chests and Solo Raids and used with Hero Shards and Credits to promote a hero to 6 or 7 stars.")
+        embed.add_field(name="__Types or Orbs__", value="""There are 4 types of Orbs:
+
+```1. Stellar Orb
+2. Cosmic Orb (1x Comsic Orb = 10x Stellar Orbs)
+3. Galactic Orb (1x Galactic Orb = 5x Cosmic Orbs)
+4. Intergalactic Orb (1x Intergalactic Orb = 20x Galactic Orb)```
+
+If you have any ideas, suggestions or you faced a problem, you can join the support server by clicking this link: Support server link - [S. T. A. R. LABS Support](https://discord.gg/S7MvBVh4Hy).""")
+        embed.set_author(name="Orbs", url="https://discordapp.com")
+        embed.set_footer(
+            text=f"Requested by: {ctx.message.author.name}", icon_url=ctx.guild.icon_url)
+        await ctx.channel.send(embed=embed)
 
 def setup(client):
     client.add_cog(Calculator(client))
